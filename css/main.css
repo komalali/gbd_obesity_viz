@@ -101,6 +101,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 .line {
     fill: none;
     stroke: steelblue;

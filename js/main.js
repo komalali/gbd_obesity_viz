@@ -1,8 +1,8 @@
 // graph dimensions
-var padding = 50,
+var padding = 10,
     margin = {top: 20, right:20, bottom: 30, left: 50},
-    width = 960 - margin.left -  margin.right,
-    height =  500 - margin.top - margin.bottom;
+    width = padding + 960 - margin.left -  margin.right,
+    height =  padding + 500 - margin.top - margin.bottom;
 
 // set the ranges
 var x = d3.scaleLinear().nice().range([0, width]);
@@ -21,10 +21,10 @@ var valueline = d3.line()
 
 // create the svg object inside the body
 var svg = d3.select('body').append('svg')
-                            .attr('width', width + margin.left + margin.right)
-                            .attr('height', height + margin.top + margin.bottom)
+                            .attr('width', padding + width + margin.left + margin.right)
+                            .attr('height', padding + height + margin.top + margin.bottom)
                            .append('g')
-                            .attr('transform', 'translate(' + (padding + margin.left) + ',' + margin.top + ')');
+                            .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 // load in the data
 d3.csv('data/example.csv', function(error, data) {
@@ -33,7 +33,7 @@ d3.csv('data/example.csv', function(error, data) {
     // change data types
     data.forEach(function (d) {
         d.year = +d.year;
-        d.mean = +d.mean;
+        d.mean = +d.mean * 100;
     });
 
     // scale the data
@@ -58,12 +58,12 @@ d3.csv('data/example.csv', function(error, data) {
     // axis titles
      svg.append('text')
         .attr('text-anchor', 'middle')
-        .attr('transform', 'translate(' + ((margin.top + margin.bottom)/2) + ',' + (height/2) +')rotate(-90)')
+        .attr('transform', 'translate(' + (-padding * 3) + ',' + (height/2) +')rotate(-90)')
         .text('Percent of Population that is Obese (%)');
 
      svg.append('text')
          .attr('text-anchor', 'middle')
-         .attr('transform', 'translate(' + (width/2) + ',' + (height-((margin.top + margin.bottom)/2)))
+         .attr('transform', 'translate(' + (width/2) + ',' + (height + padding * 3.5) + ')')
          .text('Year');
 
 });
