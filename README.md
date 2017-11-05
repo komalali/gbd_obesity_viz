@@ -1,6 +1,6 @@
 #### Obesity Visualization
 
-Description: A demonstration of the change in prevalence of obesity from 1990 and 2013 globally.
+Description: A visualization to explore the change in prevalence of obesity between 1990 and 2013.
 
 Creator: Komal Ali
 
