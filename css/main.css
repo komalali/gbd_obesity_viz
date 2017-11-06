@@ -107,15 +107,37 @@ h2 {
 
 .line {
     fill: none;
-    stroke: steelblue;
-    stroke-width: 2px;
+    stroke: lightgrey;
+    stroke-width: 1px;
 }
 
+.line:hover {
+    fill: none;
+    stroke: orangered;
+    stroke-width: 4px;
+}
 
+div.tooltip {
+    position: absolute;
+    left: 1000px;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    background: lightgrey;
+    border:2px solid black;
+    border-radius: 8px;
+    pointer-events: none;
+    font-size: 17px;
+    font-weight: bold;
+}
 
+div p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
 
-
-
+}
 
 
 
