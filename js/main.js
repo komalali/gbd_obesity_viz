@@ -1,8 +1,8 @@
 // graph dimensions
 var padding = 10,
-    margin = {top: 20, right:20, bottom: 30, left: 50},
-    width = padding + 980 - margin.left -  margin.right,
-    height =  padding + 600 - margin.top - margin.bottom;
+    margin = {top: 150, right:0, bottom: 30, left: 50},
+    width = 1100 - margin.left -  margin.right,
+    height =  700 - margin.top - margin.bottom;
 
 // set the ranges
 var x = d3.scaleLinear().nice().range([0, width]);
@@ -18,16 +18,17 @@ var yAxis = d3.axisLeft(y);
 var valueline = d3.line()
                   .x(function(d) { return x(d.year); })
                   .y(function(d) { return y(d.mean); })
-                  .curve(d3.curveCardinal);
+                  .curve(d3.curveNatural);
 
 // tooltip div
-var div = d3.select('body').append('div')
-                            .attr('class', 'tooltip')
+var div = d3.select('.main').append('div')
+                            .attr('class', 'tooltip container')
+                            .attr('width', width + margin.left + margin.right)
                             .style('opacity', 0);
 
 // create the svg object inside the body
-var svg = d3.select('body').append('svg')
-                            .attr('width', padding + width + margin.left + margin.right)
+var svg = d3.select('.main').append('svg')
+                            .attr('width', width + margin.left + margin.right)
                             .attr('height', padding + height + margin.top + margin.bottom)
                            .append('g')
                             .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
@@ -53,29 +54,26 @@ d3.csv('data/data.csv', function(error, data) {
 
     // loop through each location
     dataNest.forEach(function(d) {
+
+        var location = d.key,
+            mean_1990 = d.values[0].mean,
+            mean_2013 = d.values[5].mean;
+
         svg.append('g')
             .attr('class', 'trendline')
-            .attr('location', function() { return d.key; })
-            .attr('mean_2013', function() { return d.values[5].mean; })
-            .attr('mean_1990', function() { return d.values[0].mean;})
             .on("mouseover", function() {
-                console.log(this)
                 div.transition()
                     .duration(200)
                     .style('opacity', 0.9);
 
-                var location = d.key,
-                    mean_1990 = d.values[0].mean,
-                    mean_2013 = d.values[5].mean;
-
                 div.html(d.key)
-                    .style('top', (d3.event.pageY - 40) + 'px')
                     .append('p')
-                    .text('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese.')
-                    .append('p')
-                    .text('By 2013, this number had changed to ' + mean_2013 + '%.')
-                    .append('p')
-                    .text('Relative change between 1990 and 2013: ' + ((mean_2013 - mean_1990) * 100 /mean_1990).toFixed(1) + '%');
+                    .text('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
+                          'By 2013, this number had changed to ' + mean_2013 + '%, a relative change of ' +
+                          ((mean_2013 - mean_1990) * 100 /mean_1990).toFixed(1) + '%.');
+
+                div.append('p')
+                    .text('In 2013, ' + location + ' had a prevalence of ' + (mean_2013 - 12).toFixed(1) + '% higher than the global average of 12%.')
             })
             .append('path')
             .attr('class', 'line')

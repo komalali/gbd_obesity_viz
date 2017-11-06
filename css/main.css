@@ -101,7 +101,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.main {
+    align-self: center;
+}
+
+svg {
+    margin-left: -20px;
+}
+
 h2 {
+    margin: 10px;
     text-align: center;
 }
 
@@ -117,12 +126,10 @@ h2 {
     stroke-width: 4px;
 }
 
-div.tooltip {
-    position: absolute;
-    left: 1000px;
-    text-align: center;
-    width: 400px;
-    height: 150px;
+.tooltip {
+    max-width: 1050px;
+    margin: 10px 50px 0 30px;
+    text-align: left;
     padding: 10px;
     background: lightgrey;
     border:2px solid black;
@@ -136,6 +143,8 @@ div p {
     text-align: left;
     font-size: 14px;
     font-weight: normal;
+    line-height: 1;
+    margin: 10px 0;
 
 }
 
