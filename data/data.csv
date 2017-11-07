@@ -1,1135 +1,1129 @@
-,location,location_name,year,mean
-4,AFG,Afghanistan,1990,13.3
-10,AFG,Afghanistan,1995,13.7
-16,AFG,Afghanistan,2000,14.0
-22,AFG,Afghanistan,2005,14.1
-29,AFG,Afghanistan,2010,14.2
-34,AFG,Afghanistan,2013,14.4
-40,AGO,Angola,1990,11.6
-46,AGO,Angola,1995,12.0
-53,AGO,Angola,2000,12.8
-58,AGO,Angola,2005,13.7
-64,AGO,Angola,2010,15.1
-71,AGO,Angola,2013,15.6
-77,ALB,Albania,1990,7.6
-82,ALB,Albania,1995,8.0
-88,ALB,Albania,2000,8.3
-95,ALB,Albania,2005,9.0
-100,ALB,Albania,2010,9.9
-106,ALB,Albania,2013,10.2
-112,AND,Andorra,1990,6.7
-118,AND,Andorra,1995,7.4
-125,AND,Andorra,2000,8.4
-131,AND,Andorra,2005,8.7
-136,AND,Andorra,2010,8.8
-142,AND,Andorra,2013,8.9
-149,ARE,United Arab Emirates,1990,27.6
-155,ARE,United Arab Emirates,1995,27.2
-160,ARE,United Arab Emirates,2000,27.3
-167,ARE,United Arab Emirates,2005,27.5
-173,ARE,United Arab Emirates,2010,28.4
-178,ARE,United Arab Emirates,2013,29.0
-184,ARG,Argentina,1990,21.1
-190,ARG,Argentina,1995,21.9
-197,ARG,Argentina,2000,22.0
-202,ARG,Argentina,2005,21.4
-209,ARG,Argentina,2010,20.8
-215,ARG,Argentina,2013,20.8
-221,ARM,Armenia,1990,15.2
-226,ARM,Armenia,1995,15.7
-233,ARM,Armenia,2000,16.6
-239,ARM,Armenia,2005,18.1
-244,ARM,Armenia,2010,18.9
-251,ARM,Armenia,2013,19.3
-257,ATG,Antigua and Barbuda,1990,14.5
-263,ATG,Antigua and Barbuda,1995,13.9
-269,ATG,Antigua and Barbuda,2000,13.9
-275,ATG,Antigua and Barbuda,2005,14.4
-280,ATG,Antigua and Barbuda,2010,15.2
-287,ATG,Antigua and Barbuda,2013,15.7
-292,AUS,Australia,1990,15.6
-298,AUS,Australia,1995,18.3
-304,AUS,Australia,2000,22.5
-311,AUS,Australia,2005,25.7
-317,AUS,Australia,2010,27.9
-322,AUS,Australia,2013,28.7
-328,AUT,Austria,1990,13.5
-335,AUT,Austria,1995,15.3
-341,AUT,Austria,2000,17.0
-346,AUT,Austria,2005,17.2
-352,AUT,Austria,2010,17.6
-359,AUT,Austria,2013,18.0
-364,AZE,Azerbaijan,1990,13.6
-371,AZE,Azerbaijan,1995,13.9
-376,AZE,Azerbaijan,2000,15.4
-383,AZE,Azerbaijan,2005,17.6
-388,AZE,Azerbaijan,2010,19.9
-395,AZE,Azerbaijan,2013,20.4
-400,BDI,Burundi,1990,2.9
-407,BDI,Burundi,1995,2.8
-412,BDI,Burundi,2000,2.9
-419,BDI,Burundi,2005,3.0
-424,BDI,Burundi,2010,3.0
-431,BDI,Burundi,2013,3.1
-437,BEL,Belgium,1990,16.9
-442,BEL,Belgium,1995,18.6
-448,BEL,Belgium,2000,20.1
-455,BEL,Belgium,2005,20.6
-460,BEL,Belgium,2010,20.8
-466,BEL,Belgium,2013,20.9
-473,BEN,Benin,1990,5.3
-479,BEN,Benin,1995,6.0
-485,BEN,Benin,2000,7.7
-490,BEN,Benin,2005,9.1
-497,BEN,Benin,2010,9.8
-502,BEN,Benin,2013,10.1
-509,BFA,Burkina Faso,1990,3.9
-514,BFA,Burkina Faso,1995,4.5
-521,BFA,Burkina Faso,2000,5.3
-527,BFA,Burkina Faso,2005,5.9
-532,BFA,Burkina Faso,2010,6.2
-538,BFA,Burkina Faso,2013,6.3
-544,BGD,Bangladesh,1990,2.1
-550,BGD,Bangladesh,1995,2.2
-557,BGD,Bangladesh,2000,2.7
-563,BGD,Bangladesh,2005,3.0
-569,BGD,Bangladesh,2010,3.4
-575,BGD,Bangladesh,2013,3.6
-581,BGR,Bulgaria,1990,21.9
-586,BGR,Bulgaria,1995,19.2
-593,BGR,Bulgaria,2000,18.5
-598,BGR,Bulgaria,2005,18.3
-604,BGR,Bulgaria,2010,18.4
-611,BGR,Bulgaria,2013,18.6
-616,BHR,Bahrain,1990,26.1
-622,BHR,Bahrain,1995,28.8
-628,BHR,Bahrain,2000,30.5
-635,BHR,Bahrain,2005,32.9
-640,BHR,Bahrain,2010,34.7
-646,BHR,Bahrain,2013,35.7
-653,BHS,The Bahamas,1990,31.0
-658,BHS,The Bahamas,1995,30.5
-664,BHS,The Bahamas,2000,32.1
-670,BHS,The Bahamas,2005,32.6
-677,BHS,The Bahamas,2010,39.5
-682,BHS,The Bahamas,2013,39.8
-688,BIH,Bosnia and Herzegovina,1990,14.6
-695,BIH,Bosnia and Herzegovina,1995,15.9
-700,BIH,Bosnia and Herzegovina,2000,16.7
-707,BIH,Bosnia and Herzegovina,2005,17.7
-713,BIH,Bosnia and Herzegovina,2010,17.9
-718,BIH,Bosnia and Herzegovina,2013,18.1
-725,BLR,Belarus,1990,10.7
-730,BLR,Belarus,1995,11.0
-736,BLR,Belarus,2000,10.7
-743,BLR,Belarus,2005,10.8
-748,BLR,Belarus,2010,11.5
-754,BLR,Belarus,2013,11.8
-761,BLZ,Belize,1990,29.6
-766,BLZ,Belize,1995,30.4
-773,BLZ,Belize,2000,31.8
-778,BLZ,Belize,2005,33.3
-785,BLZ,Belize,2010,33.2
-791,BLZ,Belize,2013,33.0
-796,BOL,Bolivia,1990,12.6
-802,BOL,Bolivia,1995,13.2
-809,BOL,Bolivia,2000,15.2
-815,BOL,Bolivia,2005,16.9
-821,BOL,Bolivia,2010,17.6
-826,BOL,Bolivia,2013,17.7
-833,BRA,Brazil,1990,10.8
-839,BRA,Brazil,1995,10.7
-844,BRA,Brazil,2000,11.7
-850,BRA,Brazil,2005,13.5
-857,BRA,Brazil,2010,15.5
-863,BRA,Brazil,2013,16.4
-868,BRB,Barbados,1990,22.2
-875,BRB,Barbados,1995,22.2
-881,BRB,Barbados,2000,23.0
-887,BRB,Barbados,2005,23.8
-892,BRB,Barbados,2010,25.0
-898,BRB,Barbados,2013,25.7
-904,BRN,Brunei,1990,2.8
-911,BRN,Brunei,1995,3.0
-917,BRN,Brunei,2000,3.2
-923,BRN,Brunei,2005,3.4
-929,BRN,Brunei,2010,3.5
-934,BRN,Brunei,2013,3.5
-940,BTN,Bhutan,1990,12.4
-946,BTN,Bhutan,1995,12.9
-952,BTN,Bhutan,2000,13.4
-959,BTN,Bhutan,2005,13.7
-965,BTN,Bhutan,2010,14.1
-970,BTN,Bhutan,2013,14.3
-977,BWA,Botswana,1990,14.9
-982,BWA,Botswana,1995,14.9
-989,BWA,Botswana,2000,14.9
-994,BWA,Botswana,2005,15.1
-1001,BWA,Botswana,2010,15.2
-1007,BWA,Botswana,2013,15.3
-1013,CAF,Central African Republic,1990,6.5
-1019,CAF,Central African Republic,1995,6.6
-1024,CAF,Central African Republic,2000,7.1
-1030,CAF,Central African Republic,2005,7.3
-1036,CAF,Central African Republic,2010,7.8
-1043,CAF,Central African Republic,2013,8.0
-1049,CAN,Canada,1990,16.7
-1054,CAN,Canada,1995,19.0
-1060,CAN,Canada,2000,20.1
-1066,CAN,Canada,2005,19.4
-1073,CAN,Canada,2010,20.0
-1078,CAN,Canada,2013,21.2
-1084,CHE,Switzerland,1990,14.5
-1090,CHE,Switzerland,1995,14.6
-1096,CHE,Switzerland,2000,15.9
-1102,CHE,Switzerland,2005,16.8
-1109,CHE,Switzerland,2010,17.5
-1115,CHE,Switzerland,2013,17.7
-1121,CHL,Chile,1990,22.2
-1126,CHL,Chile,1995,23.4
-1133,CHL,Chile,2000,24.5
-1138,CHL,Chile,2005,25.5
-1144,CHL,Chile,2010,26.1
-1151,CHL,Chile,2013,26.3
-1156,CHN,China,1990,2.1
-1163,CHN,China,1995,2.4
-1169,CHN,China,2000,3.0
-1175,CHN,China,2005,3.5
-1180,CHN,China,2010,4.2
-1186,CHN,China,2013,4.4
-1192,CIV,Cote d'Ivoire,1990,3.5
-1198,CIV,Cote d'Ivoire,1995,4.2
-1204,CIV,Cote d'Ivoire,2000,6.8
-1210,CIV,Cote d'Ivoire,2005,8.5
-1217,CIV,Cote d'Ivoire,2010,8.6
-1222,CIV,Cote d'Ivoire,2013,8.7
-1228,CMR,Cameroon,1990,9.9
-1234,CMR,Cameroon,1995,10.5
-1241,CMR,Cameroon,2000,12.2
-1247,CMR,Cameroon,2005,13.3
-1252,CMR,Cameroon,2010,14.1
-1258,CMR,Cameroon,2013,14.5
-1264,COD,Democratic Republic of the Congo,1990,4.0
-1271,COD,Democratic Republic of the Congo,1995,4.1
-1276,COD,Democratic Republic of the Congo,2000,4.3
-1283,COD,Democratic Republic of the Congo,2005,4.4
-1288,COD,Democratic Republic of the Congo,2010,4.5
-1295,COD,Democratic Republic of the Congo,2013,4.6
-1300,COG,Congo,1990,11.3
-1306,COG,Congo,1995,11.3
-1312,COG,Congo,2000,11.2
-1318,COG,Congo,2005,11.0
-1325,COG,Congo,2010,10.6
-1331,COG,Congo,2013,10.5
-1337,COL,Colombia,1990,10.9
-1343,COL,Colombia,1995,11.5
-1348,COL,Colombia,2000,13.5
-1355,COL,Colombia,2005,15.4
-1361,COL,Colombia,2010,18.1
-1367,COL,Colombia,2013,18.9
-1372,COM,Comoros,1990,9.8
-1379,COM,Comoros,1995,10.0
-1384,COM,Comoros,2000,11.0
-1391,COM,Comoros,2005,12.3
-1396,COM,Comoros,2010,13.2
-1403,COM,Comoros,2013,13.3
-1409,CPV,Cape Verde,1990,9.6
-1414,CPV,Cape Verde,1995,9.9
-1421,CPV,Cape Verde,2000,10.3
-1426,CPV,Cape Verde,2005,10.8
-1433,CPV,Cape Verde,2010,11.3
-1439,CPV,Cape Verde,2013,11.5
-1444,CRI,Costa Rica,1990,19.5
-1450,CRI,Costa Rica,1995,20.1
-1456,CRI,Costa Rica,2000,20.8
-1463,CRI,Costa Rica,2005,21.2
-1468,CRI,Costa Rica,2010,21.7
-1474,CRI,Costa Rica,2013,22.0
-1480,CUB,Cuba,1990,19.0
-1486,CUB,Cuba,1995,17.5
-1492,CUB,Cuba,2000,20.3
-1498,CUB,Cuba,2005,22.2
-1505,CUB,Cuba,2010,22.7
-1510,CUB,Cuba,2013,22.9
-1516,CYP,Cyprus,1990,22.6
-1522,CYP,Cyprus,1995,23.2
-1528,CYP,Cyprus,2000,23.2
-1534,CYP,Cyprus,2005,23.2
-1540,CYP,Cyprus,2010,23.7
-1547,CYP,Cyprus,2013,24.1
-1552,CZE,Czech Republic,1990,18.1
-1558,CZE,Czech Republic,1995,18.7
-1564,CZE,Czech Republic,2000,19.0
-1571,CZE,Czech Republic,2005,19.5
-1576,CZE,Czech Republic,2010,19.5
-1582,CZE,Czech Republic,2013,19.4
-1589,DEU,Germany,1990,18.2
-1595,DEU,Germany,1995,19.4
-1600,DEU,Germany,2000,20.4
-1607,DEU,Germany,2005,20.8
-1613,DEU,Germany,2010,21.7
-1619,DEU,Germany,2013,22.2
-1625,DJI,Djibouti,1990,9.8
-1631,DJI,Djibouti,1995,10.4
-1636,DJI,Djibouti,2000,11.4
-1643,DJI,Djibouti,2005,12.6
-1648,DJI,Djibouti,2010,13.9
-1655,DJI,Djibouti,2013,14.5
-1661,DMA,Dominica,1990,21.6
-1667,DMA,Dominica,1995,22.2
-1672,DMA,Dominica,2000,23.3
-1679,DMA,Dominica,2005,24.1
-1685,DMA,Dominica,2010,25.0
-1691,DMA,Dominica,2013,25.5
-1697,DNK,Denmark,1990,14.2
-1703,DNK,Denmark,1995,16.0
-1709,DNK,Denmark,2000,17.9
-1715,DNK,Denmark,2005,19.0
-1721,DNK,Denmark,2010,19.6
-1726,DNK,Denmark,2013,19.8
-1733,DOM,Dominican Republic,1990,11.9
-1738,DOM,Dominican Republic,1995,12.9
-1745,DOM,Dominican Republic,2000,13.9
-1750,DOM,Dominican Republic,2005,14.5
-1757,DOM,Dominican Republic,2010,15.3
-1762,DOM,Dominican Republic,2013,15.7
-1769,DZA,Algeria,1990,13.9
-1775,DZA,Algeria,1995,14.4
-1780,DZA,Algeria,2000,15.0
-1786,DZA,Algeria,2005,16.1
-1792,DZA,Algeria,2010,17.3
-1798,DZA,Algeria,2013,18.0
-1804,ECU,Ecuador,1990,12.0
-1810,ECU,Ecuador,1995,12.4
-1817,ECU,Ecuador,2000,12.6
-1823,ECU,Ecuador,2005,12.8
-1829,ECU,Ecuador,2010,13.2
-1835,ECU,Ecuador,2013,13.4
-1841,EGY,Egypt,1990,28.8
-1846,EGY,Egypt,1995,30.5
-1853,EGY,Egypt,2000,33.9
-1858,EGY,Egypt,2005,35.9
-1865,EGY,Egypt,2010,37.0
-1871,EGY,Egypt,2013,37.7
-1877,ERI,Eritrea,1990,3.2
-1883,ERI,Eritrea,1995,3.4
-1889,ERI,Eritrea,2000,3.5
-1895,ERI,Eritrea,2005,3.6
-1901,ERI,Eritrea,2010,3.8
-1906,ERI,Eritrea,2013,3.9
-1913,ESP,Spain,1990,18.4
-1918,ESP,Spain,1995,20.2
-1924,ESP,Spain,2000,22.7
-1930,ESP,Spain,2005,22.5
-1936,ESP,Spain,2010,21.1
-1942,ESP,Spain,2013,20.7
-1949,EST,Estonia,1990,18.4
-1955,EST,Estonia,1995,19.4
-1960,EST,Estonia,2000,20.6
-1966,EST,Estonia,2005,21.6
-1973,EST,Estonia,2010,22.4
-1978,EST,Estonia,2013,22.8
-1985,ETH,Ethiopia,1990,2.1
-1990,ETH,Ethiopia,1995,2.2
-1996,ETH,Ethiopia,2000,2.5
-2003,ETH,Ethiopia,2005,2.8
-2009,ETH,Ethiopia,2010,2.9
-2014,ETH,Ethiopia,2013,2.9
-2021,FIN,Finland,1990,16.9
-2027,FIN,Finland,1995,17.4
-2032,FIN,Finland,2000,18.8
-2038,FIN,Finland,2005,20.3
-2045,FIN,Finland,2010,21.3
-2051,FIN,Finland,2013,21.7
-2057,FJI,Fiji,1990,21.0
-2063,FJI,Fiji,1995,22.0
-2069,FJI,Fiji,2000,23.0
-2074,FJI,Fiji,2005,24.1
-2080,FJI,Fiji,2010,24.7
-2086,FJI,Fiji,2013,25.2
-2092,FRA,France,1990,15.7
-2099,FRA,France,1995,16.9
-2105,FRA,France,2000,18.5
-2110,FRA,France,2005,18.9
-2116,FRA,France,2010,19.3
-2122,FRA,France,2013,19.5
-2128,FSM,Federated States of Micronesia,1990,38.7
-2134,FSM,Federated States of Micronesia,1995,39.0
-2141,FSM,Federated States of Micronesia,2000,40.4
-2146,FSM,Federated States of Micronesia,2005,43.1
-2152,FSM,Federated States of Micronesia,2010,44.4
-2158,FSM,Federated States of Micronesia,2013,44.7
-2164,G,Global,1990,9.3
-2171,G,Global,1995,9.7
-2177,G,Global,2000,10.7
-2182,G,Global,2005,11.4
-2188,G,Global,2010,11.9
-2194,G,Global,2013,12.0
-2200,GAB,Gabon,1990,13.4
-2207,GAB,Gabon,1995,13.8
-2212,GAB,Gabon,2000,15.7
-2218,GAB,Gabon,2005,17.9
-2225,GAB,Gabon,2010,19.5
-2230,GAB,Gabon,2013,19.8
-2236,GBR,United Kingdom,1990,14.9
-2243,GBR,United Kingdom,1995,17.0
-2249,GBR,United Kingdom,2000,20.7
-2254,GBR,United Kingdom,2005,22.3
-2261,GBR,United Kingdom,2010,24.4
-2266,GBR,United Kingdom,2013,25.0
-2273,GEO,Georgia,1990,13.8
-2278,GEO,Georgia,1995,15.3
-2284,GEO,Georgia,2000,18.7
-2291,GEO,Georgia,2005,22.8
-2296,GEO,Georgia,2010,25.0
-2303,GEO,Georgia,2013,25.1
-2309,GHA,Ghana,1990,4.8
-2315,GHA,Ghana,1995,6.0
-2321,GHA,Ghana,2000,7.7
-2327,GHA,Ghana,2005,9.5
-2332,GHA,Ghana,2010,10.8
-2339,GHA,Ghana,2013,11.2
-2344,GIN,Guinea,1990,4.3
-2351,GIN,Guinea,1995,4.3
-2357,GIN,Guinea,2000,4.9
-2362,GIN,Guinea,2005,5.5
-2368,GIN,Guinea,2010,6.2
-2375,GIN,Guinea,2013,6.3
-2380,GMB,The Gambia,1990,9.4
-2387,GMB,The Gambia,1995,9.8
-2393,GMB,The Gambia,2000,10.4
-2398,GMB,The Gambia,2005,11.4
-2405,GMB,The Gambia,2010,12.6
-2410,GMB,The Gambia,2013,13.3
-2416,GNB,Guinea-Bissau,1990,10.1
-2423,GNB,Guinea-Bissau,1995,11.0
-2428,GNB,Guinea-Bissau,2000,14.1
-2435,GNB,Guinea-Bissau,2005,18.2
-2441,GNB,Guinea-Bissau,2010,20.0
-2446,GNB,Guinea-Bissau,2013,20.6
-2453,GNQ,Equatorial Guinea,1990,26.3
-2458,GNQ,Equatorial Guinea,1995,26.8
-2464,GNQ,Equatorial Guinea,2000,27.7
-2471,GNQ,Equatorial Guinea,2005,28.5
-2476,GNQ,Equatorial Guinea,2010,29.3
-2482,GNQ,Equatorial Guinea,2013,29.8
-2489,GRC,Greece,1990,17.3
-2495,GRC,Greece,1995,17.7
-2501,GRC,Greece,2000,18.2
-2507,GRC,Greece,2005,18.2
-2513,GRC,Greece,2010,18.8
-2519,GRC,Greece,2013,19.4
-2524,GRD,Grenada,1990,15.0
-2531,GRD,Grenada,1995,15.0
-2537,GRD,Grenada,2000,14.8
-2543,GRD,Grenada,2005,15.3
-2549,GRD,Grenada,2010,15.8
-2554,GRD,Grenada,2013,16.1
-2560,GTM,Guatemala,1990,10.2
-2567,GTM,Guatemala,1995,10.1
-2572,GTM,Guatemala,2000,11.5
-2578,GTM,Guatemala,2005,13.5
-2584,GTM,Guatemala,2010,14.6
-2590,GTM,Guatemala,2013,14.6
-2597,GUY,Guyana,1990,18.4
-2603,GUY,Guyana,1995,19.2
-2608,GUY,Guyana,2000,20.5
-2615,GUY,Guyana,2005,21.2
-2621,GUY,Guyana,2010,21.5
-2626,GUY,Guyana,2013,21.6
-2633,HND,Honduras,1990,10.0
-2639,HND,Honduras,1995,10.5
-2644,HND,Honduras,2000,12.3
-2651,HND,Honduras,2005,15.3
-2656,HND,Honduras,2010,17.5
-2662,HND,Honduras,2013,18.1
-2668,HRV,Croatia,1990,15.2
-2675,HRV,Croatia,1995,16.1
-2680,HRV,Croatia,2000,17.2
-2687,HRV,Croatia,2005,19.0
-2693,HRV,Croatia,2010,19.7
-2698,HRV,Croatia,2013,19.9
-2705,HTI,Haiti,1990,6.5
-2711,HTI,Haiti,1995,6.8
-2716,HTI,Haiti,2000,7.8
-2722,HTI,Haiti,2005,8.1
-2728,HTI,Haiti,2010,8.5
-2735,HTI,Haiti,2013,8.8
-2741,HUN,Hungary,1990,24.3
-2747,HUN,Hungary,1995,22.5
-2753,HUN,Hungary,2000,22.6
-2759,HUN,Hungary,2005,22.9
-2764,HUN,Hungary,2010,23.2
-2770,HUN,Hungary,2013,23.4
-2776,IDN,Indonesia,1990,3.0
-2782,IDN,Indonesia,1995,3.2
-2789,IDN,Indonesia,2000,4.1
-2794,IDN,Indonesia,2005,5.4
-2800,IDN,Indonesia,2010,6.6
-2806,IDN,Indonesia,2013,6.9
-2813,IND,India,1990,3.3
-2819,IND,India,1995,3.4
-2824,IND,India,2000,3.6
-2831,IND,India,2005,3.7
-2837,IND,India,2010,3.9
-2843,IND,India,2013,3.9
-2849,IRL,Ireland,1990,15.7
-2855,IRL,Ireland,1995,18.1
-2861,IRL,Ireland,2000,21.0
-2867,IRL,Ireland,2005,21.5
-2872,IRL,Ireland,2010,22.3
-2879,IRL,Ireland,2013,22.7
-2885,IRN,Iran,1990,18.6
-2890,IRN,Iran,1995,19.3
-2896,IRN,Iran,2000,19.0
-2903,IRN,Iran,2005,19.5
-2908,IRN,Iran,2010,20.9
-2914,IRN,Iran,2013,21.5
-2920,IRQ,Iraq,1990,25.6
-2926,IRQ,Iraq,1995,28.7
-2933,IRQ,Iraq,2000,29.5
-2939,IRQ,Iraq,2005,30.3
-2945,IRQ,Iraq,2010,31.3
-2950,IRQ,Iraq,2013,31.9
-2956,ISL,Iceland,1990,21.7
-2963,ISL,Iceland,1995,22.1
-2968,ISL,Iceland,2000,24.3
-2975,ISL,Iceland,2005,26.5
-2980,ISL,Iceland,2010,27.5
-2986,ISL,Iceland,2013,27.9
-2993,ISR,Israel,1990,19.5
-2999,ISR,Israel,1995,21.2
-3004,ISR,Israel,2000,22.5
-3010,ISR,Israel,2005,23.1
-3017,ISR,Israel,2010,23.2
-3022,ISR,Israel,2013,23.2
-3029,ITA,Italy,1990,15.4
-3034,ITA,Italy,1995,15.9
-3040,ITA,Italy,2000,17.5
-3047,ITA,Italy,2005,18.4
-3053,ITA,Italy,2010,18.3
-3058,ITA,Italy,2013,18.2
-3064,JAM,Jamaica,1990,16.0
-3071,JAM,Jamaica,1995,16.4
-3076,JAM,Jamaica,2000,17.8
-3082,JAM,Jamaica,2005,20.1
-3089,JAM,Jamaica,2010,21.4
-3094,JAM,Jamaica,2013,21.6
-3100,JOR,Jordan,1990,31.3
-3107,JOR,Jordan,1995,32.1
-3112,JOR,Jordan,2000,33.8
-3119,JOR,Jordan,2005,36.0
-3125,JOR,Jordan,2010,36.0
-3131,JOR,Jordan,2013,36.5
-3137,JPN,Japan,1990,2.2
-3143,JPN,Japan,1995,2.5
-3148,JPN,Japan,2000,3.1
-3154,JPN,Japan,2005,3.5
-3161,JPN,Japan,2010,3.8
-3166,JPN,Japan,2013,3.9
-3172,KAZ,Kazakhstan,1990,17.2
-3179,KAZ,Kazakhstan,1995,17.3
-3184,KAZ,Kazakhstan,2000,16.3
-3191,KAZ,Kazakhstan,2005,19.6
-3196,KAZ,Kazakhstan,2010,21.5
-3202,KAZ,Kazakhstan,2013,22.2
-3208,KEN,Kenya,1990,9.0
-3214,KEN,Kenya,1995,9.3
-3221,KEN,Kenya,2000,10.1
-3227,KEN,Kenya,2005,10.6
-3233,KEN,Kenya,2010,10.8
-3238,KEN,Kenya,2013,11.0
-3245,KGZ,Kyrgyzstan,1990,14.0
-3250,KGZ,Kyrgyzstan,1995,14.1
-3257,KGZ,Kyrgyzstan,2000,14.1
-3262,KGZ,Kyrgyzstan,2005,14.6
-3269,KGZ,Kyrgyzstan,2010,15.2
-3274,KGZ,Kyrgyzstan,2013,15.5
-3281,KHM,Cambodia,1990,1.5
-3287,KHM,Cambodia,1995,1.5
-3293,KHM,Cambodia,2000,1.7
-3298,KHM,Cambodia,2005,1.9
-3304,KHM,Cambodia,2010,2.1
-3310,KHM,Cambodia,2013,2.1
-3317,KIR,Kiribati,1990,42.8
-3322,KIR,Kiribati,1995,44.2
-3328,KIR,Kiribati,2000,45.3
-3334,KIR,Kiribati,2005,46.3
-3340,KIR,Kiribati,2010,47.1
-3347,KIR,Kiribati,2013,47.7
-3353,KOR,South Korea,1990,5.6
-3359,KOR,South Korea,1995,5.8
-3364,KOR,South Korea,2000,5.8
-3370,KOR,South Korea,2005,6.0
-3376,KOR,South Korea,2010,6.1
-3383,KOR,South Korea,2013,6.4
-3389,KWT,Kuwait,1990,34.6
-3395,KWT,Kuwait,1995,37.5
-3401,KWT,Kuwait,2000,42.8
-3406,KWT,Kuwait,2005,46.4
-3413,KWT,Kuwait,2010,48.3
-3418,KWT,Kuwait,2013,49.1
-3424,LAO,Laos,1990,4.3
-3431,LAO,Laos,1995,4.5
-3436,LAO,Laos,2000,4.8
-3443,LAO,Laos,2005,5.1
-3449,LAO,Laos,2010,5.5
-3455,LAO,Laos,2013,5.6
-3460,LBN,Lebanon,1990,22.8
-3467,LBN,Lebanon,1995,24.0
-3473,LBN,Lebanon,2000,25.1
-3478,LBN,Lebanon,2005,26.3
-3485,LBN,Lebanon,2010,27.2
-3491,LBN,Lebanon,2013,27.7
-3496,LBR,Liberia,1990,13.8
-3503,LBR,Liberia,1995,13.3
-3508,LBR,Liberia,2000,15.5
-3515,LBR,Liberia,2005,16.7
-3521,LBR,Liberia,2010,18.2
-3527,LBR,Liberia,2013,18.7
-3532,LBY,Libya,1990,41.3
-3539,LBY,Libya,1995,41.7
-3544,LBY,Libya,2000,42.0
-3551,LBY,Libya,2005,42.5
-3557,LBY,Libya,2010,43.1
-3562,LBY,Libya,2013,43.9
-3569,LCA,Saint Lucia,1990,14.7
-3574,LCA,Saint Lucia,1995,15.6
-3581,LCA,Saint Lucia,2000,16.0
-3587,LCA,Saint Lucia,2005,16.4
-3593,LCA,Saint Lucia,2010,16.7
-3598,LCA,Saint Lucia,2013,16.9
-3605,LKA,Sri Lanka,1990,3.7
-3610,LKA,Sri Lanka,1995,3.9
-3617,LKA,Sri Lanka,2000,4.4
-3623,LKA,Sri Lanka,2005,4.9
-3628,LKA,Sri Lanka,2010,5.1
-3634,LKA,Sri Lanka,2013,5.2
-3641,LSO,Lesotho,1990,16.6
-3647,LSO,Lesotho,1995,16.7
-3652,LSO,Lesotho,2000,18.3
-3659,LSO,Lesotho,2005,18.9
-3665,LSO,Lesotho,2010,19.9
-3671,LSO,Lesotho,2013,20.4
-3676,LTU,Lithuania,1990,17.8
-3682,LTU,Lithuania,1995,18.7
-3688,LTU,Lithuania,2000,19.9
-3695,LTU,Lithuania,2005,20.8
-3700,LTU,Lithuania,2010,21.5
-3706,LTU,Lithuania,2013,21.8
-3712,LUX,Luxembourg,1990,19.1
-3718,LUX,Luxembourg,1995,20.6
-3725,LUX,Luxembourg,2000,22.6
-3731,LUX,Luxembourg,2005,24.3
-3737,LUX,Luxembourg,2010,24.8
-3743,LUX,Luxembourg,2013,24.9
-3749,LVA,Latvia,1990,22.2
-3755,LVA,Latvia,1995,21.8
-3761,LVA,Latvia,2000,21.2
-3766,LVA,Latvia,2005,21.9
-3773,LVA,Latvia,2010,22.1
-3779,LVA,Latvia,2013,22.1
-3785,MAR,Morocco,1990,15.9
-3791,MAR,Morocco,1995,16.3
-3797,MAR,Morocco,2000,17.2
-3803,MAR,Morocco,2005,18.2
-3808,MAR,Morocco,2010,19.1
-3814,MAR,Morocco,2013,19.6
-3821,MDA,Moldova,1990,19.2
-3826,MDA,Moldova,1995,19.5
-3833,MDA,Moldova,2000,19.7
-3839,MDA,Moldova,2005,20.8
-3845,MDA,Moldova,2010,21.3
-3851,MDA,Moldova,2013,21.6
-3856,MDG,Madagascar,1990,2.8
-3862,MDG,Madagascar,1995,2.7
-3868,MDG,Madagascar,2000,2.8
-3874,MDG,Madagascar,2005,2.8
-3881,MDG,Madagascar,2010,2.9
-3887,MDG,Madagascar,2013,3.0
-3893,MDV,Maldives,1990,9.7
-3898,MDV,Maldives,1995,10.3
-3904,MDV,Maldives,2000,10.9
-3911,MDV,Maldives,2005,11.5
-3916,MDV,Maldives,2010,12.2
-3922,MDV,Maldives,2013,12.5
-3929,MEX,Mexico,1990,17.7
-3935,MEX,Mexico,1995,20.2
-3941,MEX,Mexico,2000,23.4
-3946,MEX,Mexico,2005,26.1
-3952,MEX,Mexico,2010,27.2
-3959,MEX,Mexico,2013,27.2
-3964,MHL,Marshall Islands,1990,30.9
-3971,MHL,Marshall Islands,1995,32.1
-3977,MHL,Marshall Islands,2000,39.1
-3983,MHL,Marshall Islands,2005,39.9
-3989,MHL,Marshall Islands,2010,40.4
-3995,MHL,Marshall Islands,2013,40.7
-4000,MKD,Macedonia,1990,15.9
-4007,MKD,Macedonia,1995,16.7
-4013,MKD,Macedonia,2000,17.9
-4018,MKD,Macedonia,2005,18.7
-4025,MKD,Macedonia,2010,19.2
-4030,MKD,Macedonia,2013,19.4
-4036,MLI,Mali,1990,6.9
-4043,MLI,Mali,1995,7.6
-4049,MLI,Mali,2000,9.6
-4055,MLI,Mali,2005,11.2
-4060,MLI,Mali,2010,12.5
-4067,MLI,Mali,2013,13.2
-4073,MLT,Malta,1990,24.0
-4079,MLT,Malta,1995,25.5
-4085,MLT,Malta,2000,26.8
-4090,MLT,Malta,2005,27.7
-4097,MLT,Malta,2010,28.0
-4103,MLT,Malta,2013,28.3
-4109,MMR,Myanmar,1990,5.1
-4114,MMR,Myanmar,1995,5.2
-4121,MMR,Myanmar,2000,5.5
-4127,MMR,Myanmar,2005,6.0
-4132,MMR,Myanmar,2010,6.4
-4138,MMR,Myanmar,2013,6.5
-4144,MNE,Montenegro,1990,18.7
-4151,MNE,Montenegro,1995,19.4
-4156,MNE,Montenegro,2000,20.0
-4163,MNE,Montenegro,2005,20.6
-4168,MNE,Montenegro,2010,21.6
-4174,MNE,Montenegro,2013,21.9
-4180,MNG,Mongolia,1990,11.4
-4187,MNG,Mongolia,1995,11.0
-4193,MNG,Mongolia,2000,12.1
-4199,MNG,Mongolia,2005,13.6
-4204,MNG,Mongolia,2010,15.2
-4210,MNG,Mongolia,2013,15.4
-4217,MOZ,Mozambique,1990,4.9
-4223,MOZ,Mozambique,1995,5.1
-4228,MOZ,Mozambique,2000,5.8
-4235,MOZ,Mozambique,2005,6.2
-4240,MOZ,Mozambique,2010,6.5
-4246,MOZ,Mozambique,2013,6.6
-4253,MRT,Mauritania,1990,14.5
-4258,MRT,Mauritania,1995,15.6
-4265,MRT,Mauritania,2000,16.5
-4271,MRT,Mauritania,2005,16.7
-4276,MRT,Mauritania,2010,17.1
-4283,MRT,Mauritania,2013,17.4
-4288,MUS,Mauritius,1990,10.5
-4295,MUS,Mauritius,1995,10.9
-4301,MUS,Mauritius,2000,11.5
-4306,MUS,Mauritius,2005,12.0
-4313,MUS,Mauritius,2010,12.7
-4318,MUS,Mauritius,2013,13.1
-4325,MWI,Malawi,1990,3.2
-4330,MWI,Malawi,1995,3.2
-4337,MWI,Malawi,2000,3.6
-4343,MWI,Malawi,2005,4.0
-4348,MWI,Malawi,2010,4.5
-4355,MWI,Malawi,2013,4.7
-4361,MYS,Malaysia,1990,10.8
-4366,MYS,Malaysia,1995,11.8
-4372,MYS,Malaysia,2000,12.4
-4378,MYS,Malaysia,2005,13.1
-4385,MYS,Malaysia,2010,13.8
-4390,MYS,Malaysia,2013,14.2
-4397,NAM,Namibia,1990,8.8
-4402,NAM,Namibia,1995,9.1
-4409,NAM,Namibia,2000,11.5
-4414,NAM,Namibia,2005,13.2
-4420,NAM,Namibia,2010,13.6
-4427,NAM,Namibia,2013,13.6
-4432,NER,Niger,1990,3.1
-4438,NER,Niger,1995,3.2
-4444,NER,Niger,2000,3.7
-4451,NER,Niger,2005,4.2
-4456,NER,Niger,2010,4.5
-4463,NER,Niger,2013,4.6
-4469,NGA,Nigeria,1990,6.3
-4475,NGA,Nigeria,1995,8.2
-4480,NGA,Nigeria,2000,10.3
-4486,NGA,Nigeria,2005,10.9
-4492,NGA,Nigeria,2010,11.0
-4498,NGA,Nigeria,2013,11.1
-4505,NIC,Nicaragua,1990,15.4
-4511,NIC,Nicaragua,1995,16.0
-4516,NIC,Nicaragua,2000,17.9
-4522,NIC,Nicaragua,2005,19.7
-4528,NIC,Nicaragua,2010,20.7
-4534,NIC,Nicaragua,2013,21.0
-4540,NLD,Netherlands,1990,13.3
-4547,NLD,Netherlands,1995,12.6
-4553,NLD,Netherlands,2000,11.3
-4559,NLD,Netherlands,2005,11.4
-4565,NLD,Netherlands,2010,13.1
-4571,NLD,Netherlands,2013,14.3
-4577,NOR,Norway,1990,14.4
-4582,NOR,Norway,1995,15.1
-4588,NOR,Norway,2000,16.6
-4595,NOR,Norway,2005,17.7
-4601,NOR,Norway,2010,18.3
-4607,NOR,Norway,2013,18.6
-4612,NPL,Nepal,1990,1.8
-4618,NPL,Nepal,1995,1.9
-4624,NPL,Nepal,2000,2.0
-4630,NPL,Nepal,2005,2.2
-4637,NPL,Nepal,2010,2.3
-4642,NPL,Nepal,2013,2.4
-4649,NZL,New Zealand,1990,16.1
-4654,NZL,New Zealand,1995,17.8
-4661,NZL,New Zealand,2000,21.5
-4666,NZL,New Zealand,2005,25.5
-4672,NZL,New Zealand,2010,28.7
-4679,NZL,New Zealand,2013,29.0
-4685,OMN,Oman,1990,16.4
-4690,OMN,Oman,1995,16.9
-4697,OMN,Oman,2000,20.5
-4702,OMN,Oman,2005,24.1
-4709,OMN,Oman,2010,26.2
-4715,OMN,Oman,2013,26.7
-4720,PAK,Pakistan,1990,11.2
-4727,PAK,Pakistan,1995,11.6
-4732,PAK,Pakistan,2000,12.4
-4739,PAK,Pakistan,2005,13.0
-4745,PAK,Pakistan,2010,13.9
-4750,PAK,Pakistan,2013,14.3
-4756,PAN,Panama,1990,11.7
-4762,PAN,Panama,1995,12.5
-4768,PAN,Panama,2000,12.9
-4775,PAN,Panama,2005,13.7
-4781,PAN,Panama,2010,14.7
-4787,PAN,Panama,2013,15.2
-4793,PER,Peru,1990,12.2
-4798,PER,Peru,1995,12.7
-4804,PER,Peru,2000,14.2
-4810,PER,Peru,2005,14.9
-4816,PER,Peru,2010,16.2
-4823,PER,Peru,2013,17.0
-4829,PHL,Philippines,1990,3.5
-4835,PHL,Philippines,1995,3.7
-4840,PHL,Philippines,2000,4.2
-4846,PHL,Philippines,2005,4.6
-4853,PHL,Philippines,2010,5.0
-4859,PHL,Philippines,2013,5.2
-4864,PNG,Papua New Guinea,1990,8.9
-4870,PNG,Papua New Guinea,1995,9.0
-4876,PNG,Papua New Guinea,2000,9.1
-4883,PNG,Papua New Guinea,2005,9.0
-4889,PNG,Papua New Guinea,2010,9.4
-4895,PNG,Papua New Guinea,2013,9.8
-4900,POL,Poland,1990,18.6
-4906,POL,Poland,1995,18.5
-4912,POL,Poland,2000,19.0
-4918,POL,Poland,2005,19.2
-4925,POL,Poland,2010,19.6
-4931,POL,Poland,2013,19.8
-4936,PRK,North Korea,1990,2.6
-4942,PRK,North Korea,1995,2.5
-4949,PRK,North Korea,2000,2.5
-4954,PRK,North Korea,2005,2.5
-4961,PRK,North Korea,2010,2.5
-4966,PRK,North Korea,2013,2.5
-4972,PRT,Portugal,1990,18.6
-4979,PRT,Portugal,1995,19.7
-4984,PRT,Portugal,2000,20.4
-4991,PRT,Portugal,2005,20.9
-4996,PRT,Portugal,2010,21.8
-5002,PRT,Portugal,2013,22.3
-5008,PRY,Paraguay,1990,23.4
-5015,PRY,Paraguay,1995,24.2
-5021,PRY,Paraguay,2000,25.2
-5027,PRY,Paraguay,2005,25.8
-5033,PRY,Paraguay,2010,25.7
-5038,PRY,Paraguay,2013,25.9
-5044,PSE,Palestine,1990,27.5
-5051,PSE,Palestine,1995,28.7
-5056,PSE,Palestine,2000,30.9
-5062,PSE,Palestine,2005,32.9
-5069,PSE,Palestine,2010,35.3
-5074,PSE,Palestine,2013,36.2
-5081,QAT,Qatar,1990,46.9
-5087,QAT,Qatar,1995,48.7
-5092,QAT,Qatar,2000,47.8
-5098,QAT,Qatar,2005,47.2
-5105,QAT,Qatar,2010,46.7
-5110,QAT,Qatar,2013,47.2
-5116,ROU,Romania,1990,15.4
-5123,ROU,Romania,1995,15.8
-5128,ROU,Romania,2000,16.9
-5135,ROU,Romania,2005,18.3
-5140,ROU,Romania,2010,19.0
-5147,ROU,Romania,2013,19.4
-5153,RUS,Russia,1990,17.1
-5158,RUS,Russia,1995,19.1
-5165,RUS,Russia,2000,22.0
-5171,RUS,Russia,2005,23.1
-5177,RUS,Russia,2010,22.8
-5183,RUS,Russia,2013,22.8
-5188,RWA,Rwanda,1990,2.3
-5195,RWA,Rwanda,1995,2.2
-5201,RWA,Rwanda,2000,2.3
-5206,RWA,Rwanda,2005,2.5
-5213,RWA,Rwanda,2010,2.8
-5219,RWA,Rwanda,2013,3.0
-5224,SAU,Saudi Arabia,1990,24.3
-5230,SAU,Saudi Arabia,1995,27.1
-5236,SAU,Saudi Arabia,2000,33.1
-5242,SAU,Saudi Arabia,2005,34.5
-5248,SAU,Saudi Arabia,2010,35.2
-5254,SAU,Saudi Arabia,2013,35.8
-5260,SDN,Sudan,1990,12.9
-5267,SDN,Sudan,1995,13.6
-5272,SDN,Sudan,2000,14.2
-5279,SDN,Sudan,2005,14.7
-5285,SDN,Sudan,2010,15.2
-5290,SDN,Sudan,2013,15.6
-5297,SEN,Senegal,1990,9.9
-5303,SEN,Senegal,1995,10.8
-5309,SEN,Senegal,2000,13.2
-5314,SEN,Senegal,2005,15.0
-5320,SEN,Senegal,2010,16.1
-5327,SEN,Senegal,2013,16.3
-5332,SGP,Singapore,1990,6.5
-5338,SGP,Singapore,1995,6.8
-5345,SGP,Singapore,2000,8.5
-5350,SGP,Singapore,2005,9.9
-5357,SGP,Singapore,2010,11.0
-5363,SGP,Singapore,2013,11.4
-5368,SLB,Solomon Islands,1990,27.5
-5374,SLB,Solomon Islands,1995,28.8
-5381,SLB,Solomon Islands,2000,29.6
-5387,SLB,Solomon Islands,2005,30.5
-5393,SLB,Solomon Islands,2010,31.1
-5399,SLB,Solomon Islands,2013,31.6
-5405,SLE,Sierra Leone,1990,7.2
-5410,SLE,Sierra Leone,1995,7.6
-5416,SLE,Sierra Leone,2000,7.9
-5423,SLE,Sierra Leone,2005,8.2
-5429,SLE,Sierra Leone,2010,8.5
-5434,SLE,Sierra Leone,2013,8.7
-5440,SLV,El Salvador,1990,14.4
-5446,SLV,El Salvador,1995,15.2
-5453,SLV,El Salvador,2000,17.2
-5459,SLV,El Salvador,2005,19.5
-5465,SLV,El Salvador,2010,21.0
-5471,SLV,El Salvador,2013,21.3
-5477,SOM,Somalia,1990,9.4
-5482,SOM,Somalia,1995,9.4
-5488,SOM,Somalia,2000,9.6
-5495,SOM,Somalia,2005,9.8
-5500,SOM,Somalia,2010,9.9
-5506,SOM,Somalia,2013,10.0
-5512,SRB,Serbia,1990,15.0
-5518,SRB,Serbia,1995,15.7
-5524,SRB,Serbia,2000,16.3
-5531,SRB,Serbia,2005,16.9
-5536,SRB,Serbia,2010,17.5
-5542,SRB,Serbia,2013,17.8
-5549,SSD,South Sudan,1990,19.8
-5554,SSD,South Sudan,1995,19.9
-5560,SSD,South Sudan,2000,20.4
-5566,SSD,South Sudan,2005,20.9
-5572,SSD,South Sudan,2010,21.3
-5579,SSD,South Sudan,2013,21.6
-5585,STP,Sao Tome and Principe,1990,8.7
-5590,STP,Sao Tome and Principe,1995,9.4
-5596,STP,Sao Tome and Principe,2000,10.4
-5603,STP,Sao Tome and Principe,2005,11.5
-5608,STP,Sao Tome and Principe,2010,12.3
-5614,STP,Sao Tome and Principe,2013,12.7
-5620,SUR,Suriname,1990,20.5
-5626,SUR,Suriname,1995,20.9
-5632,SUR,Suriname,2000,21.3
-5639,SUR,Suriname,2005,21.8
-5644,SUR,Suriname,2010,23.0
-5650,SUR,Suriname,2013,23.4
-5657,SVK,Slovakia,1990,19.2
-5663,SVK,Slovakia,1995,19.9
-5669,SVK,Slovakia,2000,19.4
-5675,SVK,Slovakia,2005,19.1
-5681,SVK,Slovakia,2010,19.4
-5686,SVK,Slovakia,2013,19.7
-5693,SVN,Slovenia,1990,16.1
-5699,SVN,Slovenia,1995,17.1
-5704,SVN,Slovenia,2000,18.6
-5711,SVN,Slovenia,2005,19.9
-5716,SVN,Slovenia,2010,20.8
-5723,SVN,Slovenia,2013,21.2
-5729,SWE,Sweden,1990,15.5
-5734,SWE,Sweden,1995,16.7
-5740,SWE,Sweden,2000,17.9
-5747,SWE,Sweden,2005,18.4
-5752,SWE,Sweden,2010,18.9
-5758,SWE,Sweden,2013,19.4
-5764,SWZ,Swaziland,1990,23.7
-5771,SWZ,Swaziland,1995,22.8
-5776,SWZ,Swaziland,2000,23.5
-5783,SWZ,Swaziland,2005,24.0
-5788,SWZ,Swaziland,2010,23.3
-5794,SWZ,Swaziland,2013,23.1
-5800,SYC,Seychelles,1990,13.1
-5807,SYC,Seychelles,1995,15.7
-5812,SYC,Seychelles,2000,19.5
-5819,SYC,Seychelles,2005,21.4
-5825,SYC,Seychelles,2010,20.8
-5830,SYC,Seychelles,2013,20.7
-5837,SYR,Syria,1990,27.3
-5843,SYR,Syria,1995,28.1
-5849,SYR,Syria,2000,29.1
-5855,SYR,Syria,2005,29.8
-5860,SYR,Syria,2010,31.2
-5867,SYR,Syria,2013,32.0
-5873,TCD,Chad,1990,3.2
-5879,TCD,Chad,1995,3.5
-5885,TCD,Chad,2000,4.0
-5890,TCD,Chad,2005,4.3
-5896,TCD,Chad,2010,4.5
-5902,TCD,Chad,2013,4.5
-5908,TGO,Togo,1990,3.6
-5915,TGO,Togo,1995,4.0
-5920,TGO,Togo,2000,5.2
-5927,TGO,Togo,2005,6.5
-5933,TGO,Togo,2010,7.4
-5939,TGO,Togo,2013,7.5
-5944,THA,Thailand,1990,4.3
-5950,THA,Thailand,1995,5.2
-5957,THA,Thailand,2000,6.7
-5962,THA,Thailand,2005,8.0
-5969,THA,Thailand,2010,8.9
-5974,THA,Thailand,2013,8.9
-5981,TJK,Tajikistan,1990,10.2
-5987,TJK,Tajikistan,1995,10.3
-5992,TJK,Tajikistan,2000,11.2
-5998,TJK,Tajikistan,2005,12.1
-6004,TJK,Tajikistan,2010,12.7
-6010,TJK,Tajikistan,2013,13.2
-6017,TKM,Turkmenistan,1990,15.4
-6023,TKM,Turkmenistan,1995,15.5
-6029,TKM,Turkmenistan,2000,16.2
-6035,TKM,Turkmenistan,2005,17.2
-6041,TKM,Turkmenistan,2010,18.0
-6047,TKM,Turkmenistan,2013,18.4
-6052,TLS,Timor-Leste,1990,4.5
-6058,TLS,Timor-Leste,1995,4.5
-6065,TLS,Timor-Leste,2000,4.4
-6071,TLS,Timor-Leste,2005,4.6
-6076,TLS,Timor-Leste,2010,4.7
-6082,TLS,Timor-Leste,2013,4.8
-6089,TON,Tonga,1990,54.5
-6095,TON,Tonga,1995,56.1
-6100,TON,Tonga,2000,58.0
-6107,TON,Tonga,2005,59.5
-6113,TON,Tonga,2010,59.8
-6119,TON,Tonga,2013,60.1
-6125,TTO,Trinidad and Tobago,1990,25.9
-6130,TTO,Trinidad and Tobago,1995,25.4
-6136,TTO,Trinidad and Tobago,2000,26.1
-6142,TTO,Trinidad and Tobago,2005,26.8
-6148,TTO,Trinidad and Tobago,2010,28.3
-6155,TTO,Trinidad and Tobago,2013,28.8
-6160,TUN,Tunisia,1990,11.5
-6167,TUN,Tunisia,1995,12.0
-6173,TUN,Tunisia,2000,12.7
-6179,TUN,Tunisia,2005,13.1
-6184,TUN,Tunisia,2010,13.6
-6191,TUN,Tunisia,2013,14.0
-6197,TUR,Turkey,1990,25.7
-6203,TUR,Turkey,1995,25.9
-6209,TUR,Turkey,2000,26.2
-6214,TUR,Turkey,2005,26.2
-6220,TUR,Turkey,2010,26.4
-6227,TUR,Turkey,2013,27.6
-6232,TWN,Taiwan,1990,4.0
-6239,TWN,Taiwan,1995,4.2
-6245,TWN,Taiwan,2000,4.5
-6250,TWN,Taiwan,2005,4.8
-6257,TWN,Taiwan,2010,5.2
-6263,TWN,Taiwan,2013,5.3
-6269,TZA,Tanzania,1990,6.3
-6274,TZA,Tanzania,1995,6.5
-6280,TZA,Tanzania,2000,8.1
-6287,TZA,Tanzania,2005,9.2
-6293,TZA,Tanzania,2010,10.1
-6298,TZA,Tanzania,2013,10.4
-6304,UGA,Uganda,1990,3.1
-6310,UGA,Uganda,1995,3.1
-6317,UGA,Uganda,2000,3.6
-6322,UGA,Uganda,2005,4.0
-6329,UGA,Uganda,2010,4.2
-6335,UGA,Uganda,2013,4.3
-6341,UKR,Ukraine,1990,18.7
-6346,UKR,Ukraine,1995,18.2
-6352,UKR,Ukraine,2000,18.5
-6359,UKR,Ukraine,2005,19.8
-6365,UKR,Ukraine,2010,20.4
-6371,UKR,Ukraine,2013,20.5
-6377,URY,Uruguay,1990,22.4
-6382,URY,Uruguay,1995,23.3
-6388,URY,Uruguay,2000,23.8
-6395,URY,Uruguay,2005,24.1
-6400,URY,Uruguay,2010,24.3
-6406,URY,Uruguay,2013,24.5
-6413,USA,United States,1990,21.9
-6419,USA,United States,1995,23.1
-6425,USA,United States,2000,28.7
-6430,USA,United States,2005,32.6
-6437,USA,United States,2010,33.3
-6443,USA,United States,2013,32.8
-6448,UZB,Uzbekistan,1990,11.9
-6454,UZB,Uzbekistan,1995,12.0
-6460,UZB,Uzbekistan,2000,11.9
-6467,UZB,Uzbekistan,2005,12.6
-6473,UZB,Uzbekistan,2010,13.3
-6478,UZB,Uzbekistan,2013,13.7
-6484,VCT,Saint Vincent and the Grenadines,1990,14.9
-6490,VCT,Saint Vincent and the Grenadines,1995,15.0
-6496,VCT,Saint Vincent and the Grenadines,2000,16.2
-6502,VCT,Saint Vincent and the Grenadines,2005,17.7
-6509,VCT,Saint Vincent and the Grenadines,2010,18.8
-6515,VCT,Saint Vincent and the Grenadines,2013,19.3
-6521,VEN,Venezuela,1990,13.9
-6526,VEN,Venezuela,1995,13.8
-6533,VEN,Venezuela,2000,14.2
-6538,VEN,Venezuela,2005,15.4
-6544,VEN,Venezuela,2010,17.4
-6550,VEN,Venezuela,2013,18.3
-6556,VNM,Vietnam,1990,1.1
-6562,VNM,Vietnam,1995,1.2
-6569,VNM,Vietnam,2000,1.2
-6575,VNM,Vietnam,2005,1.4
-6581,VNM,Vietnam,2010,1.5
-6587,VNM,Vietnam,2013,1.6
-6592,VUT,Vanuatu,1990,15.7
-6598,VUT,Vanuatu,1995,16.1
-6604,VUT,Vanuatu,2000,16.4
-6610,VUT,Vanuatu,2005,16.7
-6616,VUT,Vanuatu,2010,17.2
-6623,VUT,Vanuatu,2013,17.7
-6629,WSM,Samoa,1990,51.7
-6634,WSM,Samoa,1995,52.1
-6640,WSM,Samoa,2000,54.5
-6647,WSM,Samoa,2005,56.2
-6653,WSM,Samoa,2010,57.0
-6659,WSM,Samoa,2013,57.6
-6664,YEM,Yemen,1990,14.3
-6670,YEM,Yemen,1995,13.2
-6676,YEM,Yemen,2000,13.6
-6682,YEM,Yemen,2005,14.0
-6689,YEM,Yemen,2010,14.4
-6694,YEM,Yemen,2013,14.7
-6700,ZAF,South Africa,1990,22.0
-6707,ZAF,South Africa,1995,22.3
-6712,ZAF,South Africa,2000,23.2
-6718,ZAF,South Africa,2005,24.9
-6725,ZAF,South Africa,2010,27.7
-6730,ZAF,South Africa,2013,28.8
-6737,ZMB,Zambia,1990,7.4
-6743,ZMB,Zambia,1995,7.6
-6749,ZMB,Zambia,2000,8.3
-6754,ZMB,Zambia,2005,9.0
-6761,ZMB,Zambia,2010,9.5
-6766,ZMB,Zambia,2013,9.6
-6773,ZWE,Zimbabwe,1990,8.4
-6778,ZWE,Zimbabwe,1995,8.5
-6784,ZWE,Zimbabwe,2000,9.3
-6791,ZWE,Zimbabwe,2005,10.0
-6796,ZWE,Zimbabwe,2010,10.8
-6803,ZWE,Zimbabwe,2013,11.2
+,location,location_name,super_region_name,region_name,year,mean,global_rank,super_region_rank
+0,AFG,Afghanistan,South Asia,South Asia,1990,13.3,106.5,1.0
+90,BGD,Bangladesh,South Asia,South Asia,1990,2.1,184.0,5.0
+156,BTN,Bhutan,South Asia,South Asia,1990,12.4,111.0,2.0
+462,IND,India,South Asia,South Asia,1990,3.3,170.0,4.0
+762,NPL,Nepal,South Asia,South Asia,1990,1.8,186.0,6.0
+780,PAK,Pakistan,South Asia,South Asia,1990,11.2,121.0,3.0
+6,AGO,Angola,Sub-Saharan Africa,Central Sub-Saharan Africa,1990,11.6,117.0,11.0
+66,BDI,Burundi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,2.9,177.0,45.0
+78,BEN,Benin,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,5.3,155.0,32.0
+84,BFA,Burkina Faso,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,3.9,165.0,37.0
+162,BWA,Botswana,Sub-Saharan Africa,Southern Sub-Saharan Africa,1990,14.9,87.0,6.0
+168,CAF,Central African Republic,Sub-Saharan Africa,Central Sub-Saharan Africa,1990,6.5,150.0,29.0
+198,CIV,Cote d'Ivoire,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,3.5,168.5,39.0
+204,CMR,Cameroon,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,9.9,131.5,15.5
+210,COD,Democratic Republic of the Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,1990,4.0,163.5,36.0
+216,COG,Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,1990,11.3,120.0,12.0
+228,COM,Comoros,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,9.8,133.5,17.5
+234,CPV,Cape Verde,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,9.6,136.0,19.0
+270,DJI,Djibouti,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,9.8,133.5,17.5
+312,ERI,Eritrea,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,3.2,172.0,41.0
+330,ETH,Ethiopia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,2.1,184.0,48.0
+360,GAB,Gabon,Sub-Saharan Africa,Central Sub-Saharan Africa,1990,13.4,105.0,9.0
+378,GHA,Ghana,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,4.8,158.0,34.0
+384,GIN,Guinea,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,4.3,161.0,35.0
+390,GMB,The Gambia,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,9.4,137.5,20.5
+396,GNB,Guinea-Bissau,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,10.1,129.0,14.0
+402,GNQ,Equatorial Guinea,Sub-Saharan Africa,Central Sub-Saharan Africa,1990,26.3,17.0,1.0
+528,KEN,Kenya,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,9.0,139.0,22.0
+576,LBR,Liberia,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,13.8,101.5,8.0
+600,LSO,Lesotho,Sub-Saharan Africa,Southern Sub-Saharan Africa,1990,16.6,66.0,5.0
+636,MDG,Madagascar,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,2.8,178.5,46.0
+666,MLI,Mali,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,6.9,147.0,28.0
+696,MOZ,Mozambique,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,4.9,157.0,33.0
+702,MRT,Mauritania,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,14.5,92.0,7.0
+708,MUS,Mauritius,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,10.5,126.0,13.0
+714,MWI,Malawi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,3.2,172.0,41.0
+726,NAM,Namibia,Sub-Saharan Africa,Southern Sub-Saharan Africa,1990,8.8,141.0,23.0
+732,NER,Niger,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,3.1,174.5,43.5
+738,NGA,Nigeria,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,6.3,152.5,30.5
+858,RWA,Rwanda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,2.3,181.0,47.0
+876,SEN,Senegal,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,9.9,131.5,15.5
+894,SLE,Sierra Leone,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,7.2,146.0,27.0
+906,SOM,Somalia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,9.4,137.5,20.5
+918,SSD,South Sudan,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,19.8,41.0,4.0
+924,STP,Sao Tome and Principe,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,8.7,142.0,24.0
+954,SWZ,Swaziland,Sub-Saharan Africa,Southern Sub-Saharan Africa,1990,23.7,25.0,2.0
+960,SYC,Seychelles,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,13.1,108.0,10.0
+972,TCD,Chad,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,3.2,172.0,41.0
+978,TGO,Togo,Sub-Saharan Africa,Western Sub-Saharan Africa,1990,3.6,167.0,38.0
+1038,TZA,Tanzania,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,6.3,152.5,30.5
+1044,UGA,Uganda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,3.1,174.5,43.5
+1110,ZAF,South Africa,Sub-Saharan Africa,Southern Sub-Saharan Africa,1990,22.0,33.0,3.0
+1116,ZMB,Zambia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1990,7.4,145.0,26.0
+1122,ZWE,Zimbabwe,Sub-Saharan Africa,Southern Sub-Saharan Africa,1990,8.4,143.0,25.0
+12,ALB,Albania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,7.6,144.0,29.0
+36,ARM,Armenia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,15.2,82.5,18.5
+60,AZE,Azerbaijan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,13.6,103.0,24.0
+96,BGR,Bulgaria,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,21.9,34.5,3.0
+114,BIH,Bosnia and Herzegovina,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,14.6,90.0,21.0
+120,BLR,Belarus,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1990,10.7,125.0,27.0
+258,CZE,Czech Republic,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,18.1,57.0,10.0
+324,EST,Estonia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1990,18.4,54.0,9.0
+372,GEO,Georgia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,13.8,101.5,23.0
+438,HRV,Croatia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,15.2,82.5,18.5
+450,HUN,Hungary,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,24.3,22.5,1.0
+522,KAZ,Kazakhstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,17.2,61.0,12.0
+534,KGZ,Kyrgyzstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,14.0,98.0,22.0
+606,LTU,Lithuania,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1990,17.8,58.0,11.0
+618,LVA,Latvia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1990,22.2,31.0,2.0
+630,MDA,Moldova,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1990,19.2,44.5,4.5
+660,MKD,Macedonia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,15.9,71.5,15.0
+684,MNE,Montenegro,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,18.7,48.5,6.5
+690,MNG,Mongolia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,11.4,119.0,26.0
+810,POL,Poland,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,18.6,51.0,8.0
+846,ROU,Romania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,15.4,79.5,16.5
+852,RUS,Russia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1990,17.1,62.0,13.0
+912,SRB,Serbia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,15.0,84.5,20.0
+936,SVK,Slovakia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,19.2,44.5,4.5
+942,SVN,Slovenia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1990,16.1,68.5,14.0
+990,TJK,Tajikistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,10.2,127.5,28.0
+996,TKM,Turkmenistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,15.4,79.5,16.5
+1050,UKR,Ukraine,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1990,18.7,48.5,6.5
+1068,UZB,Uzbekistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1990,11.9,114.5,25.0
+18,AND,Andorra,High-income,Western Europe,1990,6.7,148.0,29.0
+30,ARG,Argentina,High-income,Southern Latin America,1990,21.1,38.0,7.0
+48,AUS,Australia,High-income,Australasia,1990,15.6,76.0,20.0
+54,AUT,Austria,High-income,Western Europe,1990,13.5,104.0,27.0
+72,BEL,Belgium,High-income,Western Europe,1990,16.9,63.5,14.5
+150,BRN,Brunei,High-income,High-income Asia Pacific,1990,2.8,178.5,32.0
+174,CAN,Canada,High-income,High-income North America,1990,16.7,65.0,16.0
+180,CHE,Switzerland,High-income,Western Europe,1990,14.5,92.0,24.0
+186,CHL,Chile,High-income,Southern Latin America,1990,22.2,31.0,4.0
+252,CYP,Cyprus,High-income,Western Europe,1990,22.6,28.0,2.0
+264,DEU,Germany,High-income,Western Europe,1990,18.2,56.0,12.0
+282,DNK,Denmark,High-income,Western Europe,1990,14.2,97.0,26.0
+318,ESP,Spain,High-income,Western Europe,1990,18.4,54.0,11.0
+336,FIN,Finland,High-income,Western Europe,1990,16.9,63.5,14.5
+348,FRA,France,High-income,Western Europe,1990,15.7,74.0,18.5
+366,GBR,United Kingdom,High-income,Western Europe,1990,14.9,87.0,23.0
+408,GRC,Greece,High-income,Western Europe,1990,17.3,60.0,13.0
+468,IRL,Ireland,High-income,Western Europe,1990,15.7,74.0,18.5
+486,ISL,Iceland,High-income,Western Europe,1990,21.7,36.0,6.0
+492,ISR,Israel,High-income,Western Europe,1990,19.5,42.5,8.0
+498,ITA,Italy,High-income,Western Europe,1990,15.4,79.5,22.0
+516,JPN,Japan,High-income,High-income Asia Pacific,1990,2.2,182.0,33.0
+552,KOR,South Korea,High-income,High-income Asia Pacific,1990,5.6,154.0,31.0
+612,LUX,Luxembourg,High-income,Western Europe,1990,19.1,46.0,9.0
+672,MLT,Malta,High-income,Western Europe,1990,24.0,24.0,1.0
+750,NLD,Netherlands,High-income,Western Europe,1990,13.3,106.5,28.0
+756,NOR,Norway,High-income,Western Europe,1990,14.4,94.5,25.0
+768,NZL,New Zealand,High-income,Australasia,1990,16.1,68.5,17.0
+822,PRT,Portugal,High-income,Western Europe,1990,18.6,51.0,10.0
+882,SGP,Singapore,High-income,High-income Asia Pacific,1990,6.5,150.0,30.0
+948,SWE,Sweden,High-income,Western Europe,1990,15.5,77.0,21.0
+1056,URY,Uruguay,High-income,Southern Latin America,1990,22.4,29.0,3.0
+1062,USA,United States,High-income,High-income North America,1990,21.9,34.5,5.0
+24,ARE,United Arab Emirates,North Africa and Middle East,North Africa and Middle East,1990,27.6,13.0,6.0
+102,BHR,Bahrain,North Africa and Middle East,North Africa and Middle East,1990,26.1,18.0,9.0
+294,DZA,Algeria,North Africa and Middle East,North Africa and Middle East,1990,13.9,99.5,18.0
+306,EGY,Egypt,North Africa and Middle East,North Africa and Middle East,1990,28.8,12.0,5.0
+474,IRN,Iran,North Africa and Middle East,North Africa and Middle East,1990,18.6,51.0,14.0
+480,IRQ,Iraq,North Africa and Middle East,North Africa and Middle East,1990,25.6,21.0,11.0
+510,JOR,Jordan,North Africa and Middle East,North Africa and Middle East,1990,31.3,8.0,4.0
+558,KWT,Kuwait,North Africa and Middle East,North Africa and Middle East,1990,34.6,7.0,3.0
+570,LBN,Lebanon,North Africa and Middle East,North Africa and Middle East,1990,22.8,27.0,13.0
+582,LBY,Libya,North Africa and Middle East,North Africa and Middle East,1990,41.3,5.0,2.0
+624,MAR,Morocco,North Africa and Middle East,North Africa and Middle East,1990,15.9,71.5,16.0
+774,OMN,Oman,North Africa and Middle East,North Africa and Middle East,1990,16.4,67.0,15.0
+834,PSE,Palestine,North Africa and Middle East,North Africa and Middle East,1990,27.5,14.5,7.0
+840,QAT,Qatar,North Africa and Middle East,North Africa and Middle East,1990,46.9,3.0,1.0
+864,SAU,Saudi Arabia,North Africa and Middle East,North Africa and Middle East,1990,24.3,22.5,12.0
+870,SDN,Sudan,North Africa and Middle East,North Africa and Middle East,1990,12.9,109.0,19.0
+966,SYR,Syria,North Africa and Middle East,North Africa and Middle East,1990,27.3,16.0,8.0
+1020,TUN,Tunisia,North Africa and Middle East,North Africa and Middle East,1990,11.5,118.0,20.0
+1026,TUR,Turkey,North Africa and Middle East,North Africa and Middle East,1990,25.7,20.0,10.0
+1104,YEM,Yemen,North Africa and Middle East,North Africa and Middle East,1990,14.3,96.0,17.0
+42,ATG,Antigua and Barbuda,Latin America and Caribbean,Caribbean,1990,14.5,92.0,17.0
+108,BHS,The Bahamas,Latin America and Caribbean,Caribbean,1990,31.0,9.0,1.0
+126,BLZ,Belize,Latin America and Caribbean,Caribbean,1990,29.6,11.0,2.0
+132,BOL,Bolivia,Latin America and Caribbean,Andean Latin America,1990,12.6,110.0,20.0
+138,BRA,Brazil,Latin America and Caribbean,Tropical Latin America,1990,10.8,123.5,26.0
+144,BRB,Barbados,Latin America and Caribbean,Caribbean,1990,22.2,31.0,5.0
+222,COL,Colombia,Latin America and Caribbean,Central Latin America,1990,10.9,122.0,25.0
+240,CRI,Costa Rica,Latin America and Caribbean,Central Latin America,1990,19.5,42.5,8.0
+246,CUB,Cuba,Latin America and Caribbean,Caribbean,1990,19.0,47.0,9.0
+276,DMA,Dominica,Latin America and Caribbean,Caribbean,1990,21.6,37.0,6.0
+288,DOM,Dominican Republic,Latin America and Caribbean,Caribbean,1990,11.9,114.5,23.0
+300,ECU,Ecuador,Latin America and Caribbean,Andean Latin America,1990,12.0,113.0,22.0
+414,GRD,Grenada,Latin America and Caribbean,Caribbean,1990,15.0,84.5,14.0
+420,GTM,Guatemala,Latin America and Caribbean,Central Latin America,1990,10.2,127.5,27.0
+426,GUY,Guyana,Latin America and Caribbean,Caribbean,1990,18.4,54.0,10.0
+432,HND,Honduras,Latin America and Caribbean,Central Latin America,1990,10.0,130.0,28.0
+444,HTI,Haiti,Latin America and Caribbean,Caribbean,1990,6.5,150.0,29.0
+504,JAM,Jamaica,Latin America and Caribbean,Caribbean,1990,16.0,70.0,12.0
+588,LCA,Saint Lucia,Latin America and Caribbean,Caribbean,1990,14.7,89.0,16.0
+648,MEX,Mexico,Latin America and Caribbean,Central Latin America,1990,17.7,59.0,11.0
+744,NIC,Nicaragua,Latin America and Caribbean,Central Latin America,1990,15.4,79.5,13.0
+786,PAN,Panama,Latin America and Caribbean,Central Latin America,1990,11.7,116.0,24.0
+792,PER,Peru,Latin America and Caribbean,Andean Latin America,1990,12.2,112.0,21.0
+828,PRY,Paraguay,Latin America and Caribbean,Tropical Latin America,1990,23.4,26.0,4.0
+900,SLV,El Salvador,Latin America and Caribbean,Central Latin America,1990,14.4,94.5,18.0
+930,SUR,Suriname,Latin America and Caribbean,Caribbean,1990,20.5,40.0,7.0
+1014,TTO,Trinidad and Tobago,Latin America and Caribbean,Caribbean,1990,25.9,19.0,3.0
+1074,VCT,Saint Vincent and the Grenadines,Latin America and Caribbean,Caribbean,1990,14.9,87.0,15.0
+1080,VEN,Venezuela,Latin America and Caribbean,Central Latin America,1990,13.9,99.5,19.0
+192,CHN,China,"Southeast Asia, East Asia, and Oceania",East Asia,1990,2.1,184.0,21.0
+342,FJI,Fiji,"Southeast Asia, East Asia, and Oceania",Oceania,1990,21.0,39.0,7.0
+354,FSM,Federated States of Micronesia,"Southeast Asia, East Asia, and Oceania",Oceania,1990,38.7,6.0,4.0
+456,IDN,Indonesia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,3.0,176.0,19.0
+540,KHM,Cambodia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,1.5,187.0,22.0
+546,KIR,Kiribati,"Southeast Asia, East Asia, and Oceania",Oceania,1990,42.8,4.0,3.0
+564,LAO,Laos,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,4.3,161.0,14.5
+594,LKA,Sri Lanka,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,3.7,166.0,17.0
+642,MDV,Maldives,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,9.7,135.0,10.0
+654,MHL,Marshall Islands,"Southeast Asia, East Asia, and Oceania",Oceania,1990,30.9,10.0,5.0
+678,MMR,Myanmar,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,5.1,156.0,12.0
+720,MYS,Malaysia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,10.8,123.5,9.0
+798,PHL,Philippines,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,3.5,168.5,18.0
+804,PNG,Papua New Guinea,"Southeast Asia, East Asia, and Oceania",Oceania,1990,8.9,140.0,11.0
+816,PRK,North Korea,"Southeast Asia, East Asia, and Oceania",East Asia,1990,2.6,180.0,20.0
+888,SLB,Solomon Islands,"Southeast Asia, East Asia, and Oceania",Oceania,1990,27.5,14.5,6.0
+984,THA,Thailand,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,4.3,161.0,14.5
+1002,TLS,Timor-Leste,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,4.5,159.0,13.0
+1008,TON,Tonga,"Southeast Asia, East Asia, and Oceania",Oceania,1990,54.5,1.0,1.0
+1032,TWN,Taiwan,"Southeast Asia, East Asia, and Oceania",East Asia,1990,4.0,163.5,16.0
+1086,VNM,Vietnam,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1990,1.1,188.0,23.0
+1092,VUT,Vanuatu,"Southeast Asia, East Asia, and Oceania",Oceania,1990,15.7,74.0,8.0
+1098,WSM,Samoa,"Southeast Asia, East Asia, and Oceania",Oceania,1990,51.7,2.0,2.0
+1,AFG,Afghanistan,South Asia,South Asia,1995,13.7,105.0,1.0
+91,BGD,Bangladesh,South Asia,South Asia,1995,2.2,184.0,5.0
+157,BTN,Bhutan,South Asia,South Asia,1995,12.9,110.5,2.0
+463,IND,India,South Asia,South Asia,1995,3.4,171.5,4.0
+763,NPL,Nepal,South Asia,South Asia,1995,1.9,186.0,6.0
+781,PAK,Pakistan,South Asia,South Asia,1995,11.6,120.0,3.0
+7,AGO,Angola,Sub-Saharan Africa,Central Sub-Saharan Africa,1995,12.0,117.0,11.0
+67,BDI,Burundi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,2.8,178.0,45.0
+79,BEN,Benin,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,6.0,154.5,32.5
+85,BFA,Burkina Faso,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,4.5,161.0,35.0
+163,BWA,Botswana,Sub-Saharan Africa,Southern Sub-Saharan Africa,1995,14.9,97.0,8.0
+169,CAF,Central African Republic,Sub-Saharan Africa,Central Sub-Saharan Africa,1995,6.6,152.0,30.0
+199,CIV,Cote d'Ivoire,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,4.2,164.5,37.0
+205,CMR,Cameroon,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,10.5,129.5,16.0
+211,COD,Democratic Republic of the Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,1995,4.1,166.0,38.0
+217,COG,Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,1995,11.3,122.0,12.0
+229,COM,Comoros,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,10.0,135.0,18.0
+235,CPV,Cape Verde,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,9.9,136.0,19.0
+271,DJI,Djibouti,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,10.4,131.0,17.0
+313,ERI,Eritrea,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,3.4,171.5,41.0
+331,ETH,Ethiopia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,2.2,184.0,47.5
+361,GAB,Gabon,Sub-Saharan Africa,Central Sub-Saharan Africa,1995,13.8,103.5,9.0
+379,GHA,Ghana,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,6.0,154.5,32.5
+385,GIN,Guinea,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,4.3,163.0,36.0
+391,GMB,The Gambia,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,9.8,137.0,20.0
+397,GNB,Guinea-Bissau,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,11.0,124.0,13.0
+403,GNQ,Equatorial Guinea,Sub-Saharan Africa,Central Sub-Saharan Africa,1995,26.8,20.0,1.0
+529,KEN,Kenya,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,9.3,140.0,23.0
+577,LBR,Liberia,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,13.3,107.0,10.0
+601,LSO,Lesotho,Sub-Saharan Africa,Southern Sub-Saharan Africa,1995,16.7,74.0,5.0
+637,MDG,Madagascar,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,2.7,179.0,46.0
+667,MLI,Mali,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,7.6,147.0,28.0
+697,MOZ,Mozambique,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,5.1,159.0,34.0
+703,MRT,Mauritania,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,15.6,88.5,7.0
+709,MUS,Mauritius,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,10.9,126.0,14.0
+715,MWI,Malawi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,3.2,174.0,42.5
+727,NAM,Namibia,Sub-Saharan Africa,Southern Sub-Saharan Africa,1995,9.1,141.0,24.0
+733,NER,Niger,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,3.2,174.0,42.5
+739,NGA,Nigeria,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,8.2,144.0,26.0
+859,RWA,Rwanda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,2.2,184.0,47.5
+877,SEN,Senegal,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,10.8,127.0,15.0
+895,SLE,Sierra Leone,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,7.6,147.0,28.0
+907,SOM,Somalia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,9.4,138.5,21.5
+919,SSD,South Sudan,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,19.9,45.5,4.0
+925,STP,Sao Tome and Principe,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,9.4,138.5,21.5
+955,SWZ,Swaziland,Sub-Saharan Africa,Southern Sub-Saharan Africa,1995,22.8,30.0,2.0
+961,SYC,Seychelles,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,15.7,86.0,6.0
+973,TCD,Chad,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,3.5,170.0,40.0
+979,TGO,Togo,Sub-Saharan Africa,Western Sub-Saharan Africa,1995,4.0,167.0,39.0
+1039,TZA,Tanzania,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,6.5,153.0,31.0
+1045,UGA,Uganda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,3.1,176.0,44.0
+1111,ZAF,South Africa,Sub-Saharan Africa,Southern Sub-Saharan Africa,1995,22.3,32.0,3.0
+1117,ZMB,Zambia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,1995,7.6,147.0,28.0
+1123,ZWE,Zimbabwe,Sub-Saharan Africa,Southern Sub-Saharan Africa,1995,8.5,143.0,25.0
+13,ALB,Albania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,8.0,145.0,29.0
+37,ARM,Armenia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,15.7,86.0,19.5
+61,AZE,Azerbaijan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,13.9,101.5,24.0
+97,BGR,Bulgaria,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,19.2,53.5,7.0
+115,BIH,Bosnia and Herzegovina,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,15.9,82.5,17.0
+121,BLR,Belarus,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1995,11.0,124.0,26.5
+259,CZE,Czech Republic,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,18.7,57.5,9.5
+325,EST,Estonia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1995,19.4,50.0,5.5
+373,GEO,Georgia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,15.3,91.5,22.0
+439,HRV,Croatia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,16.1,78.5,16.0
+451,HUN,Hungary,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,22.5,31.0,1.0
+523,KAZ,Kazakhstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,17.3,68.0,13.0
+535,KGZ,Kyrgyzstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,14.1,100.0,23.0
+607,LTU,Lithuania,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1995,18.7,57.5,9.5
+619,LVA,Latvia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1995,21.8,38.0,2.0
+631,MDA,Moldova,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1995,19.5,48.0,4.0
+661,MKD,Macedonia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,16.7,74.0,15.0
+685,MNE,Montenegro,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,19.4,50.0,5.5
+691,MNG,Mongolia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,11.0,124.0,26.5
+811,POL,Poland,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,18.5,60.0,11.0
+847,ROU,Romania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,15.8,84.0,18.0
+853,RUS,Russia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1995,19.1,55.0,8.0
+913,SRB,Serbia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,15.7,86.0,19.5
+937,SVK,Slovakia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,19.9,45.5,3.0
+943,SVN,Slovenia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,1995,17.1,69.0,14.0
+991,TJK,Tajikistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,10.3,132.5,28.0
+997,TKM,Turkmenistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,15.5,90.0,21.0
+1051,UKR,Ukraine,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,1995,18.2,62.0,12.0
+1069,UZB,Uzbekistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,1995,12.0,117.0,25.0
+19,AND,Andorra,High-income,Western Europe,1995,7.4,149.0,29.0
+31,ARG,Argentina,High-income,Southern Latin America,1995,21.9,37.0,7.0
+49,AUS,Australia,High-income,Australasia,1995,18.3,61.0,15.0
+55,AUT,Austria,High-income,Western Europe,1995,15.3,91.5,25.0
+73,BEL,Belgium,High-income,Western Europe,1995,18.6,59.0,14.0
+151,BRN,Brunei,High-income,High-income Asia Pacific,1995,3.0,177.0,32.0
+175,CAN,Canada,High-income,High-income North America,1995,19.0,56.0,13.0
+181,CHE,Switzerland,High-income,Western Europe,1995,14.6,98.0,27.0
+187,CHL,Chile,High-income,Southern Latin America,1995,23.4,26.0,2.0
+253,CYP,Cyprus,High-income,Western Europe,1995,23.2,28.0,4.0
+265,DEU,Germany,High-income,Western Europe,1995,19.4,50.0,12.0
+283,DNK,Denmark,High-income,Western Europe,1995,16.0,80.5,23.0
+319,ESP,Spain,High-income,Western Europe,1995,20.2,42.5,10.0
+337,FIN,Finland,High-income,Western Europe,1995,17.4,67.0,19.0
+349,FRA,France,High-income,Western Europe,1995,16.9,71.5,21.0
+367,GBR,United Kingdom,High-income,Western Europe,1995,17.0,70.0,20.0
+409,GRC,Greece,High-income,Western Europe,1995,17.7,65.0,18.0
+469,IRL,Ireland,High-income,Western Europe,1995,18.1,63.0,16.0
+487,ISL,Iceland,High-income,Western Europe,1995,22.1,35.0,6.0
+493,ISR,Israel,High-income,Western Europe,1995,21.2,39.0,8.0
+499,ITA,Italy,High-income,Western Europe,1995,15.9,82.5,24.0
+517,JPN,Japan,High-income,High-income Asia Pacific,1995,2.5,180.5,33.0
+553,KOR,South Korea,High-income,High-income Asia Pacific,1995,5.8,156.0,31.0
+613,LUX,Luxembourg,High-income,Western Europe,1995,20.6,41.0,9.0
+673,MLT,Malta,High-income,Western Europe,1995,25.5,22.0,1.0
+751,NLD,Netherlands,High-income,Western Europe,1995,12.6,113.0,28.0
+757,NOR,Norway,High-income,Western Europe,1995,15.1,94.0,26.0
+769,NZL,New Zealand,High-income,Australasia,1995,17.8,64.0,17.0
+823,PRT,Portugal,High-income,Western Europe,1995,19.7,47.0,11.0
+883,SGP,Singapore,High-income,High-income Asia Pacific,1995,6.8,150.5,30.0
+949,SWE,Sweden,High-income,Western Europe,1995,16.7,74.0,22.0
+1057,URY,Uruguay,High-income,Southern Latin America,1995,23.3,27.0,3.0
+1063,USA,United States,High-income,High-income North America,1995,23.1,29.0,5.0
+25,ARE,United Arab Emirates,North Africa and Middle East,North Africa and Middle East,1995,27.2,18.0,10.0
+103,BHR,Bahrain,North Africa and Middle East,North Africa and Middle East,1995,28.8,13.5,6.0
+295,DZA,Algeria,North Africa and Middle East,North Africa and Middle East,1995,14.4,99.0,17.0
+307,EGY,Egypt,North Africa and Middle East,North Africa and Middle East,1995,30.5,10.5,5.0
+475,IRN,Iran,North Africa and Middle East,North Africa and Middle East,1995,19.3,52.0,14.0
+481,IRQ,Iraq,North Africa and Middle East,North Africa and Middle East,1995,28.7,15.5,7.5
+511,JOR,Jordan,North Africa and Middle East,North Africa and Middle East,1995,32.1,8.5,4.0
+559,KWT,Kuwait,North Africa and Middle East,North Africa and Middle East,1995,37.5,7.0,3.0
+571,LBN,Lebanon,North Africa and Middle East,North Africa and Middle East,1995,24.0,25.0,13.0
+583,LBY,Libya,North Africa and Middle East,North Africa and Middle East,1995,41.7,5.0,2.0
+625,MAR,Morocco,North Africa and Middle East,North Africa and Middle East,1995,16.3,77.0,16.0
+775,OMN,Oman,North Africa and Middle East,North Africa and Middle East,1995,16.9,71.5,15.0
+835,PSE,Palestine,North Africa and Middle East,North Africa and Middle East,1995,28.7,15.5,7.5
+841,QAT,Qatar,North Africa and Middle East,North Africa and Middle East,1995,48.7,3.0,1.0
+865,SAU,Saudi Arabia,North Africa and Middle East,North Africa and Middle East,1995,27.1,19.0,11.0
+871,SDN,Sudan,North Africa and Middle East,North Africa and Middle East,1995,13.6,106.0,18.0
+967,SYR,Syria,North Africa and Middle East,North Africa and Middle East,1995,28.1,17.0,9.0
+1021,TUN,Tunisia,North Africa and Middle East,North Africa and Middle East,1995,12.0,117.0,20.0
+1027,TUR,Turkey,North Africa and Middle East,North Africa and Middle East,1995,25.9,21.0,12.0
+1105,YEM,Yemen,North Africa and Middle East,North Africa and Middle East,1995,13.2,108.5,19.0
+43,ATG,Antigua and Barbuda,Latin America and Caribbean,Caribbean,1995,13.9,101.5,18.0
+109,BHS,The Bahamas,Latin America and Caribbean,Caribbean,1995,30.5,10.5,1.0
+127,BLZ,Belize,Latin America and Caribbean,Caribbean,1995,30.4,12.0,2.0
+133,BOL,Bolivia,Latin America and Caribbean,Andean Latin America,1995,13.2,108.5,20.0
+139,BRA,Brazil,Latin America and Caribbean,Tropical Latin America,1995,10.7,128.0,26.0
+145,BRB,Barbados,Latin America and Caribbean,Caribbean,1995,22.2,33.5,5.5
+223,COL,Colombia,Latin America and Caribbean,Central Latin America,1995,11.5,121.0,25.0
+241,CRI,Costa Rica,Latin America and Caribbean,Central Latin America,1995,20.1,44.0,9.0
+247,CUB,Cuba,Latin America and Caribbean,Caribbean,1995,17.5,66.0,11.0
+277,DMA,Dominica,Latin America and Caribbean,Caribbean,1995,22.2,33.5,5.5
+289,DOM,Dominican Republic,Latin America and Caribbean,Caribbean,1995,12.9,110.5,21.0
+301,ECU,Ecuador,Latin America and Caribbean,Andean Latin America,1995,12.4,115.0,24.0
+415,GRD,Grenada,Latin America and Caribbean,Caribbean,1995,15.0,95.5,16.5
+421,GTM,Guatemala,Latin America and Caribbean,Central Latin America,1995,10.1,134.0,28.0
+427,GUY,Guyana,Latin America and Caribbean,Caribbean,1995,19.2,53.5,10.0
+433,HND,Honduras,Latin America and Caribbean,Central Latin America,1995,10.5,129.5,27.0
+445,HTI,Haiti,Latin America and Caribbean,Caribbean,1995,6.8,150.5,29.0
+505,JAM,Jamaica,Latin America and Caribbean,Caribbean,1995,16.4,76.0,12.0
+589,LCA,Saint Lucia,Latin America and Caribbean,Caribbean,1995,15.6,88.5,14.0
+649,MEX,Mexico,Latin America and Caribbean,Central Latin America,1995,20.2,42.5,8.0
+745,NIC,Nicaragua,Latin America and Caribbean,Central Latin America,1995,16.0,80.5,13.0
+787,PAN,Panama,Latin America and Caribbean,Central Latin America,1995,12.5,114.0,23.0
+793,PER,Peru,Latin America and Caribbean,Andean Latin America,1995,12.7,112.0,22.0
+829,PRY,Paraguay,Latin America and Caribbean,Tropical Latin America,1995,24.2,24.0,4.0
+901,SLV,El Salvador,Latin America and Caribbean,Central Latin America,1995,15.2,93.0,15.0
+931,SUR,Suriname,Latin America and Caribbean,Caribbean,1995,20.9,40.0,7.0
+1015,TTO,Trinidad and Tobago,Latin America and Caribbean,Caribbean,1995,25.4,23.0,3.0
+1075,VCT,Saint Vincent and the Grenadines,Latin America and Caribbean,Caribbean,1995,15.0,95.5,16.5
+1081,VEN,Venezuela,Latin America and Caribbean,Central Latin America,1995,13.8,103.5,19.0
+193,CHN,China,"Southeast Asia, East Asia, and Oceania",East Asia,1995,2.4,182.0,21.0
+343,FJI,Fiji,"Southeast Asia, East Asia, and Oceania",Oceania,1995,22.0,36.0,7.0
+355,FSM,Federated States of Micronesia,"Southeast Asia, East Asia, and Oceania",Oceania,1995,39.0,6.0,4.0
+457,IDN,Indonesia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,3.2,174.0,19.0
+541,KHM,Cambodia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,1.5,187.0,22.0
+547,KIR,Kiribati,"Southeast Asia, East Asia, and Oceania",Oceania,1995,44.2,4.0,3.0
+565,LAO,Laos,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,4.5,161.0,14.5
+595,LKA,Sri Lanka,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,3.9,168.0,17.0
+643,MDV,Maldives,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,10.3,132.5,10.0
+655,MHL,Marshall Islands,"Southeast Asia, East Asia, and Oceania",Oceania,1995,32.1,8.5,5.0
+679,MMR,Myanmar,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,5.2,157.5,12.5
+721,MYS,Malaysia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,11.8,119.0,9.0
+799,PHL,Philippines,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,3.7,169.0,18.0
+805,PNG,Papua New Guinea,"Southeast Asia, East Asia, and Oceania",Oceania,1995,9.0,142.0,11.0
+817,PRK,North Korea,"Southeast Asia, East Asia, and Oceania",East Asia,1995,2.5,180.5,20.0
+889,SLB,Solomon Islands,"Southeast Asia, East Asia, and Oceania",Oceania,1995,28.8,13.5,6.0
+985,THA,Thailand,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,5.2,157.5,12.5
+1003,TLS,Timor-Leste,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,4.5,161.0,14.5
+1009,TON,Tonga,"Southeast Asia, East Asia, and Oceania",Oceania,1995,56.1,1.0,1.0
+1033,TWN,Taiwan,"Southeast Asia, East Asia, and Oceania",East Asia,1995,4.2,164.5,16.0
+1087,VNM,Vietnam,"Southeast Asia, East Asia, and Oceania",Southeast Asia,1995,1.2,188.0,23.0
+1093,VUT,Vanuatu,"Southeast Asia, East Asia, and Oceania",Oceania,1995,16.1,78.5,8.0
+1099,WSM,Samoa,"Southeast Asia, East Asia, and Oceania",Oceania,1995,52.1,2.0,2.0
+2,AFG,Afghanistan,South Asia,South Asia,2000,14.0,109.0,1.0
+92,BGD,Bangladesh,South Asia,South Asia,2000,2.7,182.0,5.0
+158,BTN,Bhutan,South Asia,South Asia,2000,13.4,114.0,2.0
+464,IND,India,South Asia,South Asia,2000,3.6,174.0,4.0
+764,NPL,Nepal,South Asia,South Asia,2000,2.0,186.0,6.0
+782,PAK,Pakistan,South Asia,South Asia,2000,12.4,120.5,3.0
+8,AGO,Angola,Sub-Saharan Africa,Central Sub-Saharan Africa,2000,12.8,117.0,13.0
+68,BDI,Burundi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,2.9,180.0,45.0
+80,BEN,Benin,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,7.7,153.5,31.5
+86,BFA,Burkina Faso,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,5.3,161.0,36.0
+164,BWA,Botswana,Sub-Saharan Africa,Southern Sub-Saharan Africa,2000,14.9,102.0,10.0
+170,CAF,Central African Republic,Sub-Saharan Africa,Central Sub-Saharan Africa,2000,7.1,155.0,33.0
+200,CIV,Cote d'Ivoire,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,6.8,156.0,34.0
+206,CMR,Cameroon,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,12.2,123.0,14.0
+212,COD,Democratic Republic of the Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,2000,4.3,168.0,39.0
+218,COG,Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,2000,11.2,132.5,18.0
+230,COM,Comoros,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,11.0,134.0,19.0
+236,CPV,Cape Verde,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,10.3,139.5,22.5
+272,DJI,Djibouti,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,11.4,130.0,17.0
+314,ERI,Eritrea,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,3.5,176.0,44.0
+332,ETH,Ethiopia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,2.5,183.5,47.0
+362,GAB,Gabon,Sub-Saharan Africa,Central Sub-Saharan Africa,2000,15.7,97.0,8.0
+380,GHA,Ghana,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,7.7,153.5,31.5
+386,GIN,Guinea,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,4.9,163.0,38.0
+392,GMB,The Gambia,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,10.4,137.5,20.5
+398,GNB,Guinea-Bissau,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,14.1,107.5,11.0
+404,GNQ,Equatorial Guinea,Sub-Saharan Africa,Central Sub-Saharan Africa,2000,27.7,20.0,1.0
+530,KEN,Kenya,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,10.1,141.0,24.0
+578,LBR,Liberia,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,15.5,98.0,9.0
+602,LSO,Lesotho,Sub-Saharan Africa,Southern Sub-Saharan Africa,2000,18.3,73.0,6.0
+638,MDG,Madagascar,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,2.8,181.0,46.0
+668,MLI,Mali,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,9.6,142.5,25.5
+698,MOZ,Mozambique,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,5.8,158.5,35.0
+704,MRT,Mauritania,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,16.5,89.0,7.0
+710,MUS,Mauritius,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,11.5,128.0,15.5
+716,MWI,Malawi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,3.6,174.0,42.5
+728,NAM,Namibia,Sub-Saharan Africa,Southern Sub-Saharan Africa,2000,11.5,128.0,15.5
+734,NER,Niger,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,3.7,172.0,41.0
+740,NGA,Nigeria,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,10.3,139.5,22.5
+860,RWA,Rwanda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,2.3,185.0,48.0
+878,SEN,Senegal,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,13.2,115.0,12.0
+896,SLE,Sierra Leone,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,7.9,151.0,30.0
+908,SOM,Somalia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,9.6,142.5,25.5
+920,SSD,South Sudan,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,20.4,54.0,4.0
+926,STP,Sao Tome and Principe,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,10.4,137.5,20.5
+956,SWZ,Swaziland,Sub-Saharan Africa,Southern Sub-Saharan Africa,2000,23.5,30.0,2.0
+962,SYC,Seychelles,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,19.5,62.0,5.0
+974,TCD,Chad,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,4.0,171.0,40.0
+980,TGO,Togo,Sub-Saharan Africa,Western Sub-Saharan Africa,2000,5.2,162.0,37.0
+1040,TZA,Tanzania,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,8.1,150.0,29.0
+1046,UGA,Uganda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,3.6,174.0,42.5
+1112,ZAF,South Africa,Sub-Saharan Africa,Southern Sub-Saharan Africa,2000,23.2,33.5,3.0
+1118,ZMB,Zambia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2000,8.3,148.5,28.0
+1124,ZWE,Zimbabwe,Sub-Saharan Africa,Southern Sub-Saharan Africa,2000,9.3,144.0,27.0
+14,ALB,Albania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,8.3,148.5,29.0
+38,ARM,Armenia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,16.6,87.5,19.0
+62,AZE,Azerbaijan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,15.4,99.0,23.0
+98,BGR,Bulgaria,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,18.5,71.0,13.5
+116,BIH,Bosnia and Herzegovina,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,16.7,86.0,18.0
+122,BLR,Belarus,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2000,10.7,136.0,28.0
+260,CZE,Czech Republic,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,19.0,65.0,9.5
+326,EST,Estonia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2000,20.6,50.0,4.0
+374,GEO,Georgia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,18.7,68.0,11.0
+440,HRV,Croatia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,17.2,82.0,16.0
+452,HUN,Hungary,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,22.6,38.5,1.0
+524,KAZ,Kazakhstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,16.3,91.5,20.5
+536,KGZ,Kyrgyzstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,14.1,107.5,24.0
+608,LTU,Lithuania,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2000,19.9,60.0,6.0
+620,LVA,Latvia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2000,21.2,46.0,3.0
+632,MDA,Moldova,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2000,19.7,61.0,7.0
+662,MKD,Macedonia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,17.9,76.5,15.0
+686,MNE,Montenegro,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,20.0,59.0,5.0
+692,MNG,Mongolia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,12.1,124.0,25.0
+812,POL,Poland,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,19.0,65.0,9.5
+848,ROU,Romania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,16.9,85.0,17.0
+854,RUS,Russia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2000,22.0,42.5,2.0
+914,SRB,Serbia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,16.3,91.5,20.5
+938,SVK,Slovakia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,19.4,63.0,8.0
+944,SVN,Slovenia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2000,18.6,69.0,12.0
+992,TJK,Tajikistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,11.2,132.5,27.0
+998,TKM,Turkmenistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,16.2,93.5,22.0
+1052,UKR,Ukraine,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2000,18.5,71.0,13.5
+1070,UZB,Uzbekistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2000,11.9,125.0,26.0
+20,AND,Andorra,High-income,Western Europe,2000,8.4,147.0,30.0
+32,ARG,Argentina,High-income,Southern Latin America,2000,22.0,42.5,11.0
+50,AUS,Australia,High-income,Australasia,2000,22.5,40.5,9.5
+56,AUT,Austria,High-income,Western Europe,2000,17.0,84.0,25.0
+74,BEL,Belgium,High-income,Western Europe,2000,20.1,57.5,17.5
+152,BRN,Brunei,High-income,High-income Asia Pacific,2000,3.2,177.0,32.0
+176,CAN,Canada,High-income,High-income North America,2000,20.1,57.5,17.5
+182,CHE,Switzerland,High-income,Western Europe,2000,15.9,96.0,27.0
+188,CHL,Chile,High-income,Southern Latin America,2000,24.5,27.0,3.0
+254,CYP,Cyprus,High-income,Western Europe,2000,23.2,33.5,6.0
+266,DEU,Germany,High-income,Western Europe,2000,20.4,54.0,15.5
+284,DNK,Denmark,High-income,Western Europe,2000,17.9,76.5,22.5
+320,ESP,Spain,High-income,Western Europe,2000,22.7,37.0,7.0
+338,FIN,Finland,High-income,Western Europe,2000,18.8,67.0,19.0
+350,FRA,France,High-income,Western Europe,2000,18.5,71.0,20.0
+368,GBR,United Kingdom,High-income,Western Europe,2000,20.7,49.0,14.0
+410,GRC,Greece,High-income,Western Europe,2000,18.2,74.0,21.0
+470,IRL,Ireland,High-income,Western Europe,2000,21.0,47.0,13.0
+488,ISL,Iceland,High-income,Western Europe,2000,24.3,28.0,4.0
+494,ISR,Israel,High-income,Western Europe,2000,22.5,40.5,9.5
+500,ITA,Italy,High-income,Western Europe,2000,17.5,80.0,24.0
+518,JPN,Japan,High-income,High-income Asia Pacific,2000,3.1,178.0,33.0
+554,KOR,South Korea,High-income,High-income Asia Pacific,2000,5.8,158.5,31.0
+614,LUX,Luxembourg,High-income,Western Europe,2000,22.6,38.5,8.0
+674,MLT,Malta,High-income,Western Europe,2000,26.8,22.0,2.0
+752,NLD,Netherlands,High-income,Western Europe,2000,11.3,131.0,28.0
+758,NOR,Norway,High-income,Western Europe,2000,16.6,87.5,26.0
+770,NZL,New Zealand,High-income,Australasia,2000,21.5,44.0,12.0
+824,PRT,Portugal,High-income,Western Europe,2000,20.4,54.0,15.5
+884,SGP,Singapore,High-income,High-income Asia Pacific,2000,8.5,146.0,29.0
+950,SWE,Sweden,High-income,Western Europe,2000,17.9,76.5,22.5
+1058,URY,Uruguay,High-income,Southern Latin America,2000,23.8,29.0,5.0
+1064,USA,United States,High-income,High-income North America,2000,28.7,19.0,1.0
+26,ARE,United Arab Emirates,North Africa and Middle East,North Africa and Middle East,2000,27.3,21.0,11.0
+104,BHR,Bahrain,North Africa and Middle East,North Africa and Middle East,2000,30.5,15.0,8.0
+296,DZA,Algeria,North Africa and Middle East,North Africa and Middle East,2000,15.0,101.0,17.0
+308,EGY,Egypt,North Africa and Middle East,North Africa and Middle East,2000,33.9,9.0,4.0
+476,IRN,Iran,North Africa and Middle East,North Africa and Middle East,2000,19.0,65.0,15.0
+482,IRQ,Iraq,North Africa and Middle East,North Africa and Middle East,2000,29.5,17.0,9.0
+512,JOR,Jordan,North Africa and Middle East,North Africa and Middle East,2000,33.8,10.0,5.0
+560,KWT,Kuwait,North Africa and Middle East,North Africa and Middle East,2000,42.8,5.0,2.0
+572,LBN,Lebanon,North Africa and Middle East,North Africa and Middle East,2000,25.1,26.0,13.0
+584,LBY,Libya,North Africa and Middle East,North Africa and Middle East,2000,42.0,6.0,3.0
+626,MAR,Morocco,North Africa and Middle East,North Africa and Middle East,2000,17.2,82.0,16.0
+776,OMN,Oman,North Africa and Middle East,North Africa and Middle East,2000,20.5,51.5,14.0
+836,PSE,Palestine,North Africa and Middle East,North Africa and Middle East,2000,30.9,14.0,7.0
+842,QAT,Qatar,North Africa and Middle East,North Africa and Middle East,2000,47.8,3.0,1.0
+866,SAU,Saudi Arabia,North Africa and Middle East,North Africa and Middle East,2000,33.1,11.0,6.0
+872,SDN,Sudan,North Africa and Middle East,North Africa and Middle East,2000,14.2,105.0,18.0
+968,SYR,Syria,North Africa and Middle East,North Africa and Middle East,2000,29.1,18.0,10.0
+1022,TUN,Tunisia,North Africa and Middle East,North Africa and Middle East,2000,12.7,118.0,20.0
+1028,TUR,Turkey,North Africa and Middle East,North Africa and Middle East,2000,26.2,23.0,12.0
+1106,YEM,Yemen,North Africa and Middle East,North Africa and Middle East,2000,13.6,112.0,19.0
+44,ATG,Antigua and Barbuda,Latin America and Caribbean,Caribbean,2000,13.9,110.5,21.5
+110,BHS,The Bahamas,Latin America and Caribbean,Caribbean,2000,32.1,12.0,1.0
+128,BLZ,Belize,Latin America and Caribbean,Caribbean,2000,31.8,13.0,2.0
+134,BOL,Bolivia,Latin America and Caribbean,Andean Latin America,2000,15.2,100.0,17.0
+140,BRA,Brazil,Latin America and Caribbean,Tropical Latin America,2000,11.7,126.0,27.0
+146,BRB,Barbados,Latin America and Caribbean,Caribbean,2000,23.0,35.5,7.0
+224,COL,Colombia,Latin America and Caribbean,Central Latin America,2000,13.5,113.0,23.0
+242,CRI,Costa Rica,Latin America and Caribbean,Central Latin America,2000,20.8,48.0,9.0
+248,CUB,Cuba,Latin America and Caribbean,Caribbean,2000,20.3,56.0,11.0
+278,DMA,Dominica,Latin America and Caribbean,Caribbean,2000,23.3,32.0,6.0
+290,DOM,Dominican Republic,Latin America and Caribbean,Caribbean,2000,13.9,110.5,21.5
+302,ECU,Ecuador,Latin America and Caribbean,Andean Latin America,2000,12.6,119.0,25.0
+416,GRD,Grenada,Latin America and Caribbean,Caribbean,2000,14.8,103.0,18.0
+422,GTM,Guatemala,Latin America and Caribbean,Central Latin America,2000,11.5,128.0,28.0
+428,GUY,Guyana,Latin America and Caribbean,Caribbean,2000,20.5,51.5,10.0
+434,HND,Honduras,Latin America and Caribbean,Central Latin America,2000,12.3,122.0,26.0
+446,HTI,Haiti,Latin America and Caribbean,Caribbean,2000,7.8,152.0,29.0
+506,JAM,Jamaica,Latin America and Caribbean,Caribbean,2000,17.8,79.0,13.0
+590,LCA,Saint Lucia,Latin America and Caribbean,Caribbean,2000,16.0,95.0,16.0
+650,MEX,Mexico,Latin America and Caribbean,Central Latin America,2000,23.4,31.0,5.0
+746,NIC,Nicaragua,Latin America and Caribbean,Central Latin America,2000,17.9,76.5,12.0
+788,PAN,Panama,Latin America and Caribbean,Central Latin America,2000,12.9,116.0,24.0
+794,PER,Peru,Latin America and Caribbean,Andean Latin America,2000,14.2,105.0,19.5
+830,PRY,Paraguay,Latin America and Caribbean,Tropical Latin America,2000,25.2,25.0,4.0
+902,SLV,El Salvador,Latin America and Caribbean,Central Latin America,2000,17.2,82.0,14.0
+932,SUR,Suriname,Latin America and Caribbean,Caribbean,2000,21.3,45.0,8.0
+1016,TTO,Trinidad and Tobago,Latin America and Caribbean,Caribbean,2000,26.1,24.0,3.0
+1076,VCT,Saint Vincent and the Grenadines,Latin America and Caribbean,Caribbean,2000,16.2,93.5,15.0
+1082,VEN,Venezuela,Latin America and Caribbean,Central Latin America,2000,14.2,105.0,19.5
+194,CHN,China,"Southeast Asia, East Asia, and Oceania",East Asia,2000,3.0,179.0,20.0
+344,FJI,Fiji,"Southeast Asia, East Asia, and Oceania",Oceania,2000,23.0,35.5,7.0
+356,FSM,Federated States of Micronesia,"Southeast Asia, East Asia, and Oceania",Oceania,2000,40.4,7.0,4.0
+458,IDN,Indonesia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,4.1,170.0,19.0
+542,KHM,Cambodia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,1.7,187.0,22.0
+548,KIR,Kiribati,"Southeast Asia, East Asia, and Oceania",Oceania,2000,45.3,4.0,3.0
+566,LAO,Laos,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,4.8,164.0,14.0
+596,LKA,Sri Lanka,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,4.4,166.5,16.5
+644,MDV,Maldives,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,10.9,135.0,10.0
+656,MHL,Marshall Islands,"Southeast Asia, East Asia, and Oceania",Oceania,2000,39.1,8.0,5.0
+680,MMR,Myanmar,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,5.5,160.0,13.0
+722,MYS,Malaysia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,12.4,120.5,9.0
+800,PHL,Philippines,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,4.2,169.0,18.0
+806,PNG,Papua New Guinea,"Southeast Asia, East Asia, and Oceania",Oceania,2000,9.1,145.0,11.0
+818,PRK,North Korea,"Southeast Asia, East Asia, and Oceania",East Asia,2000,2.5,183.5,21.0
+890,SLB,Solomon Islands,"Southeast Asia, East Asia, and Oceania",Oceania,2000,29.6,16.0,6.0
+986,THA,Thailand,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,6.7,157.0,12.0
+1004,TLS,Timor-Leste,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,4.4,166.5,16.5
+1010,TON,Tonga,"Southeast Asia, East Asia, and Oceania",Oceania,2000,58.0,1.0,1.0
+1034,TWN,Taiwan,"Southeast Asia, East Asia, and Oceania",East Asia,2000,4.5,165.0,15.0
+1088,VNM,Vietnam,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2000,1.2,188.0,23.0
+1094,VUT,Vanuatu,"Southeast Asia, East Asia, and Oceania",Oceania,2000,16.4,90.0,8.0
+1100,WSM,Samoa,"Southeast Asia, East Asia, and Oceania",Oceania,2000,54.5,2.0,2.0
+3,AFG,Afghanistan,South Asia,South Asia,2005,14.1,114.0,1.0
+93,BGD,Bangladesh,South Asia,South Asia,2005,3.0,180.5,5.0
+159,BTN,Bhutan,South Asia,South Asia,2005,13.7,117.0,2.0
+465,IND,India,South Asia,South Asia,2005,3.7,175.0,4.0
+765,NPL,Nepal,South Asia,South Asia,2005,2.2,186.0,6.0
+783,PAK,Pakistan,South Asia,South Asia,2005,13.0,126.0,3.0
+9,AGO,Angola,Sub-Saharan Africa,Central Sub-Saharan Africa,2005,13.7,117.0,13.0
+69,BDI,Burundi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,3.0,180.5,45.0
+81,BEN,Benin,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,9.1,148.0,30.0
+87,BFA,Burkina Faso,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,5.9,162.0,37.0
+165,BWA,Botswana,Sub-Saharan Africa,Southern Sub-Saharan Africa,2005,15.1,107.0,11.0
+171,CAF,Central African Republic,Sub-Saharan Africa,Central Sub-Saharan Africa,2005,7.3,157.0,34.0
+201,CIV,Cote d'Ivoire,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,8.5,153.0,32.0
+207,CMR,Cameroon,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,13.3,122.0,14.0
+213,COD,Democratic Republic of the Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,2005,4.4,170.0,39.0
+219,COG,Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,2005,11.0,138.0,22.0
+231,COM,Comoros,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,12.3,130.0,17.0
+237,CPV,Cape Verde,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,10.8,140.5,24.0
+273,DJI,Djibouti,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,12.6,128.5,16.0
+315,ERI,Eritrea,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,3.6,176.0,44.0
+333,ETH,Ethiopia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,2.8,182.5,46.5
+363,GAB,Gabon,Sub-Saharan Africa,Central Sub-Saharan Africa,2005,17.9,88.0,8.0
+381,GHA,Ghana,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,9.5,146.0,28.0
+387,GIN,Guinea,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,5.5,163.0,38.0
+393,GMB,The Gambia,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,11.4,135.5,20.0
+399,GNB,Guinea-Bissau,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,18.2,85.0,7.0
+405,GNQ,Equatorial Guinea,Sub-Saharan Africa,Central Sub-Saharan Africa,2005,28.5,20.0,1.0
+531,KEN,Kenya,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,10.6,142.0,25.0
+579,LBR,Liberia,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,16.7,99.0,9.5
+603,LSO,Lesotho,Sub-Saharan Africa,Southern Sub-Saharan Africa,2005,18.9,77.5,6.0
+639,MDG,Madagascar,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,2.8,182.5,46.5
+669,MLI,Mali,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,11.2,137.0,21.0
+699,MOZ,Mozambique,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,6.2,159.0,36.0
+705,MRT,Mauritania,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,16.7,99.0,9.5
+711,MUS,Mauritius,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,12.0,132.0,18.0
+717,MWI,Malawi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,4.0,173.5,42.5
+729,NAM,Namibia,Sub-Saharan Africa,Southern Sub-Saharan Africa,2005,13.2,123.0,15.0
+735,NER,Niger,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,4.2,172.0,41.0
+741,NGA,Nigeria,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,10.9,139.0,23.0
+861,RWA,Rwanda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,2.5,184.5,48.0
+879,SEN,Senegal,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,15.0,108.0,12.0
+897,SLE,Sierra Leone,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,8.2,154.0,33.0
+909,SOM,Somalia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,9.8,145.0,27.0
+921,SSD,South Sudan,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,20.9,56.5,5.0
+927,STP,Sao Tome and Principe,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,11.5,133.5,19.0
+957,SWZ,Swaziland,Sub-Saharan Africa,Southern Sub-Saharan Africa,2005,24.0,38.0,3.0
+963,SYC,Seychelles,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,21.4,52.5,4.0
+975,TCD,Chad,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,4.3,171.0,40.0
+981,TGO,Togo,Sub-Saharan Africa,Western Sub-Saharan Africa,2005,6.5,158.0,35.0
+1041,TZA,Tanzania,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,9.2,147.0,29.0
+1047,UGA,Uganda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,4.0,173.5,42.5
+1113,ZAF,South Africa,Sub-Saharan Africa,Southern Sub-Saharan Africa,2005,24.9,32.0,2.0
+1119,ZMB,Zambia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2005,9.0,150.0,31.0
+1125,ZWE,Zimbabwe,Sub-Saharan Africa,Southern Sub-Saharan Africa,2005,10.0,143.0,26.0
+15,ALB,Albania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,9.0,150.0,29.0
+39,ARM,Armenia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,18.1,87.0,19.0
+63,AZE,Azerbaijan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,17.6,92.0,21.0
+99,BGR,Bulgaria,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,18.3,82.5,17.5
+117,BIH,Bosnia and Herzegovina,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,17.7,90.0,20.0
+123,BLR,Belarus,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2005,10.8,140.5,28.0
+261,CZE,Czech Republic,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,19.5,70.0,12.0
+327,EST,Estonia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2005,21.6,50.0,5.0
+375,GEO,Georgia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,22.8,44.0,3.0
+441,HRV,Croatia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,19.0,75.5,15.0
+453,HUN,Hungary,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,22.9,43.0,2.0
+525,KAZ,Kazakhstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,19.6,68.0,11.0
+537,KGZ,Kyrgyzstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,14.6,111.0,24.0
+609,LTU,Lithuania,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2005,20.8,59.0,6.5
+621,LVA,Latvia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2005,21.9,48.0,4.0
+633,MDA,Moldova,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2005,20.8,59.0,6.5
+663,MKD,Macedonia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,18.7,79.0,16.0
+687,MNE,Montenegro,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,20.6,61.5,8.0
+693,MNG,Mongolia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,13.6,119.0,25.0
+813,POL,Poland,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,19.2,73.0,13.0
+849,ROU,Romania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,18.3,82.5,17.5
+855,RUS,Russia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2005,23.1,41.5,1.0
+915,SRB,Serbia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,16.9,95.5,23.0
+939,SVK,Slovakia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,19.1,74.0,14.0
+945,SVN,Slovenia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2005,19.9,65.0,9.0
+993,TJK,Tajikistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,12.1,131.0,27.0
+999,TKM,Turkmenistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,17.2,93.5,22.0
+1053,UKR,Ukraine,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2005,19.8,66.0,10.0
+1071,UZB,Uzbekistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2005,12.6,128.5,26.0
+21,AND,Andorra,High-income,Western Europe,2005,8.7,152.0,30.0
+33,ARG,Argentina,High-income,Southern Latin America,2005,21.4,52.5,14.0
+51,AUS,Australia,High-income,Australasia,2005,25.7,29.0,4.0
+57,AUT,Austria,High-income,Western Europe,2005,17.2,93.5,26.0
+75,BEL,Belgium,High-income,Western Europe,2005,20.6,61.5,17.0
+153,BRN,Brunei,High-income,High-income Asia Pacific,2005,3.4,179.0,33.0
+177,CAN,Canada,High-income,High-income North America,2005,19.4,72.0,19.0
+183,CHE,Switzerland,High-income,Western Europe,2005,16.8,97.0,27.0
+189,CHL,Chile,High-income,Southern Latin America,2005,25.5,30.5,5.5
+255,CYP,Cyprus,High-income,Western Europe,2005,23.2,40.0,9.0
+267,DEU,Germany,High-income,Western Europe,2005,20.8,59.0,16.0
+285,DNK,Denmark,High-income,Western Europe,2005,19.0,75.5,20.0
+321,ESP,Spain,High-income,Western Europe,2005,22.5,45.0,11.0
+339,FIN,Finland,High-income,Western Europe,2005,20.3,63.0,18.0
+351,FRA,France,High-income,Western Europe,2005,18.9,77.5,21.0
+369,GBR,United Kingdom,High-income,Western Europe,2005,22.3,46.0,12.0
+411,GRC,Greece,High-income,Western Europe,2005,18.2,85.0,24.0
+471,IRL,Ireland,High-income,Western Europe,2005,21.5,51.0,13.0
+489,ISL,Iceland,High-income,Western Europe,2005,26.5,24.0,3.0
+495,ISR,Israel,High-income,Western Europe,2005,23.1,41.5,10.0
+501,ITA,Italy,High-income,Western Europe,2005,18.4,80.5,22.5
+519,JPN,Japan,High-income,High-income Asia Pacific,2005,3.5,177.5,32.0
+555,KOR,South Korea,High-income,High-income Asia Pacific,2005,6.0,160.5,31.0
+615,LUX,Luxembourg,High-income,Western Europe,2005,24.3,33.0,7.0
+675,MLT,Malta,High-income,Western Europe,2005,27.7,21.0,2.0
+753,NLD,Netherlands,High-income,Western Europe,2005,11.4,135.5,28.0
+759,NOR,Norway,High-income,Western Europe,2005,17.7,90.0,25.0
+771,NZL,New Zealand,High-income,Australasia,2005,25.5,30.5,5.5
+825,PRT,Portugal,High-income,Western Europe,2005,20.9,56.5,15.0
+885,SGP,Singapore,High-income,High-income Asia Pacific,2005,9.9,144.0,29.0
+951,SWE,Sweden,High-income,Western Europe,2005,18.4,80.5,22.5
+1059,URY,Uruguay,High-income,Southern Latin America,2005,24.1,35.5,8.0
+1065,USA,United States,High-income,High-income North America,2005,32.6,15.5,1.0
+27,ARE,United Arab Emirates,North Africa and Middle East,North Africa and Middle East,2005,27.5,22.0,11.0
+105,BHR,Bahrain,North Africa and Middle East,North Africa and Middle East,2005,32.9,13.5,7.5
+297,DZA,Algeria,North Africa and Middle East,North Africa and Middle East,2005,16.1,102.0,17.0
+309,EGY,Egypt,North Africa and Middle East,North Africa and Middle East,2005,35.9,10.0,5.0
+477,IRN,Iran,North Africa and Middle East,North Africa and Middle East,2005,19.5,70.0,15.0
+483,IRQ,Iraq,North Africa and Middle East,North Africa and Middle East,2005,30.3,18.0,9.0
+513,JOR,Jordan,North Africa and Middle East,North Africa and Middle East,2005,36.0,9.0,4.0
+561,KWT,Kuwait,North Africa and Middle East,North Africa and Middle East,2005,46.4,4.0,2.0
+573,LBN,Lebanon,North Africa and Middle East,North Africa and Middle East,2005,26.3,25.0,12.0
+585,LBY,Libya,North Africa and Middle East,North Africa and Middle East,2005,42.5,7.0,3.0
+627,MAR,Morocco,North Africa and Middle East,North Africa and Middle East,2005,18.2,85.0,16.0
+777,OMN,Oman,North Africa and Middle East,North Africa and Middle East,2005,24.1,35.5,14.0
+837,PSE,Palestine,North Africa and Middle East,North Africa and Middle East,2005,32.9,13.5,7.5
+843,QAT,Qatar,North Africa and Middle East,North Africa and Middle East,2005,47.2,3.0,1.0
+867,SAU,Saudi Arabia,North Africa and Middle East,North Africa and Middle East,2005,34.5,11.0,6.0
+873,SDN,Sudan,North Africa and Middle East,North Africa and Middle East,2005,14.7,110.0,18.0
+969,SYR,Syria,North Africa and Middle East,North Africa and Middle East,2005,29.8,19.0,10.0
+1023,TUN,Tunisia,North Africa and Middle East,North Africa and Middle East,2005,13.1,124.5,20.0
+1029,TUR,Turkey,North Africa and Middle East,North Africa and Middle East,2005,26.2,26.0,13.0
+1107,YEM,Yemen,North Africa and Middle East,North Africa and Middle East,2005,14.0,115.0,19.0
+45,ATG,Antigua and Barbuda,Latin America and Caribbean,Caribbean,2005,14.4,113.0,24.0
+111,BHS,The Bahamas,Latin America and Caribbean,Caribbean,2005,32.6,15.5,2.0
+129,BLZ,Belize,Latin America and Caribbean,Caribbean,2005,33.3,12.0,1.0
+135,BOL,Bolivia,Latin America and Caribbean,Andean Latin America,2005,16.9,95.5,16.0
+141,BRA,Brazil,Latin America and Caribbean,Tropical Latin America,2005,13.5,120.5,26.5
+147,BRB,Barbados,Latin America and Caribbean,Caribbean,2005,23.8,39.0,7.0
+225,COL,Colombia,Latin America and Caribbean,Central Latin America,2005,15.4,103.5,18.5
+243,CRI,Costa Rica,Latin America and Caribbean,Central Latin America,2005,21.2,54.5,10.5
+249,CUB,Cuba,Latin America and Caribbean,Caribbean,2005,22.2,47.0,8.0
+279,DMA,Dominica,Latin America and Caribbean,Caribbean,2005,24.1,35.5,6.0
+291,DOM,Dominican Republic,Latin America and Caribbean,Caribbean,2005,14.5,112.0,23.0
+303,ECU,Ecuador,Latin America and Caribbean,Andean Latin America,2005,12.8,127.0,28.0
+417,GRD,Grenada,Latin America and Caribbean,Caribbean,2005,15.3,105.5,20.5
+423,GTM,Guatemala,Latin America and Caribbean,Central Latin America,2005,13.5,120.5,26.5
+429,GUY,Guyana,Latin America and Caribbean,Caribbean,2005,21.2,54.5,10.5
+435,HND,Honduras,Latin America and Caribbean,Central Latin America,2005,15.3,105.5,20.5
+447,HTI,Haiti,Latin America and Caribbean,Caribbean,2005,8.1,155.0,29.0
+507,JAM,Jamaica,Latin America and Caribbean,Caribbean,2005,20.1,64.0,12.0
+591,LCA,Saint Lucia,Latin America and Caribbean,Caribbean,2005,16.4,101.0,17.0
+651,MEX,Mexico,Latin America and Caribbean,Central Latin America,2005,26.1,27.0,4.0
+747,NIC,Nicaragua,Latin America and Caribbean,Central Latin America,2005,19.7,67.0,13.0
+789,PAN,Panama,Latin America and Caribbean,Central Latin America,2005,13.7,117.0,25.0
+795,PER,Peru,Latin America and Caribbean,Andean Latin America,2005,14.9,109.0,22.0
+831,PRY,Paraguay,Latin America and Caribbean,Tropical Latin America,2005,25.8,28.0,5.0
+903,SLV,El Salvador,Latin America and Caribbean,Central Latin America,2005,19.5,70.0,14.0
+933,SUR,Suriname,Latin America and Caribbean,Caribbean,2005,21.8,49.0,9.0
+1017,TTO,Trinidad and Tobago,Latin America and Caribbean,Caribbean,2005,26.8,23.0,3.0
+1077,VCT,Saint Vincent and the Grenadines,Latin America and Caribbean,Caribbean,2005,17.7,90.0,15.0
+1083,VEN,Venezuela,Latin America and Caribbean,Central Latin America,2005,15.4,103.5,18.5
+195,CHN,China,"Southeast Asia, East Asia, and Oceania",East Asia,2005,3.5,177.5,20.0
+345,FJI,Fiji,"Southeast Asia, East Asia, and Oceania",Oceania,2005,24.1,35.5,7.0
+357,FSM,Federated States of Micronesia,"Southeast Asia, East Asia, and Oceania",Oceania,2005,43.1,6.0,4.0
+459,IDN,Indonesia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,5.4,164.0,14.0
+543,KHM,Cambodia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,1.9,187.0,22.0
+549,KIR,Kiribati,"Southeast Asia, East Asia, and Oceania",Oceania,2005,46.3,5.0,3.0
+567,LAO,Laos,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,5.1,165.0,15.0
+597,LKA,Sri Lanka,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,4.9,166.0,16.0
+645,MDV,Maldives,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,11.5,133.5,10.0
+657,MHL,Marshall Islands,"Southeast Asia, East Asia, and Oceania",Oceania,2005,39.9,8.0,5.0
+681,MMR,Myanmar,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,6.0,160.5,13.0
+723,MYS,Malaysia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,13.1,124.5,9.0
+801,PHL,Philippines,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,4.6,168.5,18.5
+807,PNG,Papua New Guinea,"Southeast Asia, East Asia, and Oceania",Oceania,2005,9.0,150.0,11.0
+819,PRK,North Korea,"Southeast Asia, East Asia, and Oceania",East Asia,2005,2.5,184.5,21.0
+891,SLB,Solomon Islands,"Southeast Asia, East Asia, and Oceania",Oceania,2005,30.5,17.0,6.0
+987,THA,Thailand,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,8.0,156.0,12.0
+1005,TLS,Timor-Leste,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,4.6,168.5,18.5
+1011,TON,Tonga,"Southeast Asia, East Asia, and Oceania",Oceania,2005,59.5,1.0,1.0
+1035,TWN,Taiwan,"Southeast Asia, East Asia, and Oceania",East Asia,2005,4.8,167.0,17.0
+1089,VNM,Vietnam,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2005,1.4,188.0,23.0
+1095,VUT,Vanuatu,"Southeast Asia, East Asia, and Oceania",Oceania,2005,16.7,99.0,8.0
+1101,WSM,Samoa,"Southeast Asia, East Asia, and Oceania",Oceania,2005,56.2,2.0,2.0
+4,AFG,Afghanistan,South Asia,South Asia,2010,14.2,120.0,1.0
+94,BGD,Bangladesh,South Asia,South Asia,2010,3.4,180.0,5.0
+160,BTN,Bhutan,South Asia,South Asia,2010,14.1,121.5,2.0
+466,IND,India,South Asia,South Asia,2010,3.9,176.0,4.0
+766,NPL,Nepal,South Asia,South Asia,2010,2.3,186.0,6.0
+784,PAK,Pakistan,South Asia,South Asia,2010,13.9,123.5,3.0
+10,AGO,Angola,Sub-Saharan Africa,Central Sub-Saharan Africa,2010,15.1,116.0,13.0
+70,BDI,Burundi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,3.0,181.0,45.0
+82,BEN,Benin,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,9.8,149.0,30.0
+88,BFA,Burkina Faso,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,6.2,162.5,37.5
+166,BWA,Botswana,Sub-Saharan Africa,Southern Sub-Saharan Africa,2010,15.2,113.0,12.0
+172,CAF,Central African Republic,Sub-Saharan Africa,Central Sub-Saharan Africa,2010,7.8,157.0,34.0
+202,CIV,Cote d'Ivoire,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,8.6,154.0,32.0
+208,CMR,Cameroon,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,14.1,121.5,14.0
+214,COD,Democratic Republic of the Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,2010,4.5,171.5,40.5
+220,COG,Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,2010,10.6,145.0,27.0
+232,COM,Comoros,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,13.2,129.5,17.0
+238,CPV,Cape Verde,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,11.3,139.0,22.0
+274,DJI,Djibouti,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,13.9,123.5,15.0
+316,ERI,Eritrea,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,3.8,177.5,44.0
+334,ETH,Ethiopia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,2.9,182.5,46.5
+364,GAB,Gabon,Sub-Saharan Africa,Central Sub-Saharan Africa,2010,19.5,78.5,8.0
+382,GHA,Ghana,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,10.8,143.0,25.0
+388,GIN,Guinea,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,6.2,162.5,37.5
+394,GMB,The Gambia,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,12.6,134.0,19.0
+400,GNB,Guinea-Bissau,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,20.0,71.5,6.0
+406,GNQ,Equatorial Guinea,Sub-Saharan Africa,Central Sub-Saharan Africa,2010,29.3,20.0,1.0
+532,KEN,Kenya,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,10.8,143.0,25.0
+580,LBR,Liberia,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,18.2,92.0,9.0
+604,LSO,Lesotho,Sub-Saharan Africa,Southern Sub-Saharan Africa,2010,19.9,73.5,7.0
+640,MDG,Madagascar,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,2.9,182.5,46.5
+670,MLI,Mali,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,12.5,135.0,20.0
+700,MOZ,Mozambique,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,6.5,160.0,36.0
+706,MRT,Mauritania,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,17.1,104.0,10.0
+712,MUS,Mauritius,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,12.7,132.5,18.0
+718,MWI,Malawi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,4.5,171.5,40.5
+730,NAM,Namibia,Sub-Saharan Africa,Southern Sub-Saharan Africa,2010,13.6,126.5,16.0
+736,NER,Niger,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,4.5,171.5,40.5
+742,NGA,Nigeria,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,11.0,140.5,23.0
+862,RWA,Rwanda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,2.8,184.0,48.0
+880,SEN,Senegal,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,16.1,107.0,11.0
+898,SLE,Sierra Leone,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,8.5,155.5,33.0
+910,SOM,Somalia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,9.9,147.5,29.0
+922,SSD,South Sudan,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,21.3,60.0,4.0
+928,STP,Sao Tome and Principe,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,12.3,136.0,21.0
+958,SWZ,Swaziland,Sub-Saharan Africa,Southern Sub-Saharan Africa,2010,23.3,42.0,3.0
+964,SYC,Seychelles,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,20.8,66.5,5.0
+976,TCD,Chad,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,4.5,171.5,40.5
+982,TGO,Togo,Sub-Saharan Africa,Western Sub-Saharan Africa,2010,7.4,158.0,35.0
+1042,TZA,Tanzania,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,10.1,146.0,28.0
+1048,UGA,Uganda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,4.2,174.5,43.0
+1114,ZAF,South Africa,Sub-Saharan Africa,Southern Sub-Saharan Africa,2010,27.7,26.0,2.0
+1120,ZMB,Zambia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2010,9.5,150.0,31.0
+1126,ZWE,Zimbabwe,Sub-Saharan Africa,Southern Sub-Saharan Africa,2010,10.8,143.0,25.0
+16,ALB,Albania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,9.9,147.5,29.0
+40,ARM,Armenia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,18.9,85.5,19.0
+64,AZE,Azerbaijan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,19.9,73.5,12.0
+100,BGR,Bulgaria,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,18.4,89.0,20.0
+118,BIH,Bosnia and Herzegovina,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,17.9,95.0,22.0
+124,BLR,Belarus,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2010,11.5,138.0,28.0
+262,CZE,Czech Republic,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,19.5,78.5,15.0
+328,EST,Estonia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2010,22.4,48.0,4.0
+376,GEO,Georgia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,25.0,35.0,1.0
+442,HRV,Croatia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,19.7,75.0,13.0
+454,HUN,Hungary,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,23.2,43.5,2.0
+526,KAZ,Kazakhstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,21.5,56.0,7.5
+538,KGZ,Kyrgyzstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,15.2,113.0,24.5
+610,LTU,Lithuania,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2010,21.5,56.0,7.5
+622,LVA,Latvia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2010,22.1,50.0,5.0
+634,MDA,Moldova,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2010,21.3,60.0,9.0
+664,MKD,Macedonia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,19.2,82.0,17.0
+688,MNE,Montenegro,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,21.6,54.0,6.0
+694,MNG,Mongolia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,15.2,113.0,24.5
+814,POL,Poland,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,19.6,76.5,14.0
+850,ROU,Romania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,19.0,84.0,18.0
+856,RUS,Russia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2010,22.8,46.0,3.0
+916,SRB,Serbia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,17.5,99.0,23.0
+940,SVK,Slovakia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,19.4,80.0,16.0
+946,SVN,Slovenia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2010,20.8,66.5,10.0
+994,TJK,Tajikistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,12.7,132.5,27.0
+1000,TKM,Turkmenistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,18.0,94.0,21.0
+1054,UKR,Ukraine,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2010,20.4,70.0,11.0
+1072,UZB,Uzbekistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2010,13.3,128.0,26.0
+22,AND,Andorra,High-income,Western Europe,2010,8.8,153.0,30.0
+34,ARG,Argentina,High-income,Southern Latin America,2010,20.8,66.5,17.5
+52,AUS,Australia,High-income,Australasia,2010,27.9,25.0,4.0
+58,AUT,Austria,High-income,Western Europe,2010,17.6,96.5,26.0
+76,BEL,Belgium,High-income,Western Europe,2010,20.8,66.5,17.5
+154,BRN,Brunei,High-income,High-income Asia Pacific,2010,3.5,179.0,33.0
+178,CAN,Canada,High-income,High-income North America,2010,20.0,71.5,19.0
+184,CHE,Switzerland,High-income,Western Europe,2010,17.5,99.0,27.0
+190,CHL,Chile,High-income,Southern Latin America,2010,26.1,32.0,6.0
+256,CYP,Cyprus,High-income,Western Europe,2010,23.7,41.0,10.0
+268,DEU,Germany,High-income,Western Europe,2010,21.7,52.5,14.0
+286,DNK,Denmark,High-income,Western Europe,2010,19.6,76.5,20.0
+322,ESP,Spain,High-income,Western Europe,2010,21.1,62.0,16.0
+340,FIN,Finland,High-income,Western Europe,2010,21.3,60.0,15.0
+352,FRA,France,High-income,Western Europe,2010,19.3,81.0,21.0
+370,GBR,United Kingdom,High-income,Western Europe,2010,24.4,39.0,8.0
+412,GRC,Greece,High-income,Western Europe,2010,18.8,87.5,23.0
+472,IRL,Ireland,High-income,Western Europe,2010,22.3,49.0,12.0
+490,ISL,Iceland,High-income,Western Europe,2010,27.5,27.0,5.0
+496,ISR,Israel,High-income,Western Europe,2010,23.2,43.5,11.0
+502,ITA,Italy,High-income,Western Europe,2010,18.3,90.5,24.5
+520,JPN,Japan,High-income,High-income Asia Pacific,2010,3.8,177.5,32.0
+556,KOR,South Korea,High-income,High-income Asia Pacific,2010,6.1,164.0,31.0
+616,LUX,Luxembourg,High-income,Western Europe,2010,24.8,37.0,7.0
+676,MLT,Malta,High-income,Western Europe,2010,28.0,24.0,3.0
+754,NLD,Netherlands,High-income,Western Europe,2010,13.1,131.0,28.0
+760,NOR,Norway,High-income,Western Europe,2010,18.3,90.5,24.5
+772,NZL,New Zealand,High-income,Australasia,2010,28.7,21.0,2.0
+826,PRT,Portugal,High-income,Western Europe,2010,21.8,51.0,13.0
+886,SGP,Singapore,High-income,High-income Asia Pacific,2010,11.0,140.5,29.0
+952,SWE,Sweden,High-income,Western Europe,2010,18.9,85.5,22.0
+1060,URY,Uruguay,High-income,Southern Latin America,2010,24.3,40.0,9.0
+1066,USA,United States,High-income,High-income North America,2010,33.3,15.0,1.0
+28,ARE,United Arab Emirates,North Africa and Middle East,North Africa and Middle East,2010,28.4,22.0,11.0
+106,BHR,Bahrain,North Africa and Middle East,North Africa and Middle East,2010,34.7,14.0,8.0
+298,DZA,Algeria,North Africa and Middle East,North Africa and Middle East,2010,17.3,102.0,17.0
+310,EGY,Egypt,North Africa and Middle East,North Africa and Middle East,2010,37.0,10.0,4.0
+478,IRN,Iran,North Africa and Middle East,North Africa and Middle East,2010,20.9,64.0,15.0
+484,IRQ,Iraq,North Africa and Middle East,North Africa and Middle East,2010,31.3,17.0,9.0
+514,JOR,Jordan,North Africa and Middle East,North Africa and Middle East,2010,36.0,11.0,5.0
+562,KWT,Kuwait,North Africa and Middle East,North Africa and Middle East,2010,48.3,3.0,1.0
+574,LBN,Lebanon,North Africa and Middle East,North Africa and Middle East,2010,27.2,28.5,12.0
+586,LBY,Libya,North Africa and Middle East,North Africa and Middle East,2010,43.1,7.0,3.0
+628,MAR,Morocco,North Africa and Middle East,North Africa and Middle East,2010,19.1,83.0,16.0
+778,OMN,Oman,North Africa and Middle East,North Africa and Middle East,2010,26.2,31.0,14.0
+838,PSE,Palestine,North Africa and Middle East,North Africa and Middle East,2010,35.3,12.0,6.0
+844,QAT,Qatar,North Africa and Middle East,North Africa and Middle East,2010,46.7,5.0,2.0
+868,SAU,Saudi Arabia,North Africa and Middle East,North Africa and Middle East,2010,35.2,13.0,7.0
+874,SDN,Sudan,North Africa and Middle East,North Africa and Middle East,2010,15.2,113.0,18.0
+970,SYR,Syria,North Africa and Middle East,North Africa and Middle East,2010,31.2,18.0,10.0
+1024,TUN,Tunisia,North Africa and Middle East,North Africa and Middle East,2010,13.6,126.5,20.0
+1030,TUR,Turkey,North Africa and Middle East,North Africa and Middle East,2010,26.4,30.0,13.0
+1108,YEM,Yemen,North Africa and Middle East,North Africa and Middle East,2010,14.4,119.0,19.0
+46,ATG,Antigua and Barbuda,Latin America and Caribbean,Caribbean,2010,15.2,113.0,25.0
+112,BHS,The Bahamas,Latin America and Caribbean,Caribbean,2010,39.5,9.0,1.0
+130,BLZ,Belize,Latin America and Caribbean,Caribbean,2010,33.2,16.0,2.0
+136,BOL,Bolivia,Latin America and Caribbean,Andean Latin America,2010,17.6,96.5,17.0
+142,BRA,Brazil,Latin America and Caribbean,Tropical Latin America,2010,15.5,109.0,23.0
+148,BRB,Barbados,Latin America and Caribbean,Caribbean,2010,25.0,35.0,6.5
+226,COL,Colombia,Latin America and Caribbean,Central Latin America,2010,18.1,93.0,16.0
+244,CRI,Costa Rica,Latin America and Caribbean,Central Latin America,2010,21.7,52.5,10.0
+250,CUB,Cuba,Latin America and Caribbean,Caribbean,2010,22.7,47.0,9.0
+280,DMA,Dominica,Latin America and Caribbean,Caribbean,2010,25.0,35.0,6.5
+292,DOM,Dominican Republic,Latin America and Caribbean,Caribbean,2010,15.3,110.0,24.0
+304,ECU,Ecuador,Latin America and Caribbean,Andean Latin America,2010,13.2,129.5,28.0
+418,GRD,Grenada,Latin America and Caribbean,Caribbean,2010,15.8,108.0,22.0
+424,GTM,Guatemala,Latin America and Caribbean,Central Latin America,2010,14.6,118.0,27.0
+430,GUY,Guyana,Latin America and Caribbean,Caribbean,2010,21.5,56.0,11.0
+436,HND,Honduras,Latin America and Caribbean,Central Latin America,2010,17.5,99.0,18.0
+448,HTI,Haiti,Latin America and Caribbean,Caribbean,2010,8.5,155.5,29.0
+508,JAM,Jamaica,Latin America and Caribbean,Caribbean,2010,21.4,58.0,12.0
+592,LCA,Saint Lucia,Latin America and Caribbean,Caribbean,2010,16.7,105.0,20.0
+652,MEX,Mexico,Latin America and Caribbean,Central Latin America,2010,27.2,28.5,4.0
+748,NIC,Nicaragua,Latin America and Caribbean,Central Latin America,2010,20.7,69.0,14.0
+790,PAN,Panama,Latin America and Caribbean,Central Latin America,2010,14.7,117.0,26.0
+796,PER,Peru,Latin America and Caribbean,Andean Latin America,2010,16.2,106.0,21.0
+832,PRY,Paraguay,Latin America and Caribbean,Tropical Latin America,2010,25.7,33.0,5.0
+904,SLV,El Salvador,Latin America and Caribbean,Central Latin America,2010,21.0,63.0,13.0
+934,SUR,Suriname,Latin America and Caribbean,Caribbean,2010,23.0,45.0,8.0
+1018,TTO,Trinidad and Tobago,Latin America and Caribbean,Caribbean,2010,28.3,23.0,3.0
+1078,VCT,Saint Vincent and the Grenadines,Latin America and Caribbean,Caribbean,2010,18.8,87.5,15.0
+1084,VEN,Venezuela,Latin America and Caribbean,Central Latin America,2010,17.4,101.0,19.0
+196,CHN,China,"Southeast Asia, East Asia, and Oceania",East Asia,2010,4.2,174.5,20.0
+346,FJI,Fiji,"Southeast Asia, East Asia, and Oceania",Oceania,2010,24.7,38.0,7.0
+358,FSM,Federated States of Micronesia,"Southeast Asia, East Asia, and Oceania",Oceania,2010,44.4,6.0,4.0
+460,IDN,Indonesia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,6.6,159.0,13.0
+544,KHM,Cambodia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,2.1,187.0,22.0
+550,KIR,Kiribati,"Southeast Asia, East Asia, and Oceania",Oceania,2010,47.1,4.0,3.0
+568,LAO,Laos,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,5.5,165.0,15.0
+598,LKA,Sri Lanka,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,5.1,167.0,17.0
+646,MDV,Maldives,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,12.2,137.0,10.0
+658,MHL,Marshall Islands,"Southeast Asia, East Asia, and Oceania",Oceania,2010,40.4,8.0,5.0
+682,MMR,Myanmar,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,6.4,161.0,14.0
+724,MYS,Malaysia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,13.8,125.0,9.0
+802,PHL,Philippines,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,5.0,168.0,18.0
+808,PNG,Papua New Guinea,"Southeast Asia, East Asia, and Oceania",Oceania,2010,9.4,151.0,11.0
+820,PRK,North Korea,"Southeast Asia, East Asia, and Oceania",East Asia,2010,2.5,185.0,21.0
+892,SLB,Solomon Islands,"Southeast Asia, East Asia, and Oceania",Oceania,2010,31.1,19.0,6.0
+988,THA,Thailand,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,8.9,152.0,12.0
+1006,TLS,Timor-Leste,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,4.7,169.0,19.0
+1012,TON,Tonga,"Southeast Asia, East Asia, and Oceania",Oceania,2010,59.8,1.0,1.0
+1036,TWN,Taiwan,"Southeast Asia, East Asia, and Oceania",East Asia,2010,5.2,166.0,16.0
+1090,VNM,Vietnam,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2010,1.5,188.0,23.0
+1096,VUT,Vanuatu,"Southeast Asia, East Asia, and Oceania",Oceania,2010,17.2,103.0,8.0
+1102,WSM,Samoa,"Southeast Asia, East Asia, and Oceania",Oceania,2010,57.0,2.0,2.0
+5,AFG,Afghanistan,South Asia,South Asia,2013,14.4,122.0,1.0
+95,BGD,Bangladesh,South Asia,South Asia,2013,3.6,179.0,5.0
+161,BTN,Bhutan,South Asia,South Asia,2013,14.3,124.0,2.5
+467,IND,India,South Asia,South Asia,2013,3.9,177.0,4.0
+767,NPL,Nepal,South Asia,South Asia,2013,2.4,186.0,6.0
+785,PAK,Pakistan,South Asia,South Asia,2013,14.3,124.0,2.5
+11,AGO,Angola,Sub-Saharan Africa,Central Sub-Saharan Africa,2013,15.6,112.5,12.0
+71,BDI,Burundi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,3.1,181.0,45.0
+83,BEN,Benin,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,10.1,148.0,29.0
+89,BFA,Burkina Faso,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,6.3,163.5,37.5
+167,BWA,Botswana,Sub-Saharan Africa,Southern Sub-Saharan Africa,2013,15.3,116.0,13.0
+173,CAF,Central African Republic,Sub-Saharan Africa,Central Sub-Saharan Africa,2013,8.0,157.0,34.0
+203,CIV,Cote d'Ivoire,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,8.7,155.5,32.5
+209,CMR,Cameroon,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,14.5,120.5,14.5
+215,COD,Democratic Republic of the Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,2013,4.6,171.5,40.5
+221,COG,Congo,Sub-Saharan Africa,Central Sub-Saharan Africa,2013,10.5,145.0,27.0
+233,COM,Comoros,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,13.3,131.5,17.5
+239,CPV,Cape Verde,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,11.5,139.0,22.0
+275,DJI,Djibouti,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,14.5,120.5,14.5
+317,ERI,Eritrea,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,3.9,177.0,44.0
+335,ETH,Ethiopia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,2.9,184.0,48.0
+365,GAB,Gabon,Sub-Saharan Africa,Central Sub-Saharan Africa,2013,19.8,77.0,8.0
+383,GHA,Ghana,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,11.2,141.5,23.5
+389,GIN,Guinea,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,6.3,163.5,37.5
+395,GMB,The Gambia,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,13.3,131.5,17.5
+401,GNB,Guinea-Bissau,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,20.6,71.0,6.0
+407,GNQ,Equatorial Guinea,Sub-Saharan Africa,Central Sub-Saharan Africa,2013,29.8,20.0,1.0
+533,KEN,Kenya,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,11.0,144.0,26.0
+581,LBR,Liberia,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,18.7,90.0,9.0
+605,LSO,Lesotho,Sub-Saharan Africa,Southern Sub-Saharan Africa,2013,20.4,73.5,7.0
+641,MDG,Madagascar,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,3.0,182.5,46.5
+671,MLI,Mali,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,13.2,133.5,19.0
+701,MOZ,Mozambique,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,6.6,160.0,36.0
+707,MRT,Mauritania,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,17.4,104.0,10.0
+713,MUS,Mauritius,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,13.1,135.0,20.0
+719,MWI,Malawi,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,4.7,170.0,39.0
+731,NAM,Namibia,Sub-Saharan Africa,Southern Sub-Saharan Africa,2013,13.6,129.0,16.0
+737,NER,Niger,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,4.6,171.5,40.5
+743,NGA,Nigeria,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,11.1,143.0,25.0
+863,RWA,Rwanda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,3.0,182.5,46.5
+881,SEN,Senegal,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,16.3,108.0,11.0
+899,SLE,Sierra Leone,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,8.7,155.5,32.5
+911,SOM,Somalia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,10.0,149.0,30.0
+923,SSD,South Sudan,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,21.6,59.5,4.0
+929,STP,Sao Tome and Principe,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,12.7,136.0,21.0
+959,SWZ,Swaziland,Sub-Saharan Africa,Southern Sub-Saharan Africa,2013,23.1,45.0,3.0
+965,SYC,Seychelles,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,20.7,69.5,5.0
+977,TCD,Chad,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,4.5,173.0,42.0
+983,TGO,Togo,Sub-Saharan Africa,Western Sub-Saharan Africa,2013,7.5,158.0,35.0
+1043,TZA,Tanzania,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,10.4,146.0,28.0
+1049,UGA,Uganda,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,4.3,175.0,43.0
+1115,ZAF,South Africa,Sub-Saharan Africa,Southern Sub-Saharan Africa,2013,28.8,23.5,2.0
+1121,ZMB,Zambia,Sub-Saharan Africa,Eastern Sub-Saharan Africa,2013,9.6,151.0,31.0
+1127,ZWE,Zimbabwe,Sub-Saharan Africa,Southern Sub-Saharan Africa,2013,11.2,141.5,23.5
+17,ALB,Albania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,10.2,147.0,29.0
+41,ARM,Armenia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,19.3,87.5,19.0
+65,AZE,Azerbaijan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,20.4,73.5,12.0
+101,BGR,Bulgaria,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,18.6,91.5,20.0
+119,BIH,Bosnia and Herzegovina,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,18.1,96.5,22.0
+125,BLR,Belarus,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2013,11.8,138.0,28.0
+263,CZE,Czech Republic,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,19.4,84.0,17.0
+329,EST,Estonia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2013,22.8,47.5,3.5
+377,GEO,Georgia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,25.1,37.0,1.0
+443,HRV,Croatia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,19.9,75.0,13.0
+455,HUN,Hungary,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,23.4,42.5,2.0
+527,KAZ,Kazakhstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,22.2,51.5,5.0
+539,KGZ,Kyrgyzstan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,15.5,114.0,24.0
+611,LTU,Lithuania,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2013,21.8,56.0,8.0
+623,LVA,Latvia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2013,22.1,53.0,6.0
+635,MDA,Moldova,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2013,21.6,59.5,9.0
+665,MKD,Macedonia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,19.4,84.0,17.0
+689,MNE,Montenegro,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,21.9,55.0,7.0
+695,MNG,Mongolia,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,15.4,115.0,25.0
+815,POL,Poland,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,19.8,77.0,14.0
+851,ROU,Romania,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,19.4,84.0,17.0
+857,RUS,Russia,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2013,22.8,47.5,3.5
+917,SRB,Serbia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,17.8,100.0,23.0
+941,SVK,Slovakia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,19.7,79.0,15.0
+947,SVN,Slovenia,"Central Europe, Eastern Europe, and Central Asia",Central Europe,2013,21.2,64.5,10.0
+995,TJK,Tajikistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,13.2,133.5,27.0
+1001,TKM,Turkmenistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,18.4,93.0,21.0
+1055,UKR,Ukraine,"Central Europe, Eastern Europe, and Central Asia",Eastern Europe,2013,20.5,72.0,11.0
+1073,UZB,Uzbekistan,"Central Europe, Eastern Europe, and Central Asia",Central Asia,2013,13.7,128.0,26.0
+23,AND,Andorra,High-income,Western Europe,2013,8.9,152.5,30.0
+35,ARG,Argentina,High-income,Southern Latin America,2013,20.8,68.0,18.0
+53,AUS,Australia,High-income,Australasia,2013,28.7,25.0,3.0
+59,AUT,Austria,High-income,Western Europe,2013,18.0,98.5,26.0
+77,BEL,Belgium,High-income,Western Europe,2013,20.9,67.0,17.0
+155,BRN,Brunei,High-income,High-income Asia Pacific,2013,3.5,180.0,33.0
+179,CAN,Canada,High-income,High-income North America,2013,21.2,64.5,16.0
+185,CHE,Switzerland,High-income,Western Europe,2013,17.7,102.0,27.0
+191,CHL,Chile,High-income,Southern Latin America,2013,26.3,32.0,6.0
+257,CYP,Cyprus,High-income,Western Europe,2013,24.1,41.0,10.0
+269,DEU,Germany,High-income,Western Europe,2013,22.2,51.5,14.0
+287,DNK,Denmark,High-income,Western Europe,2013,19.8,77.0,20.0
+323,ESP,Spain,High-income,Western Europe,2013,20.7,69.5,19.0
+341,FIN,Finland,High-income,Western Europe,2013,21.7,57.0,15.0
+353,FRA,France,High-income,Western Europe,2013,19.5,81.0,21.0
+371,GBR,United Kingdom,High-income,Western Europe,2013,25.0,38.0,7.0
+413,GRC,Greece,High-income,Western Europe,2013,19.4,84.0,22.5
+473,IRL,Ireland,High-income,Western Europe,2013,22.7,49.0,12.0
+491,ISL,Iceland,High-income,Western Europe,2013,27.9,27.0,5.0
+497,ISR,Israel,High-income,Western Europe,2013,23.2,44.0,11.0
+503,ITA,Italy,High-income,Western Europe,2013,18.2,95.0,25.0
+521,JPN,Japan,High-income,High-income Asia Pacific,2013,3.9,177.0,32.0
+557,KOR,South Korea,High-income,High-income Asia Pacific,2013,6.4,162.0,31.0
+617,LUX,Luxembourg,High-income,Western Europe,2013,24.9,39.0,8.0
+677,MLT,Malta,High-income,Western Europe,2013,28.3,26.0,4.0
+755,NLD,Netherlands,High-income,Western Europe,2013,14.3,124.0,28.0
+761,NOR,Norway,High-income,Western Europe,2013,18.6,91.5,24.0
+773,NZL,New Zealand,High-income,Australasia,2013,29.0,21.5,2.0
+827,PRT,Portugal,High-income,Western Europe,2013,22.3,50.0,13.0
+887,SGP,Singapore,High-income,High-income Asia Pacific,2013,11.4,140.0,29.0
+953,SWE,Sweden,High-income,Western Europe,2013,19.4,84.0,22.5
+1061,URY,Uruguay,High-income,Southern Latin America,2013,24.5,40.0,9.0
+1067,USA,United States,High-income,High-income North America,2013,32.8,16.0,1.0
+29,ARE,United Arab Emirates,North Africa and Middle East,North Africa and Middle East,2013,29.0,21.5,11.0
+107,BHR,Bahrain,North Africa and Middle East,North Africa and Middle East,2013,35.7,14.0,8.0
+299,DZA,Algeria,North Africa and Middle East,North Africa and Middle East,2013,18.0,98.5,17.0
+311,EGY,Egypt,North Africa and Middle East,North Africa and Middle East,2013,37.7,10.0,4.0
+479,IRN,Iran,North Africa and Middle East,North Africa and Middle East,2013,21.5,62.0,15.0
+485,IRQ,Iraq,North Africa and Middle East,North Africa and Middle East,2013,31.9,18.0,10.0
+515,JOR,Jordan,North Africa and Middle East,North Africa and Middle East,2013,36.5,11.0,5.0
+563,KWT,Kuwait,North Africa and Middle East,North Africa and Middle East,2013,49.1,3.0,1.0
+575,LBN,Lebanon,North Africa and Middle East,North Africa and Middle East,2013,27.7,28.0,12.0
+587,LBY,Libya,North Africa and Middle East,North Africa and Middle East,2013,43.9,7.0,3.0
+629,MAR,Morocco,North Africa and Middle East,North Africa and Middle East,2013,19.6,80.0,16.0
+779,OMN,Oman,North Africa and Middle East,North Africa and Middle East,2013,26.7,31.0,14.0
+839,PSE,Palestine,North Africa and Middle East,North Africa and Middle East,2013,36.2,12.0,6.0
+845,QAT,Qatar,North Africa and Middle East,North Africa and Middle East,2013,47.2,5.0,2.0
+869,SAU,Saudi Arabia,North Africa and Middle East,North Africa and Middle East,2013,35.8,13.0,7.0
+875,SDN,Sudan,North Africa and Middle East,North Africa and Middle East,2013,15.6,112.5,18.0
+971,SYR,Syria,North Africa and Middle East,North Africa and Middle East,2013,32.0,17.0,9.0
+1025,TUN,Tunisia,North Africa and Middle East,North Africa and Middle East,2013,14.0,127.0,20.0
+1031,TUR,Turkey,North Africa and Middle East,North Africa and Middle East,2013,27.6,29.0,13.0
+1109,YEM,Yemen,North Africa and Middle East,North Africa and Middle East,2013,14.7,118.0,19.0
+47,ATG,Antigua and Barbuda,Latin America and Caribbean,Caribbean,2013,15.7,110.5,24.5
+113,BHS,The Bahamas,Latin America and Caribbean,Caribbean,2013,39.8,9.0,1.0
+131,BLZ,Belize,Latin America and Caribbean,Caribbean,2013,33.0,15.0,2.0
+137,BOL,Bolivia,Latin America and Caribbean,Andean Latin America,2013,17.7,102.0,19.0
+143,BRA,Brazil,Latin America and Caribbean,Tropical Latin America,2013,16.4,107.0,22.0
+149,BRB,Barbados,Latin America and Caribbean,Caribbean,2013,25.7,34.0,6.0
+227,COL,Colombia,Latin America and Caribbean,Central Latin America,2013,18.9,89.0,16.0
+245,CRI,Costa Rica,Latin America and Caribbean,Central Latin America,2013,22.0,54.0,10.0
+251,CUB,Cuba,Latin America and Caribbean,Caribbean,2013,22.9,46.0,9.0
+281,DMA,Dominica,Latin America and Caribbean,Caribbean,2013,25.5,35.0,7.0
+293,DOM,Dominican Republic,Latin America and Caribbean,Caribbean,2013,15.7,110.5,24.5
+305,ECU,Ecuador,Latin America and Caribbean,Andean Latin America,2013,13.4,130.0,28.0
+419,GRD,Grenada,Latin America and Caribbean,Caribbean,2013,16.1,109.0,23.0
+425,GTM,Guatemala,Latin America and Caribbean,Central Latin America,2013,14.6,119.0,27.0
+431,GUY,Guyana,Latin America and Caribbean,Caribbean,2013,21.6,59.5,11.5
+437,HND,Honduras,Latin America and Caribbean,Central Latin America,2013,18.1,96.5,18.0
+449,HTI,Haiti,Latin America and Caribbean,Caribbean,2013,8.8,154.0,29.0
+509,JAM,Jamaica,Latin America and Caribbean,Caribbean,2013,21.6,59.5,11.5
+593,LCA,Saint Lucia,Latin America and Caribbean,Caribbean,2013,16.9,106.0,21.0
+653,MEX,Mexico,Latin America and Caribbean,Central Latin America,2013,27.2,30.0,4.0
+749,NIC,Nicaragua,Latin America and Caribbean,Central Latin America,2013,21.0,66.0,14.0
+791,PAN,Panama,Latin America and Caribbean,Central Latin America,2013,15.2,117.0,26.0
+797,PER,Peru,Latin America and Caribbean,Andean Latin America,2013,17.0,105.0,20.0
+833,PRY,Paraguay,Latin America and Caribbean,Tropical Latin America,2013,25.9,33.0,5.0
+905,SLV,El Salvador,Latin America and Caribbean,Central Latin America,2013,21.3,63.0,13.0
+935,SUR,Suriname,Latin America and Caribbean,Caribbean,2013,23.4,42.5,8.0
+1019,TTO,Trinidad and Tobago,Latin America and Caribbean,Caribbean,2013,28.8,23.5,3.0
+1079,VCT,Saint Vincent and the Grenadines,Latin America and Caribbean,Caribbean,2013,19.3,87.5,15.0
+1085,VEN,Venezuela,Latin America and Caribbean,Central Latin America,2013,18.3,94.0,17.0
+197,CHN,China,"Southeast Asia, East Asia, and Oceania",East Asia,2013,4.4,174.0,20.0
+347,FJI,Fiji,"Southeast Asia, East Asia, and Oceania",Oceania,2013,25.2,36.0,7.0
+359,FSM,Federated States of Micronesia,"Southeast Asia, East Asia, and Oceania",Oceania,2013,44.7,6.0,4.0
+461,IDN,Indonesia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,6.9,159.0,13.0
+545,KHM,Cambodia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,2.1,187.0,22.0
+551,KIR,Kiribati,"Southeast Asia, East Asia, and Oceania",Oceania,2013,47.7,4.0,3.0
+569,LAO,Laos,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,5.6,165.0,15.0
+599,LKA,Sri Lanka,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,5.2,167.5,17.5
+647,MDV,Maldives,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,12.5,137.0,10.0
+659,MHL,Marshall Islands,"Southeast Asia, East Asia, and Oceania",Oceania,2013,40.7,8.0,5.0
+683,MMR,Myanmar,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,6.5,161.0,14.0
+725,MYS,Malaysia,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,14.2,126.0,9.0
+803,PHL,Philippines,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,5.2,167.5,17.5
+809,PNG,Papua New Guinea,"Southeast Asia, East Asia, and Oceania",Oceania,2013,9.8,150.0,11.0
+821,PRK,North Korea,"Southeast Asia, East Asia, and Oceania",East Asia,2013,2.5,185.0,21.0
+893,SLB,Solomon Islands,"Southeast Asia, East Asia, and Oceania",Oceania,2013,31.6,19.0,6.0
+989,THA,Thailand,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,8.9,152.5,12.0
+1007,TLS,Timor-Leste,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,4.8,169.0,19.0
+1013,TON,Tonga,"Southeast Asia, East Asia, and Oceania",Oceania,2013,60.1,1.0,1.0
+1037,TWN,Taiwan,"Southeast Asia, East Asia, and Oceania",East Asia,2013,5.3,166.0,16.0
+1091,VNM,Vietnam,"Southeast Asia, East Asia, and Oceania",Southeast Asia,2013,1.6,188.0,23.0
+1097,VUT,Vanuatu,"Southeast Asia, East Asia, and Oceania",Oceania,2013,17.7,102.0,8.0
+1103,WSM,Samoa,"Southeast Asia, East Asia, and Oceania",Oceania,2013,57.6,2.0,2.0
