@@ -1,6 +1,6 @@
 // graph dimensions
 var padding = 10,
-    margin = {top: 150, right:0, bottom: 30, left: 50},
+    margin = {top: 170, right:0, bottom: 30, left: 50},
     width = 1100 - margin.left -  margin.right,
     height =  700 - margin.top - margin.bottom;
 
@@ -28,13 +28,17 @@ var div = d3.select('.svg-container').append('div')
 
 // add information about global obesity
    div.append('h5')
-       .text('Global');
+       .text('Obesity is on the rise globally.');
 
-   div.append('p')
+      div.append('p')
+       .text('Between 1990 and 2013, the global prevalence of obesity (defined as the percentage of the population with a BMI > 30)' +
+             ' has risen from 9.3% to 12.0%, a relative increase of 29%.');
+
+    div.append('p')
         .text('High BMI is associated with a huge variety of health problems, ranging from heart disease to diabetes to cancers.');
 
    div.append('p')
-       .text('Between 1990 and 2013, the prevalence of obesity (defined as the percentage of the population with a BMI > 30) has risen from 9.3% to 12.0% globally, a relative increase of 29%.');
+       .text('For country-specific information, hover over the graph below or pick a country from the drop-down list.');
 
 // create the svg object inside the body
 var svg = d3.select('.svg-container').append('svg')
@@ -66,10 +70,13 @@ d3.csv('data/data.csv', function(error, data) {
     dataNest.forEach(function(d) {
 
         var location = d.key,
+            super_region = d.values[0].super_region_name,
             mean_1990 = d.values[0].mean,
             mean_2013 = d.values[5].mean,
-            global_rank = +d.values[5].global_rank,
-            super_region_rank = +d.values[5].super_region_rank;
+            global_rank_2013 = Math.floor(+d.values[5].global_rank),
+            super_region_rank_2013 = Math.floor(+d.values[5].super_region_rank),
+            global_rank_1990 = Math.floor(+d.values[0].global_rank),
+            super_region_rank_1990 = Math.floor(+d.values[0].super_region_rank);
 
         svg.append('g')
             .attr('class', 'trendline')
@@ -94,8 +101,9 @@ d3.csv('data/data.csv', function(error, data) {
                           '% higher than the global average of 12%. ');
 
                 div.append('p')
-                    .text(location + ' ranks in at #' + global_rank +
-                          ' most obese country globally, and #' + super_region_rank + ' in the super region.');
+                    .text('In 2013, ' + location + ' ranked in at #' + global_rank_2013 +
+                          ' most obese country globally (compared to #' + global_rank_1990 +' in 1990), and #' + super_region_rank_2013 + ' in the ' + super_region
+                          + ' super region (compared to #' + super_region_rank_1990 + ' in 1990).');
             });
 
     });
