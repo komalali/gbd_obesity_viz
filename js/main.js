@@ -133,8 +133,9 @@ d3.csv('data/data.csv', function(error, data) {
 
                 div.html('')
                     .append('h5')
-                    .text(function() { return d.key; })
-                    .append('p')
+                    .text(function() { return d.key; });
+
+                div.append('p')
                     .text(change_text());
 
                 div.append('p')
