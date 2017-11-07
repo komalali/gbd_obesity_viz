@@ -1,8 +1,8 @@
 // graph dimensions
 var padding = 10,
-    margin = {top: 170, right:0, bottom: 30, left: 50},
-    width = 1100 - margin.left -  margin.right,
-    height =  700 - margin.top - margin.bottom;
+    margin = {top: 10, right:0, bottom: 30, left: 50},
+    width = 1400 - margin.left -  margin.right,
+    height =  600 - margin.top - margin.bottom;
 
 // set the ranges
 var x = d3.scaleLinear().nice().range([0, width]);
@@ -21,7 +21,7 @@ var valueline = d3.line()
                   .curve(d3.curveNatural);
 
 // tooltip div
-var div = d3.select('.svg-container').append('div')
+var div = d3.select('.tooltip-container').append('div')
                             .attr('class', 'tooltip container')
                             .attr('width', width + margin.left + margin.right)
                             .style('opacity', 0.9);
@@ -35,7 +35,7 @@ var div = d3.select('.svg-container').append('div')
              ' has risen from 9.3% to 12.0%, a relative increase of 29%.');
 
     div.append('p')
-        .text('High BMI is associated with a huge variety of health problems, ranging from heart disease to diabetes to cancers.');
+        .text('High BMI is associated with a huge variety of health problems, ranging from heart disease to diabetes to various forms of cancer.');
 
     div.append('p')
         .text('For country-specific information, hover over the graph below or pick a country from the drop-down list.');

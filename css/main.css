@@ -100,13 +100,16 @@ textarea {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.svg-container {
+    text-align: center;
+}
 
 .main {
     align-self: center;
 }
 
 svg {
-    margin-left: -20px;
+    margin-left: -50px;
 }
 
 h1 {
@@ -132,16 +135,17 @@ h5 {
 }
 
 .tooltip {
-    max-width: 1050px;
-    margin: 10px 50px 0 30px;
+    position: relative;
     text-align: left;
+    max-width: 1300px;
     padding: 5px 10px;
-    background: lightgrey;
-    border:2px solid black;
+    background: whitesmoke;
+    border: 1px solid lightgrey;
     border-radius: 8px;
     pointer-events: none;
     font-size: 17px;
     font-weight: bold;
+    margin: 10px auto;
 }
 
 div p {
@@ -154,13 +158,14 @@ div p {
 }
 
 button {
-    margin: 5px;
+    margin: 2px;
 }
 
 .buttonHolder {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 
