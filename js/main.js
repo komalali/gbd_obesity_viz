@@ -76,7 +76,30 @@ d3.csv('data/data.csv', function(error, data) {
             global_rank_2013 = Math.floor(+d.values[5].global_rank),
             super_region_rank_2013 = Math.floor(+d.values[5].super_region_rank),
             global_rank_1990 = Math.floor(+d.values[0].global_rank),
-            super_region_rank_1990 = Math.floor(+d.values[0].super_region_rank);
+            super_region_rank_1990 = Math.floor(+d.values[0].super_region_rank),
+            percent_difference_to_global = (mean_2013 - 12).toFixed(1);
+
+        var change_text = function() {
+            if (mean_2013 > mean_1990) {
+                return ('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
+                    'By 2013, this number had increased to ' + mean_2013 + '%, a relative change of ' +
+                    ((mean_2013 - mean_1990) * 100 /mean_1990).toFixed(1) + '%.');
+            } else if (mean_2013 < mean_1990) {
+                return ('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
+                    'By 2013, this number had decreased to ' + mean_2013 + '%, a relative change of ' +
+                    ((mean_2013 - mean_1990) * 100 / mean_1990).toFixed(1) + '%.');
+            }
+        };
+
+        var diff_from_global = function() {
+            if (percent_difference_to_global > 0) {
+                return ('In 2013, ' + location + ' had a prevalence of ' + percent_difference_to_global +
+                    '% higher than the global average of 12%.');
+            } else if (percent_difference_to_global < 0) {
+                return ('In 2013, ' + location + ' had a prevalence of ' + Math.abs(percent_difference_to_global) +
+                    '% lower than the global average of 12%.');
+            }
+        };
 
         svg.append('g')
             .attr('class', 'trendline')
@@ -92,13 +115,10 @@ d3.csv('data/data.csv', function(error, data) {
                     .append('h5')
                     .text(function() { return d.key; })
                     .append('p')
-                    .text('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
-                        'By 2013, this number had changed to ' + mean_2013 + '%, a relative change of ' +
-                        ((mean_2013 - mean_1990) * 100 /mean_1990).toFixed(1) + '%.');
+                    .text(change_text);
 
                 div.append('p')
-                    .text('In 2013, ' + location + ' had a prevalence of ' + (mean_2013 - 12).toFixed(1) +
-                          '% higher than the global average of 12%. ');
+                    .text(diff_from_global);
 
                 div.append('p')
                     .text('In 2013, ' + location + ' ranked in at #' + global_rank_2013 +
