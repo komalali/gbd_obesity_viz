@@ -27,18 +27,18 @@ var div = d3.select('.svg-container').append('div')
                             .style('opacity', 0.9);
 
 // add information about global obesity
-   div.append('h5')
-       .text('Obesity is on the rise globally.');
+    div.append('h5')
+        .text('Obesity is on the rise globally.');
 
-      div.append('p')
-       .text('Between 1990 and 2013, the global prevalence of obesity (defined as the percentage of the population with a BMI > 30)' +
+    div.append('p')
+        .text('Between 1990 and 2013, the global prevalence of obesity (defined as the percentage of the population with a BMI > 30)' +
              ' has risen from 9.3% to 12.0%, a relative increase of 29%.');
 
     div.append('p')
         .text('High BMI is associated with a huge variety of health problems, ranging from heart disease to diabetes to cancers.');
 
-   div.append('p')
-       .text('For country-specific information, hover over the graph below or pick a country from the drop-down list.');
+    div.append('p')
+        .text('For country-specific information, hover over the graph below or pick a country from the drop-down list.');
 
 // create the svg object inside the body
 var svg = d3.select('.svg-container').append('svg')
@@ -101,6 +101,26 @@ d3.csv('data/data.csv', function(error, data) {
             }
         };
 
+        var change_in_global_ranking_text = function() {
+            if (global_rank_2013 > global_rank_1990) {
+                return '(down from #' + global_rank_1990 +' in 1990)'
+            } else if (global_rank_2013 < global_rank_1990) {
+                return '(up from #' + global_rank_1990 + ' in 1990)'
+            } else if (global_rank_2013 === global_rank_1990) {
+                return '(same rank as in 1990)'
+            }
+        };
+
+        var change_in_super_region_ranking_text = function() {
+            if (super_region_rank_2013 > super_region_rank_1990) {
+                return ('(down from #' + super_region_rank_1990 +' in 1990)')
+            } else if (super_region_rank_2013 < super_region_rank_1990) {
+                return ('(up from #' + super_region_rank_1990 +' in 1990)')
+            } else if (super_region_rank_2013 === super_region_rank_1990) {
+                return ('(same rank as in 1990)')
+            }
+        };
+
         svg.append('g')
             .attr('class', 'trendline')
             .append('path')
@@ -115,15 +135,15 @@ d3.csv('data/data.csv', function(error, data) {
                     .append('h5')
                     .text(function() { return d.key; })
                     .append('p')
-                    .text(change_text);
+                    .text(change_text());
 
                 div.append('p')
-                    .text(diff_from_global);
+                    .text(diff_from_global());
 
                 div.append('p')
                     .text('In 2013, ' + location + ' ranked in at #' + global_rank_2013 +
-                          ' most obese country globally (compared to #' + global_rank_1990 +' in 1990), and #' + super_region_rank_2013 + ' in the ' + super_region
-                          + ' super region (compared to #' + super_region_rank_1990 + ' in 1990).');
+                          ' most obese country globally ' + change_in_global_ranking_text() + ', and #' + super_region_rank_2013 + ' in the ' + super_region
+                          + ' super region ' + change_in_super_region_ranking_text() + '.');
             });
 
     });
