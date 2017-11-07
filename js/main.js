@@ -1,8 +1,8 @@
 // graph dimensions
 var padding = 10,
     margin = {top: 10, right:0, bottom: 30, left: 50},
-    width = 1400 - margin.left -  margin.right,
-    height =  600 - margin.top - margin.bottom;
+    width = 1200 - margin.left -  margin.right,
+    height =  500 - margin.top - margin.bottom;
 
 // set the ranges
 var x = d3.scaleLinear().nice().range([0, width]);

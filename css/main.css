@@ -138,7 +138,7 @@ h5 {
 .tooltip {
     position: relative;
     text-align: left;
-    max-width: 1300px;
+    max-width: 1100px;
     padding: 5px 10px;
     background: whitesmoke;
     border: 1px solid lightgrey;
@@ -167,6 +167,7 @@ button {
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
+
 }
 
 
