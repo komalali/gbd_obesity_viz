@@ -61,7 +61,9 @@ d3.csv('data/data.csv', function(error, data) {
     x.domain(d3.extent(data, function(d) { return d.year; }));
     y.domain([0, d3.max(data, function(d) { return d.mean; })]);
 
-// nest the data by location
+
+
+    // nest the data by location
     var dataNest = d3.nest()
         .key(function(d) { return d.location_name; })
         .entries(data);
@@ -69,36 +71,89 @@ d3.csv('data/data.csv', function(error, data) {
     // loop through each location
     dataNest.forEach(function(d) {
 
+        var location = d.key,
+            super_region = d.values[0].super_region_name,
+            mean_1990 = d.values[0].mean,
+            mean_2013 = d.values[5].mean,
+            global_rank_2013 = Math.floor(+d.values[5].global_rank),
+            super_region_rank_2013 = Math.floor(+d.values[5].super_region_rank),
+            global_rank_1990 = Math.floor(+d.values[0].global_rank),
+            super_region_rank_1990 = Math.floor(+d.values[0].super_region_rank),
+            percent_difference_to_global = (mean_2013 - 12).toFixed(1);
+
+        var change_text = function() {
+            if (mean_2013 > mean_1990) {
+                return ('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
+                    'By 2013, this number had increased to ' + mean_2013 + '%, a relative change of ' +
+                    ((mean_2013 - mean_1990) * 100 /mean_1990).toFixed(1) + '%.');
+            } else if (mean_2013 < mean_1990) {
+                return ('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
+                    'By 2013, this number had decreased to ' + mean_2013 + '%, a relative change of ' +
+                    ((mean_2013 - mean_1990) * 100 / mean_1990).toFixed(1) + '%.');
+            }
+        };
+
+        var diff_from_global = function() {
+            if (percent_difference_to_global > 0) {
+                return ('In 2013, ' + location + ' had a prevalence of ' + percent_difference_to_global +
+                    '% higher than the global average of 12%.');
+            } else if (percent_difference_to_global < 0) {
+                return ('In 2013, ' + location + ' had a prevalence of ' + Math.abs(percent_difference_to_global) +
+                    '% lower than the global average of 12%.');
+            }
+        };
+
+        var change_in_global_ranking_text = function() {
+            if (global_rank_2013 > global_rank_1990) {
+                return '(down from #' + global_rank_1990 +' in 1990)'
+            } else if (global_rank_2013 < global_rank_1990) {
+                return '(up from #' + global_rank_1990 + ' in 1990)'
+            } else if (global_rank_2013 === global_rank_1990) {
+                return '(same rank as in 1990)'
+            }
+        };
+
+        var change_in_super_region_ranking_text = function() {
+            if (super_region_rank_2013 > super_region_rank_1990) {
+                return ('(down from #' + super_region_rank_1990 +' in 1990)')
+            } else if (super_region_rank_2013 < super_region_rank_1990) {
+                return ('(up from #' + super_region_rank_1990 +' in 1990)')
+            } else if (super_region_rank_2013 === super_region_rank_1990) {
+                return ('(same rank as in 1990)')
+            }
+        };
+
         svg.append('g')
             .attr('class', 'trendline')
             .append('path')
             .attr('class', 'line')
             .attr('d', valueline(d.values))
+            .on("mouseover", function() {
+
+
+                div.transition()
+                    .duration(200)
+                    .style('opacity', 0.9);
+
+                div.html('')
+                    .append('h5')
+                    .text(function() { return d.key; });
+
+                div.append('p')
+                    .text(change_text());
+
+                div.append('p')
+                    .text(diff_from_global());
+
+                div.append('p')
+                    .text('In 2013, ' + location + ' ranked in at #' + global_rank_2013 +
+                        ' most obese country globally ' + change_in_global_ranking_text() + ', and #'
+                        + super_region_rank_2013 + ' in the ' + super_region
+                        + ' super region ' + change_in_super_region_ranking_text() + '.');
+            });
 
 
     });
-
-    // x-axis
-    svg.append('g')
-        .attr('transform', 'translate(0,' + height + ')')
-        .call(xAxis);
-
-    // y-axis
-    svg.append('g')
-        .call(yAxis);
-
-    // axis titles
-    svg.append('text')
-        .attr('text-anchor', 'middle')
-        .attr('transform', 'translate(' + (-padding * 3) + ',' + (height/2) +')rotate(-90)')
-        .text('Percent of Population that is Obese (BMI > 30)');
-
-    svg.append('text')
-        .attr('text-anchor', 'middle')
-        .attr('transform', 'translate(' + (width/2) + ',' + (height + padding * 3.5) + ')')
-        .text('Year');
-
-
 
     // nest the data by super region
     var dataNestSuper = d3.nest()
@@ -207,6 +262,26 @@ d3.csv('data/data.csv', function(error, data) {
                             + ' super region ' + change_in_super_region_ranking_text() + '.');
                 });
         })
+
+        // x-axis
+        svg.append('g')
+            .attr('transform', 'translate(0,' + height + ')')
+            .call(xAxis);
+
+        // y-axis
+        svg.append('g')
+            .call(yAxis);
+
+        // axis titles
+        svg.append('text')
+            .attr('text-anchor', 'middle')
+            .attr('transform', 'translate(' + (-padding * 3) + ',' + (height/2) +')rotate(-90)')
+            .text('Percent of Population that is Obese (BMI > 30)');
+
+        svg.append('text')
+            .attr('text-anchor', 'middle')
+            .attr('transform', 'translate(' + (width/2) + ',' + (height + padding * 3.5) + ')')
+            .text('Year');
 
     });
 

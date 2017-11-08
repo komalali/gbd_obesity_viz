@@ -31,11 +31,16 @@ h5 {
     stroke-width: 1px;
 }
 
+.line:hover {
+    stroke: orangered;
+    stroke-width: 4px;
+}
+
 
 .sr_line {
     fill: none;
-    stroke: grey;
-    stroke-width: 0px;
+    stroke: none;
+    stroke-width: 1px;
 }
 
 .sr_line:hover {
