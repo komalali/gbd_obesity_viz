@@ -172,6 +172,8 @@ d3.csv('data/data.csv', function(error, data) {
             .attr('super_region', function() { return super_region; })
             .text(function() { return super_region; })
             .on('click', function() {
+                d3.select(this).classed('active', !d3.select(this).classed('active'));
+
                 var super_region = d3.select(this).attr('super_region');
                 var super_region_trendlines = d3.selectAll('.sr_line[super_region="' + super_region + '"]');
                 super_region_trendlines.classed('active', !super_region_trendlines.classed('active'));
@@ -261,7 +263,7 @@ d3.csv('data/data.csv', function(error, data) {
                             + super_region_rank_2013 + ' in the ' + super_region
                             + ' super region ' + change_in_super_region_ranking_text() + '.');
                 });
-        })
+        });
 
         // x-axis
         svg.append('g')
