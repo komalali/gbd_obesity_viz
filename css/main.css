@@ -2,16 +2,30 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+
 .svg-container {
+
+    flex: 1 1 auto;
     text-align: center;
+
 }
+/*
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+*/
 
 .main {
-    align-self: center;
-}
+    display: flex;
+    position: absolute;
+    top: 0px;
+    bottom: 150px;
+    flex-flow: column;
 
-svg {
-    margin-left: -50px;
 }
 
 h1 {
@@ -91,4 +105,8 @@ button {
 .active {
     stroke: grey;
     stroke-width: 1px;
+}
+
+.axis-text {
+    font-size: 12px;
 }

@@ -1,18 +1,25 @@
 // graph dimensions
-var padding = 10,
-    margin = {top: 10, right:0, bottom: 30, left: 50},
-    width = 1200 - margin.left -  margin.right,
-    height =  500 - margin.top - margin.bottom;
+var margin = {top: 30, right:90, bottom: 50, left: 30},
+    height = parseInt(d3.select('.svg-container').style('height')),
+    width = parseInt(d3.select('.svg-container').style('width'));
+
+    height = height - margin.top - margin.bottom;
+    width = width - margin.left -  margin.right;
+
+// formatting for axes
+var year = d3.format('d'),
+    percent = d3.format('.0%');
 
 // set the ranges
 var x = d3.scaleLinear().nice().range([0, width]);
 var y = d3.scaleLinear().range([height, 0]);
 
 // define the x axis
-var xAxis = d3.axisBottom(x).tickFormat(d3.format("d"));
+var xAxis = d3.axisBottom(x).tickFormat(year);
 
 // define the y axis
-var yAxis = d3.axisLeft(y);
+var yAxisLeft = d3.axisLeft(y).tickFormat(percent);
+var yAxisRight = d3.axisRight(y).tickFormat(percent);
 
 // define the line
 var valueline = d3.line()
@@ -40,12 +47,14 @@ var div = d3.select('.tooltip-container').append('div')
     div.append('p')
         .text('For country-specific information, hover over the graph below or pick a country from the drop-down list.');
 
-// create the svg object inside the body
-var svg = d3.select('.svg-container').append('svg')
-                            .attr('width', width + margin.left + margin.right)
-                            .attr('height', padding + height + margin.top + margin.bottom)
-                           .append('g')
-                            .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+// create the svg object inside the svg container div
+var svg = d3.select('.svg-container')
+            .append('svg')
+            .attr('class', 'svg-content')
+            .style('width', (width + margin.left + margin.right) + 'px')
+            .style('height', (height + margin.top + margin.bottom) + 'px')
+            .append('g')
+            .attr('transform', 'translate(' + margin.left * 1.5 + ',' + margin.top + ')');
 
 // load in the data
 d3.csv('data/data.csv', function(error, data) {
@@ -62,7 +71,6 @@ d3.csv('data/data.csv', function(error, data) {
     y.domain([0, d3.max(data, function(d) { return d.mean; })]);
 
 
-
     // nest the data by location
     var dataNest = d3.nest()
         .key(function(d) { return d.location_name; })
@@ -73,8 +81,8 @@ d3.csv('data/data.csv', function(error, data) {
 
         var location = d.key,
             super_region = d.values[0].super_region_name,
-            mean_1990 = d.values[0].mean,
-            mean_2013 = d.values[5].mean,
+            mean_1990 = d.values[0].mean * 100,
+            mean_2013 = d.values[5].mean * 100,
             global_rank_2013 = Math.floor(+d.values[5].global_rank),
             super_region_rank_2013 = Math.floor(+d.values[5].super_region_rank),
             global_rank_1990 = Math.floor(+d.values[0].global_rank),
@@ -83,8 +91,8 @@ d3.csv('data/data.csv', function(error, data) {
 
         var change_text = function() {
             if (mean_2013 > mean_1990) {
-                return ('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
-                    'By 2013, this number had increased to ' + mean_2013 + '%, a relative change of ' +
+                return ('In 1990, ' + mean_1990.toFixed(1) + '% of the population of ' + location + ' was obese. ' +
+                    'By 2013, this number had increased to ' + mean_2013.toFixed(1) + '%, a relative change of ' +
                     ((mean_2013 - mean_1990) * 100 /mean_1990).toFixed(1) + '%.');
             } else if (mean_2013 < mean_1990) {
                 return ('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
@@ -123,9 +131,7 @@ d3.csv('data/data.csv', function(error, data) {
             }
         };
 
-        svg.append('g')
-            .attr('class', 'trendline')
-            .append('path')
+        svg.append('path')
             .attr('class', 'line')
             .attr('d', valueline(d.values))
             .on("mouseover", function() {
@@ -184,8 +190,8 @@ d3.csv('data/data.csv', function(error, data) {
 
             var location = d.key,
                 super_region = d.values[0].super_region_name,
-                mean_1990 = d.values[0].mean,
-                mean_2013 = d.values[5].mean,
+                mean_1990 = d.values[0].mean * 100,
+                mean_2013 = d.values[5].mean * 100,
                 global_rank_2013 = Math.floor(+d.values[5].global_rank),
                 super_region_rank_2013 = Math.floor(+d.values[5].super_region_rank),
                 global_rank_1990 = Math.floor(+d.values[0].global_rank),
@@ -194,8 +200,8 @@ d3.csv('data/data.csv', function(error, data) {
 
             var change_text = function() {
                 if (mean_2013 > mean_1990) {
-                    return ('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
-                        'By 2013, this number had increased to ' + mean_2013 + '%, a relative change of ' +
+                    return ('In 1990, ' + mean_1990.toFixed(1) + '% of the population of ' + location + ' was obese. ' +
+                        'By 2013, this number had increased to ' + mean_2013.toFixed(1) + '%, a relative change of ' +
                         ((mean_2013 - mean_1990) * 100 /mean_1990).toFixed(1) + '%.');
                 } else if (mean_2013 < mean_1990) {
                     return ('In 1990, ' + mean_1990 + '% of the population of ' + location + ' was obese. ' +
@@ -234,9 +240,7 @@ d3.csv('data/data.csv', function(error, data) {
                 }
             };
 
-            svg.append('g')
-                .attr('class', 'sr_trendline')
-                .append('path')
+            svg.append('path')
                 .attr('class', 'sr_line')
                 .attr('super_region', function () { return super_region; })
                 .attr('d', valueline(d.values))
@@ -265,27 +269,37 @@ d3.csv('data/data.csv', function(error, data) {
                 });
         });
 
-        // x-axis
-        svg.append('g')
-            .attr('transform', 'translate(0,' + height + ')')
-            .call(xAxis);
-
-        // y-axis
-        svg.append('g')
-            .call(yAxis);
-
-        // axis titles
-        svg.append('text')
-            .attr('text-anchor', 'middle')
-            .attr('transform', 'translate(' + (-padding * 3) + ',' + (height/2) +')rotate(-90)')
-            .text('Percent of Population that is Obese (BMI > 30)');
-
-        svg.append('text')
-            .attr('text-anchor', 'middle')
-            .attr('transform', 'translate(' + (width/2) + ',' + (height + padding * 3.5) + ')')
-            .text('Year');
-
     });
+
+    // x-axis
+    svg.append('g')
+        .classed('x axis', true)
+        .attr('transform', 'translate(0,' + height + ')')
+        .call(xAxis);
+
+    // y-axis left
+    svg.append('g')
+        .classed('y axis left', true)
+        .call(yAxisLeft);
+
+    // y-axis right
+    svg.append('g')
+        .classed('y axis right', true)
+        .attr('transform', 'translate(' + width + ',0)')
+        .call(yAxisRight)
+
+    // axis titles
+    svg.append('text')
+        .attr('class', 'axis-text')
+        .attr('text-anchor', 'middle')
+        .attr('transform', 'translate(' + -margin.left * 1.2 + ',' + height/2 + ')rotate(-90)')
+        .text('% Population that is Obese (BMI > 30)');
+
+    svg.append('text')
+        .attr('class', 'axis-text')
+        .attr('text-anchor', 'middle')
+        .attr('transform', 'translate(' + width/2 + ',' + (height + margin.top) + ')')
+        .text('Year');
 
 });
 
