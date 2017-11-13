@@ -32,8 +32,7 @@ if __name__ == '__main__':
     master_data = master_data[master_data.columns[1:]]
 
     data = master_data[['location', 'location_name', 'super_region_name', 'region_name', 'year', 'mean']]
-    data['mean'] *= 100
-    data['mean'] = round(data['mean'], 1)
+    data['mean'] = round(data['mean'], 4)
 
     result = pd.DataFrame()
     for year in [1990, 1995, 2000, 2005, 2010, 2013]:

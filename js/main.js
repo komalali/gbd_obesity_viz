@@ -45,7 +45,7 @@ var div = d3.select('.tooltip-container').append('div')
         .text('High BMI is associated with a huge variety of health problems, ranging from heart disease to diabetes to various forms of cancer.');
 
     div.append('p')
-        .text('For country-specific information, hover over the graph below or pick a country from the drop-down list.');
+        .text('To highlight all countries in a super region, click the buttons below and for country-specific information, hover over the lines in the graph. I hope you enjoy looking around and learn something new!');
 
 // create the svg object inside the svg container div
 var svg = d3.select('.svg-container')
