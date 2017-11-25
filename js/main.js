@@ -206,7 +206,7 @@ d3.csv('data/data.csv', function(error, data) {
           super_region_trendlines.style('stroke', currentLineColor);
           super_region_trendlines.style('opacity', currentOpacity);
 
-          d3.selectAll('.sr_line').on('mouseout', function() {
+          super_region_trendlines.on('mouseout', function() {
             d3.select(this)
               .style('stroke', currentLineColor)
               .style('opacity', currentOpacity);
