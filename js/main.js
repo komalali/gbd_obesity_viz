@@ -38,8 +38,8 @@ var relative_change_text = function(location) {
       'By 2013, this number had increased to ' + location.mean_2013.toFixed(1) + '%, a relative change of ' +
       ((location.mean_2013 - location.mean_1990) * 100 /location.mean_1990).toFixed(1) + '%.');
   } else if (location.mean_2013 < location.mean_1990) {
-    return ('In 1990, ' + location.mean_1990 + '% of the population of ' + location.name + ' was obese. ' +
-      'By 2013, this number had decreased to ' + location.mean_2013 + '%, a relative change of ' +
+    return ('In 1990, ' + location.mean_1990.toFixed(1) + '% of the population of ' + location.name + ' was obese. ' +
+      'By 2013, this number had decreased to ' + location.mean_2013.toFixed(1) + '%, a relative change of ' +
       ((location.mean_2013 - location.mean_1990) * 100 / location.mean_1990).toFixed(1) + '%.');
   }
 };
@@ -205,6 +205,12 @@ d3.csv('data/data.csv', function(error, data) {
           var super_region_trendlines = d3.selectAll('.sr_line[super_region="' + super_region + '"]');
           super_region_trendlines.style('stroke', currentLineColor);
           super_region_trendlines.style('opacity', currentOpacity);
+
+          d3.selectAll('.sr_line').on('mouseout', function() {
+            d3.select(this)
+              .style('stroke', currentLineColor)
+              .style('opacity', currentOpacity);
+          })
         }
       })();
 
@@ -267,11 +273,6 @@ d3.csv('data/data.csv', function(error, data) {
               .attr('d', valueLine(d.values))
               .style('stroke', function() { return color(super_region) })
               .style('opacity', 1);
-          })
-          .on('mouseout', function() {
-            d3.select(this)
-              .style('stroke', 'whitesmoke')
-              .style('opacity', 0);
           });
 
       });
