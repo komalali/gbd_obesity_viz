@@ -162,12 +162,13 @@ d3.csv('data/data.csv', function(error, data) {
         })
         .on('mouseenter', function() {
           d3.select(this)
+            .attr('d', valueLine(d.values))
             .style('stroke', function() { return color(location.super_region_name) });
         })
         .on('mouseout', function() {
           d3.select(this)
             .style('stroke', 'whitesmoke');
-        });;
+        });
 
     });
 
@@ -184,18 +185,25 @@ d3.csv('data/data.csv', function(error, data) {
       var super_region = d.key;
 
       var toggleColor = (function() {
-        var currentColor = 'whitesmoke';
+        var currentLineColor = 'whitesmoke';
+        var currentButtonColor = 'white';
+        var currentOutlineColor = color(super_region);
         var currentOpacity = 0;
 
         return function(){
           var super_region = d3.select(this).attr('super_region');
-          currentColor = currentColor === 'whitesmoke' ? color(super_region) : 'whitesmoke';
+
+          currentLineColor = currentLineColor === 'whitesmoke' ? color(super_region) : 'whitesmoke';
+          currentButtonColor = currentButtonColor === 'white' ? color(super_region) : 'white';
+          currentOutlineColor = currentOutlineColor === color(super_region) ? 'whitesmoke' : color(super_region);
           currentOpacity = currentOpacity === 0 ? 1 : 0;
 
-          d3.select(this).style('background-color', currentColor);
+          d3.select(this).style('background-color', currentButtonColor);
+          d3.select(this).style('color', currentOutlineColor);
+          d3.select(this).style('border', '1px solid ' + currentOutlineColor);
 
           var super_region_trendlines = d3.selectAll('.sr_line[super_region="' + super_region + '"]');
-          super_region_trendlines.style('stroke', currentColor);
+          super_region_trendlines.style('stroke', currentLineColor);
           super_region_trendlines.style('opacity', currentOpacity);
         }
       })();
@@ -203,6 +211,9 @@ d3.csv('data/data.csv', function(error, data) {
       // create a button for each super region
       d3.select('.buttonHolder')
         .append('button')
+        .style('background-color', 'white')
+        .style('border', '1px solid ' + color(super_region))
+        .style('color', color(super_region))
         .attr('class', 'btn btn-sm')
         .attr('super_region', function() { return super_region; })
         .text(function() { return super_region; })
@@ -253,6 +264,7 @@ d3.csv('data/data.csv', function(error, data) {
           })
           .on('mouseenter', function() {
             d3.select(this)
+              .attr('d', valueLine(d.values))
               .style('stroke', function() { return color(super_region) })
               .style('opacity', 1);
           })

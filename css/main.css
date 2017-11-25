@@ -98,6 +98,7 @@ button {
 
 .btn-sm {
     font-size: 11px;
+    padding: 3px 6px;
 }
 
 .active {
