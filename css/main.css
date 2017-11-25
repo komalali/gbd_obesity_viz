@@ -46,8 +46,7 @@ h5 {
 }
 
 .line:hover {
-    stroke: orangered;
-    stroke-width: 4px;
+    stroke-width: 3px;
 }
 
 
@@ -58,9 +57,7 @@ h5 {
 }
 
 .sr_line:hover {
-    fill:none;
-    stroke: orangered;
-    stroke-width: 4px;
+    stroke-width: 3px;
 }
 
 .tooltip {
@@ -86,6 +83,7 @@ div p {
 }
 
 button {
+    background-color: whitesmoke;
     margin: 2px;
     border: 1px solid lightgrey;
 }

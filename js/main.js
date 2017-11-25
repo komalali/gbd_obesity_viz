@@ -14,6 +14,10 @@ var year = d3.format('d'),
 var x = d3.scaleLinear().nice().range([0, width]);
 var y = d3.scaleLinear().range([height, 0]);
 
+// define color scale for super regions
+var color = d3.scaleOrdinal()
+              .range(['#1b9e77', '#d95f02', '#7570b3', '#e7298a', '#4682b4', '#e6ab02', '#a6761d']);
+
 // define the x axis
 var xAxis = d3.axisBottom(x).tickFormat(year);
 
@@ -22,13 +26,12 @@ var yAxisLeft = d3.axisLeft(y).tickFormat(percent);
 var yAxisRight = d3.axisRight(y).tickFormat(percent);
 
 // define the line
-var valueline = d3.line()
+var valueLine = d3.line()
                   .x(function(d) { return x(d.year); })
                   .y(function(d) { return y(d.mean); })
                   .curve(d3.curveNatural);
 
 // functions for the tooltip text
-
 var relative_change_text = function(location) {
   if (location.mean_2013 > location.mean_1990) {
     return ('In 1990, ' + location.mean_1990.toFixed(1) + '% of the population of ' + location.name + ' was obese. ' +
@@ -116,6 +119,9 @@ d3.csv('data/data.csv', function(error, data) {
         .key(function(d) { return d.location_name; })
         .entries(data);
 
+    var background_layer = svg.append('g')
+      .attr('class', 'background_layer');
+
     // loop through each location
     dataNest.forEach(function(d) {
 
@@ -153,7 +159,15 @@ d3.csv('data/data.csv', function(error, data) {
           div.append('p')
             .text(rank_change_blurb(location));
 
-        });
+        })
+        .on('mouseenter', function() {
+          d3.select(this)
+            .style('stroke', function() { return color(location.super_region_name) });
+        })
+        .on('mouseout', function() {
+          d3.select(this)
+            .style('stroke', 'whitesmoke');
+        });;
 
     });
 
@@ -163,23 +177,36 @@ d3.csv('data/data.csv', function(error, data) {
         .key(function(d) { return d.location_name; })
         .entries(data);
 
+    color.domain(dataNestSuper.map(function(o) { return o.key }));
+
     // loop through each super region
     dataNestSuper.forEach(function(d) {
-        var super_region = d.key;
+      var super_region = d.key;
+
+      var toggleColor = (function() {
+        var currentColor = 'whitesmoke';
+        var currentOpacity = 0;
+
+        return function(){
+          var super_region = d3.select(this).attr('super_region');
+          currentColor = currentColor === 'whitesmoke' ? color(super_region) : 'whitesmoke';
+          currentOpacity = currentOpacity === 0 ? 1 : 0;
+
+          d3.select(this).style('background-color', currentColor);
+
+          var super_region_trendlines = d3.selectAll('.sr_line[super_region="' + super_region + '"]');
+          super_region_trendlines.style('stroke', currentColor);
+          super_region_trendlines.style('opacity', currentOpacity);
+        }
+      })();
 
       // create a button for each super region
       d3.select('.buttonHolder')
         .append('button')
-        .attr('class', 'btn btn-outline-secondary btn-sm')
+        .attr('class', 'btn btn-sm')
         .attr('super_region', function() { return super_region; })
         .text(function() { return super_region; })
-        .on('click', function() {
-          d3.select(this).classed('active', !d3.select(this).classed('active'));
-
-          var super_region = d3.select(this).attr('super_region');
-          var super_region_trendlines = d3.selectAll('.sr_line[super_region="' + super_region + '"]');
-          super_region_trendlines.classed('active', !super_region_trendlines.classed('active'));
-        });
+        .on('click', toggleColor);
 
       var sr_layer = svg.append('g')
         .attr('class', 'sr_layer')
@@ -223,6 +250,16 @@ d3.csv('data/data.csv', function(error, data) {
             div.append('p')
               .text(rank_change_blurb(location));
 
+          })
+          .on('mouseenter', function() {
+            d3.select(this)
+              .style('stroke', function() { return color(super_region) })
+              .style('opacity', 1);
+          })
+          .on('mouseout', function() {
+            d3.select(this)
+              .style('stroke', 'whitesmoke')
+              .style('opacity', 0);
           });
 
       });
