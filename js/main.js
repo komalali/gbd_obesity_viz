@@ -16,7 +16,7 @@ var y = d3.scaleLinear().range([height, 0]);
 
 // define color scale for super regions
 var color = d3.scaleOrdinal()
-              .range(['#1b9e77', '#d95f02', '#7570b3', '#e7298a', '#4682b4', '#e6ab02', '#a6761d']);
+  .range(['#1b9e77', '#d95f02', '#7570b3', '#e7298a', '#4682b4', '#e6ab02', '#a6761d']);
 
 // define the x axis
 var xAxis = d3.axisBottom(x).tickFormat(year);
@@ -27,9 +27,9 @@ var yAxisRight = d3.axisRight(y).tickFormat(percent);
 
 // define the line
 var valueLine = d3.line()
-                  .x(function(d) { return x(d.year); })
-                  .y(function(d) { return y(d.mean); })
-                  .curve(d3.curveNatural);
+  .x(function(d) { return x(d.year); })
+  .y(function(d) { return y(d.mean); })
+  .curve(d3.curveNatural);
 
 // functions for the tooltip text
 var relative_change_text = function(location) {
@@ -77,6 +77,12 @@ var div = d3.select('.tooltip-container').append('div')
   .attr('width', width + margin.left + margin.right)
   .style('opacity', 0.9);
 
+// country selection dropdown
+var drop_down = d3.select('.dropdownHolder')
+  .append('select')
+  .text('Pick a country')
+  .attr('id', 'country-list');
+
 // add information about global obesity
 div.append('h5')
   .text('Obesity is on the rise globally.');
@@ -90,14 +96,17 @@ div.append('p')
 
 div.append('p')
   .text('To highlight all countries in a super region, click the buttons below and for country-specific information, hover over the lines in the graph. I hope you enjoy looking around and learn something new!');
+
 // create the svg object inside the svg container div
 var svg = d3.select('.svg-container')
-            .append('svg')
-            .attr('class', 'svg-content')
-            .style('width', (width + margin.left + margin.right) + 'px')
-            .style('height', (height + margin.top + margin.bottom) + 'px')
-            .append('g')
-            .attr('transform', 'translate(' + margin.left * 1.5 + ',' + margin.top + ')');
+  .append('svg')
+  .attr('class', 'svg-content')
+  .style('width', (width + margin.left + margin.right) + 'px')
+  .style('height', (height + margin.top + margin.bottom) + 'px')
+  .append('g')
+  .attr('transform', 'translate(' + margin.left * 1.5 + ',' + margin.top + ')');
+
+var dataset;
 
 // load in the data
 d3.csv('data/data.csv', function(error, data) {
@@ -109,6 +118,9 @@ d3.csv('data/data.csv', function(error, data) {
         d.mean = +d.mean ;
     });
 
+    // to be able to reference data outside this function
+    dataset = data;
+
     // scale the data
     x.domain(d3.extent(data, function(d) { return d.year; }));
     y.domain([0, d3.max(data, function(d) { return d.mean; })]);
@@ -119,56 +131,24 @@ d3.csv('data/data.csv', function(error, data) {
         .key(function(d) { return d.location_name; })
         .entries(data);
 
+    dataNest.sort(function (a, b) { return d3.ascending(a.key, b.key); });
+
+    drop_down.selectAll('option')
+      .data(dataNest)
+      .enter()
+      .append('option')
+      .text(function(d) { return d.key; })
+      .attr('value', function(d) { return d.key; });
+
     var background_layer = svg.append('g')
       .attr('class', 'background_layer');
 
     // loop through each location
     dataNest.forEach(function(d) {
 
-      var location = {
-        name: d.key,
-        super_region_name: d.values[0].super_region_name,
-        mean_1990: d.values[0].mean * 100,
-        mean_2013: d.values[5].mean * 100,
-        global_rank_1990: Math.floor(+d.values[0].global_rank),
-        global_rank_2013: Math.floor(+d.values[5].global_rank),
-        super_region_rank_1990: Math.floor(+d.values[0].super_region_rank),
-        super_region_rank_2013: Math.floor(+d.values[5].super_region_rank),
-        percent_difference_to_global: ((d.values[5].mean * 100) - 12).toFixed(1)
-      };
-
       background_layer.append('path')
         .attr('class', 'line')
         .attr('d', valueLine(d.values))
-        .on("mouseover", function() {
-
-          div.transition()
-            .duration(200)
-            .style('opacity', 0.9);
-
-          div.html('')
-            .append('h5')
-            .text(function() { return d.key; });
-
-          div.append('p')
-            .text(relative_change_text(location));
-
-          div.append('p')
-            .text(diff_from_global(location));
-
-          div.append('p')
-            .text(rank_change_blurb(location));
-
-        })
-        .on('mouseenter', function() {
-          d3.select(this)
-            .attr('d', valueLine(d.values))
-            .style('stroke', function() { return color(location.super_region_name) });
-        })
-        .on('mouseout', function() {
-          d3.select(this)
-            .style('stroke', 'whitesmoke');
-        });
 
     });
 
@@ -178,14 +158,13 @@ d3.csv('data/data.csv', function(error, data) {
         .key(function(d) { return d.location_name; })
         .entries(data);
 
-    color.domain(dataNestSuper.map(function(o) { return o.key }));
+    color.domain(dataNestSuper.map(function(d) { return d.key }));
 
     // loop through each super region
     dataNestSuper.forEach(function(d) {
       var super_region = d.key;
 
-      var toggleColor = (function() {
-        var currentLineColor = 'whitesmoke';
+      var toggleButton = (function() {
         var currentButtonColor = 'white';
         var currentOutlineColor = color(super_region);
         var currentOpacity = 0;
@@ -193,7 +172,6 @@ d3.csv('data/data.csv', function(error, data) {
         return function(){
           var super_region = d3.select(this).attr('super_region');
 
-          currentLineColor = currentLineColor === 'whitesmoke' ? color(super_region) : 'whitesmoke';
           currentButtonColor = currentButtonColor === 'white' ? color(super_region) : 'white';
           currentOutlineColor = currentOutlineColor === color(super_region) ? 'whitesmoke' : color(super_region);
           currentOpacity = currentOpacity === 0 ? 1 : 0;
@@ -203,12 +181,10 @@ d3.csv('data/data.csv', function(error, data) {
           d3.select(this).style('border', '1px solid ' + currentOutlineColor);
 
           var super_region_trendlines = d3.selectAll('.sr_line[super_region="' + super_region + '"]');
-          super_region_trendlines.style('stroke', currentLineColor);
           super_region_trendlines.style('opacity', currentOpacity);
 
           super_region_trendlines.on('mouseout', function() {
             d3.select(this)
-              .style('stroke', currentLineColor)
               .style('opacity', currentOpacity);
           })
         }
@@ -223,7 +199,7 @@ d3.csv('data/data.csv', function(error, data) {
         .attr('class', 'btn btn-sm')
         .attr('super_region', function() { return super_region; })
         .text(function() { return super_region; })
-        .on('click', toggleColor);
+        .on('click', toggleButton);
 
       var sr_layer = svg.append('g')
         .attr('class', 'sr_layer')
@@ -232,23 +208,21 @@ d3.csv('data/data.csv', function(error, data) {
       // for each country in the super region
       d.values.forEach(function (d) {
 
-        var location = {
-          name: d.key,
-          super_region_name: d.values[0].super_region_name,
-          mean_1990: d.values[0].mean * 100,
-          mean_2013: d.values[5].mean * 100,
-          global_rank_1990: Math.floor(+d.values[0].global_rank),
-          global_rank_2013: Math.floor(+d.values[5].global_rank),
-          super_region_rank_1990: Math.floor(+d.values[0].super_region_rank),
-          super_region_rank_2013: Math.floor(+d.values[5].super_region_rank),
-          percent_difference_to_global: ((d.values[5].mean * 100) - 12).toFixed(1)
-        };
+        var updateDiv = (function() {
 
-        sr_layer.append('path')
-          .attr('class', 'sr_line')
-          .attr('super_region', function() { return super_region; })
-          .attr('d', valueLine(d.values))
-          .on('mouseover', function() {
+          var location = {
+            name: d.key,
+            super_region_name: d.values[0].super_region_name,
+            mean_1990: d.values[0].mean * 100,
+            mean_2013: d.values[5].mean * 100,
+            global_rank_1990: Math.floor(+d.values[0].global_rank),
+            global_rank_2013: Math.floor(+d.values[5].global_rank),
+            super_region_rank_1990: Math.floor(+d.values[0].super_region_rank),
+            super_region_rank_2013: Math.floor(+d.values[5].super_region_rank),
+            percent_difference_to_global: ((d.values[5].mean * 100) - 12).toFixed(1)
+          };
+
+          return function() {
 
             div.transition()
               .duration(200)
@@ -256,7 +230,9 @@ d3.csv('data/data.csv', function(error, data) {
 
             div.html('')
               .append('h5')
-              .text(function() { return d.key; });
+              .text(function () {
+                return location.name;
+              });
 
             div.append('p')
               .text(relative_change_text(location));
@@ -267,13 +243,70 @@ d3.csv('data/data.csv', function(error, data) {
             div.append('p')
               .text(rank_change_blurb(location));
 
-          })
+          }
+        })();
+
+        sr_layer.append('path')
+          .attr('class', 'sr_line')
+          .attr('super_region', function() { return super_region; })
+          .attr('location', function() { return d.key })
+          .attr('d', valueLine(d.values))
+          .attr('stroke', color(super_region))
+          .on('mouseover', updateDiv)
           .on('mouseenter', function() {
             d3.select(this)
               .attr('d', valueLine(d.values))
-              .style('stroke', function() { return color(super_region) })
-              .style('opacity', 1);
+              .style('opacity', 1)
+          })
+          .on('mouseout', function() {
+              d3.select(this)
+                .style('opacity', 0);
           });
+
+        drop_down.on('change', function () {
+
+          var selected = this.value;
+
+          d3.selectAll('.sr_line')
+            .style('opacity', 0);
+
+          d3.selectAll('.sr_line[location="' + selected + '"]')
+            .style('opacity', 1)
+            .style('stroke-width', '2px');
+
+          d = dataset.filter(function(d) { return d.location_name === selected });
+
+          var location = {
+            name: d[0].location_name,
+            super_region_name: d[0].super_region_name,
+            mean_1990: d[0].mean * 100,
+            mean_2013: d[5].mean * 100,
+            global_rank_1990: Math.floor(+d[0].global_rank),
+            global_rank_2013: Math.floor(+d[5].global_rank),
+            super_region_rank_1990: Math.floor(+d[0].super_region_rank),
+            super_region_rank_2013: Math.floor(+d[5].super_region_rank),
+            percent_difference_to_global: ((d[5].mean * 100) - 12).toFixed(1)
+          };
+
+          div.transition()
+            .duration(200)
+            .style('opacity', 0.9);
+
+          div.html('')
+            .append('h5')
+            .text(function () {
+              return location.name;
+            });
+
+          div.append('p')
+            .text(relative_change_text(location));
+
+          div.append('p')
+            .text(diff_from_global(location));
+
+          div.append('p')
+            .text(rank_change_blurb(location));
+        })
 
       });
 

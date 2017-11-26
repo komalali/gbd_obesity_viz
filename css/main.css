@@ -22,7 +22,7 @@ body {
 .main {
     display: flex;
     position: absolute;
-    top: 0px;
+    top: 0;
     bottom: 150px;
     flex-flow: column;
 
@@ -45,32 +45,28 @@ h5 {
     stroke-width: 1px;
 }
 
-.line:hover {
-    stroke-width: 3px;
-}
-
 
 .sr_line {
     fill: none;
-    stroke: none;
+    opacity: 0;
     stroke-width: 1px;
 }
 
 .sr_line:hover {
-    stroke-width: 3px;
+    stroke-width: 2px;
 }
 
 .tooltip {
     position: relative;
     text-align: left;
-    max-width: 1120px;
+    max-width: 1110px;
     padding: 5px 10px;
     background: whitesmoke;
-    border: 1px solid lightgrey;
+    border: 1px solid grey;
     border-radius: 8px;
     pointer-events: none;
     font-size: 12px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 div p {
@@ -108,4 +104,15 @@ button {
 
 .axis-text {
     font-size: 12px;
+}
+
+#dropdownMenuButton {
+    border: 1px solid grey;
+}
+
+.dropdownHolder {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -30px;
+    font-size: 11px;
 }
