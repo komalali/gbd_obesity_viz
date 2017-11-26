@@ -77,12 +77,6 @@ var div = d3.select('.tooltip-container').append('div')
   .attr('width', width + margin.left + margin.right)
   .style('opacity', 0.9);
 
-// country selection dropdown
-var drop_down = d3.select('.dropdownHolder')
-  .append('select')
-  .text('Pick a country')
-  .attr('id', 'country-list');
-
 // add information about global obesity
 div.append('h5')
   .text('Obesity is on the rise globally.');
@@ -105,6 +99,11 @@ var svg = d3.select('.svg-container')
   .style('height', (height + margin.top + margin.bottom) + 'px')
   .append('g')
   .attr('transform', 'translate(' + margin.left * 1.5 + ',' + margin.top + ')');
+
+// country selection dropdown
+var drop_down = d3.select('.dropdownHolder')
+  .append('select')
+  .attr('id', 'country-list');
 
 var dataset;
 

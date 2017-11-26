@@ -115,4 +115,6 @@ button {
     margin-top: 10px;
     margin-bottom: -30px;
     font-size: 11px;
+    z-index: 1000;
+
 }
