@@ -89,7 +89,7 @@ div.append('p')
   .text('High BMI is associated with a huge variety of health problems, ranging from heart disease to diabetes to various forms of cancer.');
 
 div.append('p')
-  .text('To highlight all countries in a super region, click the buttons below and for country-specific information, hover over the lines in the graph. I hope you enjoy looking around and learn something new!');
+  .text('To highlight all countries in a super region, click the buttons below and for country-specific information, hover over the lines in the graph or use the dropdown list.');
 
 // create the svg object inside the svg container div
 var svg = d3.select('.svg-container')
@@ -133,17 +133,18 @@ d3.csv('data/data.csv', function(error, data) {
 
     dataNest.sort(function (a, b) { return d3.ascending(a.key, b.key); });
 
-    drop_down.selectAll('option')
-      .data(dataNest)
-      .enter()
-      .append('option')
-      .text(function(d) { return d.key; })
-      .attr('value', function(d) { return d.key; });
-
     drop_down.append('option')
       .text('Select a country')
       .attr('value', null)
       .attr('selected', '');
+
+    drop_down.selectAll('#country-option')
+      .data(dataNest)
+      .enter()
+      .append('option')
+      .attr('id', 'country-option')
+      .text(function(d) { return d.key; })
+      .attr('value', function(d) { return d.key; });
 
     var background_layer = svg.append('g')
       .attr('class', 'background_layer');
@@ -213,21 +214,25 @@ d3.csv('data/data.csv', function(error, data) {
       // for each country in the super region
       d.values.forEach(function (d) {
 
-        var updateDiv = (function() {
+        var location = {
+          name: d.key,
+          super_region_name: d.values[0].super_region_name,
+          mean_1990: d.values[0].mean * 100,
+          mean_2013: d.values[5].mean * 100,
+          global_rank_1990: Math.floor(+d.values[0].global_rank),
+          global_rank_2013: Math.floor(+d.values[5].global_rank),
+          super_region_rank_1990: Math.floor(+d.values[0].super_region_rank),
+          super_region_rank_2013: Math.floor(+d.values[5].super_region_rank),
+          percent_difference_to_global: ((d.values[5].mean * 100) - 12).toFixed(1)
+        };
 
-          var location = {
-            name: d.key,
-            super_region_name: d.values[0].super_region_name,
-            mean_1990: d.values[0].mean * 100,
-            mean_2013: d.values[5].mean * 100,
-            global_rank_1990: Math.floor(+d.values[0].global_rank),
-            global_rank_2013: Math.floor(+d.values[5].global_rank),
-            super_region_rank_1990: Math.floor(+d.values[0].super_region_rank),
-            super_region_rank_2013: Math.floor(+d.values[5].super_region_rank),
-            percent_difference_to_global: ((d.values[5].mean * 100) - 12).toFixed(1)
-          };
-
-          return function() {
+        sr_layer.append('path')
+          .attr('class', 'sr_line')
+          .attr('super_region', function() { return super_region; })
+          .attr('location', function() { return location.name })
+          .attr('d', valueLine(d.values))
+          .attr('stroke', color(super_region))
+          .on('mouseover', function() {
 
             div.transition()
               .duration(200)
@@ -248,16 +253,7 @@ d3.csv('data/data.csv', function(error, data) {
             div.append('p')
               .text(rank_change_blurb(location));
 
-          }
-        })();
-
-        sr_layer.append('path')
-          .attr('class', 'sr_line')
-          .attr('super_region', function() { return super_region; })
-          .attr('location', function() { return d.key })
-          .attr('d', valueLine(d.values))
-          .attr('stroke', color(super_region))
-          .on('mouseover', updateDiv)
+          })
           .on('mouseenter', function() {
             d3.select(this)
               .attr('d', valueLine(d.values))
@@ -279,18 +275,18 @@ d3.csv('data/data.csv', function(error, data) {
             .style('opacity', 1)
             .style('stroke-width', '2px');
 
-          d = dataset.filter(function(d) { return d.location_name === selected });
+          var country = dataset.filter(function(d) { return d.location_name === selected });
 
           var location = {
-            name: d[0].location_name,
-            super_region_name: d[0].super_region_name,
-            mean_1990: d[0].mean * 100,
-            mean_2013: d[5].mean * 100,
-            global_rank_1990: Math.floor(+d[0].global_rank),
-            global_rank_2013: Math.floor(+d[5].global_rank),
-            super_region_rank_1990: Math.floor(+d[0].super_region_rank),
-            super_region_rank_2013: Math.floor(+d[5].super_region_rank),
-            percent_difference_to_global: ((d[5].mean * 100) - 12).toFixed(1)
+            name: country[0].location_name,
+            super_region_name: country[0].super_region_name,
+            mean_1990: country[0].mean * 100,
+            mean_2013: country[5].mean * 100,
+            global_rank_1990: Math.floor(+country[0].global_rank),
+            global_rank_2013: Math.floor(+country[5].global_rank),
+            super_region_rank_1990: Math.floor(+country[0].super_region_rank),
+            super_region_rank_2013: Math.floor(+country[5].super_region_rank),
+            percent_difference_to_global: ((country[5].mean * 100) - 12).toFixed(1)
           };
 
           div.transition()
