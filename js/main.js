@@ -193,6 +193,21 @@ d3.csv('data/data.csv', function(error, data) {
             d3.select(this)
               .style('opacity', currentOpacity);
           })
+
+          drop_down.on('change', function () {
+
+            var selected = this.value;
+
+            d3.selectAll('.sr_line')
+              .style('opacity', 0);
+
+            super_region_trendlines
+              .style('opacity', currentOpacity);
+
+            d3.selectAll('.sr_line[location="' + selected + '"]')
+              .style('opacity', 1)
+              .style('stroke-width', '2px');
+          })
         }
       })();
 
