@@ -103,6 +103,7 @@ var svg = d3.select('.svg-container')
 // country selection dropdown
 var drop_down = d3.select('.dropdownHolder')
   .append('select')
+  .attr('class', 'custom-select')
   .attr('id', 'country-list');
 
 var dataset;
@@ -138,6 +139,11 @@ d3.csv('data/data.csv', function(error, data) {
       .append('option')
       .text(function(d) { return d.key; })
       .attr('value', function(d) { return d.key; });
+
+    drop_down.append('option')
+      .text('Select a country')
+      .attr('value', null)
+      .attr('selected', '');
 
     var background_layer = svg.append('g')
       .attr('class', 'background_layer');

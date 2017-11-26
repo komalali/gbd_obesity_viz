@@ -112,9 +112,18 @@ button {
 
 .dropdownHolder {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: -30px;
+    margin: 5px auto;
+    margin-bottom: -25px;
     font-size: 11px;
     z-index: 1000;
 
+}
+
+.custom-select {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    font-size: 11px;
+    padding: 3px 6px;
+    height: 25px;
 }
