@@ -211,7 +211,7 @@ d3.csv('data/data.csv', function(error, data) {
             .classed('active', currentActive);
 
           div.html('')
-            .append('h3')
+            .append('h1')
             .text(function() { return super_region })
 
           d3.select('.tooltip-container')
