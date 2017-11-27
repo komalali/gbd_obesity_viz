@@ -207,6 +207,39 @@ d3.csv('data/data.csv', function(error, data) {
             d3.selectAll('.sr_line[location="' + selected + '"]')
               .style('opacity', 1)
               .style('stroke-width', '2px');
+
+            var country = dataset.filter(function(d) { return d.location_name === selected });
+
+            var location = {
+              name: country[0].location_name,
+              super_region_name: country[0].super_region_name,
+              mean_1990: country[0].mean * 100,
+              mean_2013: country[5].mean * 100,
+              global_rank_1990: Math.floor(+country[0].global_rank),
+              global_rank_2013: Math.floor(+country[5].global_rank),
+              super_region_rank_1990: Math.floor(+country[0].super_region_rank),
+              super_region_rank_2013: Math.floor(+country[5].super_region_rank),
+              percent_difference_to_global: ((country[5].mean * 100) - 12).toFixed(1)
+            };
+
+            div.transition()
+              .duration(200)
+              .style('opacity', 0.9);
+
+            div.html('')
+              .append('h5')
+              .text(function () {
+                return location.name;
+              });
+
+            div.append('p')
+              .text(relative_change_text(location));
+
+            div.append('p')
+              .text(diff_from_global(location));
+
+            div.append('p')
+              .text(rank_change_blurb(location));
           })
         }
       })();
