@@ -184,6 +184,7 @@ d3.csv('data/data.csv', function(error, data) {
     dataNestSuper.forEach(function(d) {
       var super_region = d.key;
 
+      // TOGGLE BUTTON
       var toggleButton = (function() {
         var currentButtonColor = 'white';
         var currentOutlineColor = color(super_region);
@@ -198,14 +199,23 @@ d3.csv('data/data.csv', function(error, data) {
           currentOpacity = currentOpacity === 0 ? 0.7 : 0;
           currentActive = !currentActive;
 
+          // change the button's styling when it's clicked
           d3.select(this).style('background-color', currentButtonColor);
           d3.select(this).style('color', currentOutlineColor);
           d3.select(this).style('border', '1px solid ' + currentOutlineColor);
           d3.select(this).classed('active', currentActive);
 
+          // give the lines an active class when active
           var super_region_trendlines = d3.selectAll('.sr_line[super_region="' + super_region + '"]');
           super_region_trendlines.style('opacity', currentOpacity)
             .classed('active', currentActive);
+
+          div.html('')
+            .append('h3')
+            .text(function() { return super_region })
+
+          d3.select('.tooltip-container')
+            .style('background', color_dull(super_region));
 
           super_region_trendlines.on('mouseout', function() {
             d3.select(this)
