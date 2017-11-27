@@ -20,7 +20,7 @@ var year = d3.format('d'),
 
 // set the ranges
 var x = d3.scaleLinear().nice().range([0, width]);
-var y = d3.scaleLinear().range([height, 0]);
+var y = d3.scaleLinear().nice().range([height, 0]);
 
 // define color scale for super regions
 var color = d3.scaleOrdinal()
