@@ -3,6 +3,14 @@ var margin = {top: 30, right:90, bottom: 50, left: 30},
     height = parseInt(d3.select('.svg-container').style('height')),
     width = parseInt(d3.select('.svg-container').style('width'));
 
+var colors = ['rgba(27,158,119,0.9)', 'rgba(217,95,2,0.9)',
+              'rgba(117,112,179,0.9)', 'rgba(231,41,138,0.9)',
+              'rgba(70,130,180,0.9)', 'rgba(230,171,2,0.9)', 'rgba(166,118,29,0.9)'];
+
+var colors_dull = ['rgba(27,158,119,0.5)', 'rgba(217,95,2,0.5)',
+                   'rgba(117,112,179,0.5)', 'rgba(231,41,138,0.5)',
+                   'rgba(70,130,180,0.5)', 'rgba(230,171,2,0.5)', 'rgba(166,118,29,0.5)']
+
     height = height - margin.top - margin.bottom;
     width = width - margin.left -  margin.right;
 
@@ -16,7 +24,10 @@ var y = d3.scaleLinear().range([height, 0]);
 
 // define color scale for super regions
 var color = d3.scaleOrdinal()
-  .range(['#1b9e77', '#d95f02', '#7570b3', '#e7298a', '#4682b4', '#e6ab02', '#a6761d']);
+  .range(colors);
+
+var color_dull = d3.scaleOrdinal()
+  .range(colors_dull);
 
 // define the x axis
 var xAxis = d3.axisBottom(x).tickFormat(year);
@@ -73,17 +84,17 @@ var rank_change_blurb = function(location) {
 
 // tooltip div
 var div = d3.select('.tooltip-container').append('div')
-  .attr('class', 'tooltip container')
+  .attr('class', 'tooltip container-fluid')
   .attr('width', width + margin.left + margin.right)
   .style('opacity', 0.9);
 
 // add information about global obesity
-div.append('h5')
+div.append('h3')
   .text('Obesity is on the rise globally.');
 
 div.append('p')
   .text('Between 1990 and 2013, the global prevalence of obesity (defined as the percentage of the population with a BMI > 30)' +
-    ' has risen from 9.3% to 12.0%, a relative increase of 29%.');
+    ' rose from 9.3% to 12.0%, a relative increase of 29%.');
 
 div.append('p')
   .text('High BMI is associated with a huge variety of health problems, ranging from heart disease to diabetes to various forms of cancer.');
@@ -164,7 +175,10 @@ d3.csv('data/data.csv', function(error, data) {
         .key(function(d) { return d.location_name; })
         .entries(data);
 
+    dataNestSuper.sort(function (a, b) { return d3.ascending(a.key, b.key); });
+
     color.domain(dataNestSuper.map(function(d) { return d.key }));
+    color_dull.domain(dataNestSuper.map(function(d) { return d.key }));
 
     // loop through each super region
     dataNestSuper.forEach(function(d) {
@@ -174,20 +188,24 @@ d3.csv('data/data.csv', function(error, data) {
         var currentButtonColor = 'white';
         var currentOutlineColor = color(super_region);
         var currentOpacity = 0;
+        var currentActive = false;
 
         return function(){
           var super_region = d3.select(this).attr('super_region');
 
           currentButtonColor = currentButtonColor === 'white' ? color(super_region) : 'white';
           currentOutlineColor = currentOutlineColor === color(super_region) ? 'whitesmoke' : color(super_region);
-          currentOpacity = currentOpacity === 0 ? 1 : 0;
+          currentOpacity = currentOpacity === 0 ? 0.7 : 0;
+          currentActive = !currentActive;
 
           d3.select(this).style('background-color', currentButtonColor);
           d3.select(this).style('color', currentOutlineColor);
           d3.select(this).style('border', '1px solid ' + currentOutlineColor);
+          d3.select(this).classed('active', currentActive);
 
           var super_region_trendlines = d3.selectAll('.sr_line[super_region="' + super_region + '"]');
-          super_region_trendlines.style('opacity', currentOpacity);
+          super_region_trendlines.style('opacity', currentOpacity)
+            .classed('active', currentActive);
 
           super_region_trendlines.on('mouseout', function() {
             d3.select(this)
@@ -201,11 +219,11 @@ d3.csv('data/data.csv', function(error, data) {
             d3.selectAll('.sr_line')
               .style('opacity', 0);
 
-            super_region_trendlines
-              .style('opacity', currentOpacity);
+            d3.selectAll('.sr_line.active')
+              .style('opacity', 0.7);
 
             d3.selectAll('.sr_line[location="' + selected + '"]')
-              .style('opacity', 1)
+              .style('opacity', 0.7)
               .style('stroke-width', '2px');
 
             var country = dataset.filter(function(d) { return d.location_name === selected });
@@ -227,7 +245,7 @@ d3.csv('data/data.csv', function(error, data) {
               .style('opacity', 0.9);
 
             div.html('')
-              .append('h5')
+              .append('h3')
               .text(function () {
                 return location.name;
               });
@@ -240,6 +258,9 @@ d3.csv('data/data.csv', function(error, data) {
 
             div.append('p')
               .text(rank_change_blurb(location));
+
+            d3.select('.tooltip-container')
+              .style('background', color_dull(location.super_region_name));
           })
         }
       })();
@@ -287,7 +308,7 @@ d3.csv('data/data.csv', function(error, data) {
               .style('opacity', 0.9);
 
             div.html('')
-              .append('h5')
+              .append('h3')
               .text(function () {
                 return location.name;
               });
@@ -301,11 +322,14 @@ d3.csv('data/data.csv', function(error, data) {
             div.append('p')
               .text(rank_change_blurb(location));
 
+            d3.select('.tooltip-container')
+              .style('background', color_dull(super_region));
+
           })
           .on('mouseenter', function() {
             d3.select(this)
               .attr('d', valueLine(d.values))
-              .style('opacity', 1)
+              .style('opacity', 0.7)
           })
           .on('mouseout', function() {
               d3.select(this)
@@ -320,7 +344,7 @@ d3.csv('data/data.csv', function(error, data) {
             .style('opacity', 0);
 
           d3.selectAll('.sr_line[location="' + selected + '"]')
-            .style('opacity', 1)
+            .style('opacity', 0.7)
             .style('stroke-width', '2px');
 
           var country = dataset.filter(function(d) { return d.location_name === selected });
@@ -342,7 +366,7 @@ d3.csv('data/data.csv', function(error, data) {
             .style('opacity', 0.9);
 
           div.html('')
-            .append('h5')
+            .append('h3')
             .text(function () {
               return location.name;
             });
@@ -355,6 +379,9 @@ d3.csv('data/data.csv', function(error, data) {
 
           div.append('p')
             .text(rank_change_blurb(location));
+
+          d3.select('.tooltip-container')
+            .style('background', color_dull(location.super_region_name));
         })
 
       });

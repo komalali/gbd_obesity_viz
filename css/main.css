@@ -23,19 +23,15 @@ body {
     display: flex;
     position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
     bottom: 150px;
+    padding: 0;
     flex-flow: column;
 
 }
 
-h1 {
-    margin: 10px;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-
-h5 {
+h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,17 +52,18 @@ h5 {
     stroke-width: 2px;
 }
 
+.tooltip-container{
+    margin: 5px 0;
+    background:whitesmoke;
+}
+
 .tooltip {
     position: relative;
     text-align: left;
-    max-width: 1110px;
-    padding: 5px 10px;
-    background: whitesmoke;
-    border: 1px solid grey;
-    border-radius: 8px;
+    padding: 5px 100px;
     pointer-events: none;
     font-size: 12px;
-    margin: 5px auto;
+    margin: 5px 0;
 }
 
 div p {
@@ -95,11 +92,6 @@ button {
 .btn-sm {
     font-size: 11px;
     padding: 3px 6px;
-}
-
-.active {
-    stroke: grey;
-    stroke-width: 1px;
 }
 
 .axis-text {
